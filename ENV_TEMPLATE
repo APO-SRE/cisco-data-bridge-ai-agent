@@ -1,0 +1,131 @@
+##################################
+# Enable Cisco Platforms
+##################################
+ENABLE_CATALYST_CENTER=false
+ENABLE_MERAKI=true
+ENABLE_CISCO_SPACES=true
+ENABLE_CISCO_WEBEX=false
+
+##################################
+# General / Debug
+##################################
+DEBUG=True
+
+##################################
+# LLM Selection
+#  - "azure_openai" or "ollama" (or more if you add them)
+##################################
+LLM_TYPE=azure_openai
+
+##################################
+# RAG Selection
+#  - "azure_search", "chroma", "elastic", or "none"
+##################################
+RAG_TYPE=azure_search
+
+##################################
+# Azure OpenAI Settings for General Queries
+##################################
+AZURE_OPENAI_ENDPOINT=<your-azure-openai-endpoint>
+AZURE_OPENAI_KEY=<your-azure-openai-key>
+AZURE_OPENAI_MODEL=gpt-4o
+
+# Optional parameters
+AZURE_OPENAI_TEMPERATURE=0
+AZURE_OPENAI_TOP_P=1.0
+AZURE_OPENAI_MAX_TOKENS=4096
+AZURE_OPENAI_PRESENCE_PENALTY=0.0
+AZURE_OPENAI_FREQUENCY_PENALTY=0.0
+AZURE_OPENAI_STREAM=True
+AZURE_OPENAI_SYSTEM_MESSAGE="You are a helpful AI assistant. You must use the provided documents to answer questions when available. If the answer is not in the documents, you can use your own knowledge to provide an answer."
+
+###########################################
+# Azure OpenAI Settings for Event Queries
+###########################################
+
+# Events has to use the $AZURE_SEARCH_EVENTS_INDEX vector database/index for events to be integrated with AI
+EVENT_LLM_TYPE=azure_openai
+EVENT_AZURE_OPENAI_ENDPOINT=<your-azure-openai-endpoint>
+EVENT_AZURE_OPENAI_KEY=<your-azure-openai-key>
+EVENT_AZURE_OPENAI_MODEL=gpt-4o
+
+# Optional parameters
+EVENT_AZURE_OPENAI_TEMPERATURE=0.5
+EVENT_AZURE_OPENAI_TOP_P=0.9
+EVENT_AZURE_OPENAI_MAX_TOKENS=2048
+EVENT_AZURE_OPENAI_SYSTEM_MESSAGE="You are a specialized assistant for event-related queries. Focus on providing accurate and concise information."
+
+##################################
+# Embedding Settings (Azure OpenAI)
+##################################
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-ada-002 # (text-embedding-3-large, text-embedding-ada-002, etc).
+AZURE_OPENAI_API_VERSION=2023-05-15
+AZURE_SEARCH_VECTOR_COLUMNS=embedding
+
+###################################################
+# Azure AI Search (formerly Azure Cognitive Search)
+###################################################
+AZURE_SEARCH_SERVICE=<your-azure-search-service>
+AZURE_SEARCH_DOMAIN_INDEX=domain-summaries-index  # Domain Summaries Index
+AZURE_SEARCH_API_DOCS_INDEX=api-docs-index        # API Docs Index
+AZURE_SEARCH_EVENTS_INDEX=events-index           # Events Index
+AZURE_SEARCH_KEY=<your-azure-search-key>
+AZURE_SEARCH_ENABLE_IN_DOMAIN=true               # when true - The system only retrieves information from the domain index - no knowledge from the LLM 
+AZURE_SEARCH_INDEX_IS_PRECHUNKED=false           # Set to "false" to chunk on ingestion
+AZURE_SEARCH_TOP_K=20
+AZURE_SEARCH_QUERY_TYPE=vectorSemanticHybrid
+AZURE_SEARCH_STRICTNESS=1
+AZURE_SEARCH_ENDPOINT=<your-azure-search-endpoint>
+AZURE_SEARCH_API_VERSION=2024-11-01-preview
+AZURE_SEARCH_LOB_INDEX=lob-healthcare             # set which line of business (lob) sample vector database to use RAG enabled and want to use
+AZURE_SEARCH_VECTOR_COLUMNS=embedding
+##################################
+# Chroma Settings (Optional)
+##################################
+CHROMA_DB_PATH=chroma_db/
+CHROMA_DOMAIN_COLLECTION=domain_summaries
+CHROMA_API_COLLECTION=api_docs
+CHROMA_EVENTS_COLLECTION=events
+
+##################################
+# ElasticSearch Settings (Optional)
+##################################
+ELASTIC_HOST=<your-elasticsearch-host>
+ELASTIC_USERNAME=<your-elasticsearch-username>
+ELASTIC_PASSWORD=<your-elasticsearch-password>
+ELASTIC_DOMAIN_INDEX=domain_summaries_index
+ELASTIC_API_INDEX=api_docs_index
+ELASTIC_EVENTS_INDEX=events_index
+
+##################################
+# Ollama Settings (if you choose LLM_TYPE=ollama)
+##################################
+OLLAMA_MODEL_PATH=/models/llama2.ggmlv3.q4_0.bin
+OLLAMA_SERVER_URL=http://localhost:11411
+
+##################################
+# Catalyst Center Settings
+##################################
+# CISCO_CATALYST_USERNAME=<your-catalyst-username>
+# CISCO_CATALYST_PASSWORD=<your-catalyst-password>
+# CISCO_CATALYST_URL=https://your-catalyst-url
+# CISCO_CATALYST_VERSION=2.3.7.6
+
+##################################
+# Meraki Cloud Settings
+##################################
+CISCO_MERAKI_API_KEY=<your-meraki-api-key>
+MERAKI_ORG_ID=549236  # Can use this command to find out:
+# curl -L -H "X-Cisco-Meraki-API-Key: $CISCO_MERAKI_API_KEY" "https://api.meraki.com/api/v1/organizations"
+
+##################################
+# Cisco Spaces Settings
+##################################
+CISCO_SPACES_API_KEY=<your-cisco-spaces-api-key>
+CISCO_SPACES_BASE_URL=https://dnaspaces.io
+
+##################################
+# Miscellaneous Settings
+##################################
+DEBUG_MODE=true
+CHUNK_SIZE=1000

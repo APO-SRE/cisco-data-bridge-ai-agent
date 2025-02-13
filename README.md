@@ -117,8 +117,17 @@ style CI fill:#D1FFD1,stroke:#333,stroke-width:2px
 %% Specialized Clients style (matching Unified Service color)
 style Clients fill:#D1FFD1,stroke:#333,stroke-width:2px
 ```
+---
+
+### Cisco AI Agent Decission Flow
+
+![Cisco AI Agent Decission Flow](app/assets/Cisco_AI_Agent_Decission_Flow.png)
+
+
 
 ---
+
+
 
 ### Key Architectural Highlights
 

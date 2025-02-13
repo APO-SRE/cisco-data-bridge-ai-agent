@@ -178,5 +178,7 @@ style Clients fill:#D1FFD1,stroke:#333,stroke-width:2px
 
 Overall, the **two-step function-calling approach** (LLM → function call → dispatcher → summary) and **modular retrieval** give teams a stable, enterprise-ready foundation that can scale to new data sources, new Cisco products, or advanced AI usage scenarios.
 ```
+## Getting Started
 
+If you’re a first-time user or new to Git/Python, please see our [Beginner’s Guide](./GETTING_STARTED.md) for step-by-step instructions.
  

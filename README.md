@@ -1,4 +1,3 @@
-```markdown
 ![Cisco Data Bridge Banner](app/assets/banner3.png)
 
 # Cisco Data Bridge AI Agent

@@ -40,6 +40,10 @@ def dispatch_function_call(func_name: str, func_args: dict):
         preemptive_msg = FUNCTION_WARNINGS[func_name]
 
 
+
+
+
+
 ####################################################
 # Cisco Spaces Functions
 ####################################################
@@ -136,6 +140,11 @@ def dispatch_function_call(func_name: str, func_args: dict):
             "arguments": func_args,
             "result": result
         })
+    
+
+
+
+
 
 ####################################################
 # Cisco Catalyst Center Functions
@@ -290,6 +299,11 @@ def dispatch_function_call(func_name: str, func_args: dict):
             "arguments": func_args,
             "result": result
         })
+
+
+
+
+
 
 #####################################################
 # Cisco Catalyst Center SDK Functions
@@ -1734,6 +1748,13 @@ def dispatch_function_call(func_name: str, func_args: dict):
         result = service.get_membership(**func_args)
         logging.info(f"Executed {func_name} successfully.")
         return JSONResponse({"function": func_name, "arguments": func_args, "result": result})
+    
+
+
+
+
+
+
 
 ####################################################
 # Meraki Functions
@@ -1774,32 +1795,14 @@ def dispatch_function_call(func_name: str, func_args: dict):
         return JSONResponse({"function": func_name, "arguments": func_args, "result": result})
 
 
+
+
+
+
 ####################################################
 # Meraki SDK Functions
 ####################################################
 
-
-def dispatch_function_call(func_name: str, func_args: dict):
-    logging.info(f"Dispatching function call: {func_name} with arguments: {func_args}")
-
-    # Create the CiscoUnifiedService instance
-    service = CiscoUnifiedService(
-        catalyst_username=os.getenv("CISCO_CATALYST_USERNAME", ""),
-        catalyst_password=os.getenv("CISCO_CATALYST_PASSWORD", ""),
-        catalyst_url=os.getenv("CISCO_CATALYST_URL", "https://sandboxdnac.cisco.com:443"),
-        catalyst_version=os.getenv("CISCO_CATALYST_VERSION", "2.3.7.6"),
-        meraki_api_key=os.getenv("CISCO_MERAKI_API_KEY", ""),
-        spaces_token=os.getenv("CISCO_SPACES_API_KEY", ""),
-        webex_token=os.getenv("CISCO_WEBEX_TOKEN", "")
-    )
-
-    # Check if there's a standard warning for this function
-    preemptive_msg = None
-    if func_name in FUNCTION_WARNINGS:
-        preemptive_msg = FUNCTION_WARNINGS[func_name]
-
-
-    # --- Meraki read-only functions ---
 
     elif func_name == "getAdministeredIdentitiesMe":
         logging.info(f"Dispatching LLM function call: {func_name} with args: {func_args}")
@@ -4298,6 +4301,12 @@ def dispatch_function_call(func_name: str, func_args: dict):
         return JSONResponse({"function": func_name, "arguments": func_args, "result": result})
 
 
+
+
+
+
+
+
 ####################################################
 # WebEx Functions
 ####################################################
@@ -4312,6 +4321,11 @@ def dispatch_function_call(func_name: str, func_args: dict):
         result = service.get_webex_meeting_by_id(meeting_id)
         logging.info(f"Executed {func_name} successfully.")
         return JSONResponse({"function": func_name, "arguments": func_args, "result": result})
+    
+
+
+
+
     
     # --- Unknown / Unimplemented function ---
     else:

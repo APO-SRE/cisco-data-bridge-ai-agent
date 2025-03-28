@@ -4161,7 +4161,7 @@ list_all_cameras_in_org = {
 # Meraki SDK
 #############################
 
-getAdministeredIdentitiesMe_function = {
+getAdministeredIdentitiesMe = {
     "name": "getAdministeredIdentitiesMe",
     "description": "Returns the identity of the current user.",
     "parameters": {
@@ -4172,7 +4172,7 @@ getAdministeredIdentitiesMe_function = {
     }
 }
 
-getAdministeredIdentitiesMeApiKeys_function = {
+getAdministeredIdentitiesMeApiKeys = {
     "name": "getAdministeredIdentitiesMeApiKeys",
     "description": "List the non-sensitive metadata associated with the API keys that belong to the user",
     "parameters": {
@@ -4183,7 +4183,7 @@ getAdministeredIdentitiesMeApiKeys_function = {
     }
 }
 
-getAdministeredLicensingSubscriptionEntitlements_function = {
+getAdministeredLicensingSubscriptionEntitlements = {
     "name": "getAdministeredLicensingSubscriptionEntitlements",
     "description": "Retrieve the list of purchasable entitlements",
     "parameters": {
@@ -4195,7 +4195,7 @@ getAdministeredLicensingSubscriptionEntitlements_function = {
     }
 }
 
-getAdministeredLicensingSubscriptionSubscriptions_function = {
+getAdministeredLicensingSubscriptionSubscriptions = {
     "name": "getAdministeredLicensingSubscriptionSubscriptions",
     "description": "List available subscriptions",
     "parameters": {
@@ -4216,7 +4216,7 @@ getAdministeredLicensingSubscriptionSubscriptions_function = {
     }
 }
 
-getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses_function = {
+getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses = {
     "name": "getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses",
     "description": "Get compliance status for requested subscriptions",
     "parameters": {
@@ -4229,7 +4229,7 @@ getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses_function = {
     }
 }
 
-getDevice_function = {
+getDevice = {
     "name": "getDevice",
     "description": "Return a single device",
     "parameters": {
@@ -4241,7 +4241,7 @@ getDevice_function = {
     }
 }
 
-getDeviceApplianceDhcpSubnets_function = {
+getDeviceApplianceDhcpSubnets = {
     "name": "getDeviceApplianceDhcpSubnets",
     "description": "Return the DHCP subnet information for an appliance",
     "parameters": {
@@ -4253,7 +4253,7 @@ getDeviceApplianceDhcpSubnets_function = {
     }
 }
 
-getDeviceAppliancePerformance_function = {
+getDeviceAppliancePerformance = {
     "name": "getDeviceAppliancePerformance",
     "description": "Return the performance score for a single MX. Only primary MX devices supported. If no data is available, a 204 error code is returned.",
     "parameters": {
@@ -4268,7 +4268,7 @@ getDeviceAppliancePerformance_function = {
     }
 }
 
-getDeviceAppliancePrefixesDelegated_function = {
+getDeviceAppliancePrefixesDelegated = {
     "name": "getDeviceAppliancePrefixesDelegated",
     "description": "Return current delegated IPv6 prefixes on an appliance.",
     "parameters": {
@@ -4280,7 +4280,7 @@ getDeviceAppliancePrefixesDelegated_function = {
     }
 }
 
-getDeviceAppliancePrefixesDelegatedVlanAssignments_function = {
+getDeviceAppliancePrefixesDelegatedVlanAssignments = {
     "name": "getDeviceAppliancePrefixesDelegatedVlanAssignments",
     "description": "Return prefixes assigned to all IPv6 enabled VLANs on an appliance.",
     "parameters": {
@@ -4292,7 +4292,7 @@ getDeviceAppliancePrefixesDelegatedVlanAssignments_function = {
     }
 }
 
-getDeviceApplianceRadioSettings_function = {
+getDeviceApplianceRadioSettings = {
     "name": "getDeviceApplianceRadioSettings",
     "description": "Return the radio settings of an appliance",
     "parameters": {
@@ -4304,7 +4304,7 @@ getDeviceApplianceRadioSettings_function = {
     }
 }
 
-getDeviceApplianceUplinksSettings_function = {
+getDeviceApplianceUplinksSettings = {
     "name": "getDeviceApplianceUplinksSettings",
     "description": "Return the uplink settings for an MX appliance",
     "parameters": {
@@ -4316,7 +4316,7 @@ getDeviceApplianceUplinksSettings_function = {
     }
 }
 
-getDeviceCameraAnalyticsLive_function = {
+getDeviceCameraAnalyticsLive = {
     "name": "getDeviceCameraAnalyticsLive",
     "description": "Returns live state from camera analytics zones",
     "parameters": {
@@ -4328,7 +4328,7 @@ getDeviceCameraAnalyticsLive_function = {
     }
 }
 
-getDeviceCameraAnalyticsOverview_function = {
+getDeviceCameraAnalyticsOverview = {
     "name": "getDeviceCameraAnalyticsOverview",
     "description": "Returns an overview of aggregate analytics data for a timespan",
     "parameters": {
@@ -4344,7 +4344,7 @@ getDeviceCameraAnalyticsOverview_function = {
     }
 }
 
-getDeviceCameraAnalyticsRecent_function = {
+getDeviceCameraAnalyticsRecent = {
     "name": "getDeviceCameraAnalyticsRecent",
     "description": "Returns most recent record for analytics zones",
     "parameters": {
@@ -4357,7 +4357,7 @@ getDeviceCameraAnalyticsRecent_function = {
     }
 }
 
-getDeviceCameraAnalyticsZones_function = {
+getDeviceCameraAnalyticsZones = {
     "name": "getDeviceCameraAnalyticsZones",
     "description": "Returns all configured analytic zones for this camera",
     "parameters": {
@@ -4369,7 +4369,7 @@ getDeviceCameraAnalyticsZones_function = {
     }
 }
 
-getDeviceCameraAnalyticsZoneHistory_function = {
+getDeviceCameraAnalyticsZoneHistory = {
     "name": "getDeviceCameraAnalyticsZoneHistory",
     "description": "Return historical records for analytic zones",
     "parameters": {
@@ -4387,7 +4387,7 @@ getDeviceCameraAnalyticsZoneHistory_function = {
     }
 }
 
-getDeviceCameraCustomAnalytics_function = {
+getDeviceCameraCustomAnalytics = {
     "name": "getDeviceCameraCustomAnalytics",
     "description": "Return custom analytics settings for a camera",
     "parameters": {
@@ -4399,7 +4399,7 @@ getDeviceCameraCustomAnalytics_function = {
     }
 }
 
-getDeviceCameraQualityAndRetention_function = {
+getDeviceCameraQualityAndRetention = {
     "name": "getDeviceCameraQualityAndRetention",
     "description": "Returns quality and retention settings for the given camera",
     "parameters": {
@@ -4411,7 +4411,7 @@ getDeviceCameraQualityAndRetention_function = {
     }
 }
 
-getDeviceCameraSense_function = {
+getDeviceCameraSense = {
     "name": "getDeviceCameraSense",
     "description": "Returns sense settings for a given camera",
     "parameters": {
@@ -4423,7 +4423,7 @@ getDeviceCameraSense_function = {
     }
 }
 
-getDeviceCameraSenseObjectDetectionModels_function = {
+getDeviceCameraSenseObjectDetectionModels = {
     "name": "getDeviceCameraSenseObjectDetectionModels",
     "description": "Returns the MV Sense object detection model list for the given camera",
     "parameters": {
@@ -4435,7 +4435,7 @@ getDeviceCameraSenseObjectDetectionModels_function = {
     }
 }
 
-getDeviceCameraVideoSettings_function = {
+getDeviceCameraVideoSettings = {
     "name": "getDeviceCameraVideoSettings",
     "description": "Returns video settings for the given camera",
     "parameters": {
@@ -4447,7 +4447,7 @@ getDeviceCameraVideoSettings_function = {
     }
 }
 
-getDeviceCameraVideoLink_function = {
+getDeviceCameraVideoLink = {
     "name": "getDeviceCameraVideoLink",
     "description": "Returns video link to the specified camera. If a timestamp is supplied, it links to that timestamp.",
     "parameters": {
@@ -4460,7 +4460,7 @@ getDeviceCameraVideoLink_function = {
     }
 }
 
-getDeviceCameraWirelessProfiles_function = {
+getDeviceCameraWirelessProfiles = {
     "name": "getDeviceCameraWirelessProfiles",
     "description": "Returns wireless profile assigned to the given camera",
     "parameters": {
@@ -4472,7 +4472,7 @@ getDeviceCameraWirelessProfiles_function = {
     }
 }
 
-getDeviceCellularSims_function = {
+getDeviceCellularSims = {
     "name": "getDeviceCellularSims",
     "description": "Return the SIM and APN configurations for a cellular device.",
     "parameters": {
@@ -4484,7 +4484,7 @@ getDeviceCellularSims_function = {
     }
 }
 
-getDeviceCellularGatewayLan_function = {
+getDeviceCellularGatewayLan = {
     "name": "getDeviceCellularGatewayLan",
     "description": "Show the LAN Settings of a MG",
     "parameters": {
@@ -4496,7 +4496,7 @@ getDeviceCellularGatewayLan_function = {
     }
 }
 
-getDeviceCellularGatewayPortForwardingRules_function = {
+getDeviceCellularGatewayPortForwardingRules = {
     "name": "getDeviceCellularGatewayPortForwardingRules",
     "description": "Returns the port forwarding rules for a single MG.",
     "parameters": {
@@ -4508,7 +4508,7 @@ getDeviceCellularGatewayPortForwardingRules_function = {
     }
 }
 
-getDeviceClients_function = {
+getDeviceClients = {
     "name": "getDeviceClients",
     "description": "List the clients of a device, up to a maximum of a month ago. The usage of each client is returned in kilobytes. If the device is a switch, the switchport is returned; otherwise the switchport field is null.",
     "parameters": {
@@ -4522,7 +4522,7 @@ getDeviceClients_function = {
     }
 }
 
-getDeviceLiveToolsArpTable_function = {
+getDeviceLiveToolsArpTable = {
     "name": "getDeviceLiveToolsArpTable",
     "description": "Return an ARP table live tool job.",
     "parameters": {
@@ -4535,7 +4535,7 @@ getDeviceLiveToolsArpTable_function = {
     }
 }
 
-getDeviceLiveToolsCableTest_function = {
+getDeviceLiveToolsCableTest = {
     "name": "getDeviceLiveToolsCableTest",
     "description": "Return a cable test live tool job.",
     "parameters": {
@@ -4548,7 +4548,7 @@ getDeviceLiveToolsCableTest_function = {
     }
 }
 
-getDeviceLiveToolsLedsBlink_function = {
+getDeviceLiveToolsLedsBlink = {
     "name": "getDeviceLiveToolsLedsBlink",
     "description": "Return a blink LEDs job",
     "parameters": {
@@ -4561,7 +4561,7 @@ getDeviceLiveToolsLedsBlink_function = {
     }
 }
 
-getDeviceLiveToolsPing_function = {
+getDeviceLiveToolsPing = {
     "name": "getDeviceLiveToolsPing",
     "description": "Return a ping job. Latency unit in response is in milliseconds. Size is in bytes.",
     "parameters": {
@@ -4574,7 +4574,7 @@ getDeviceLiveToolsPing_function = {
     }
 }
 
-getDeviceLiveToolsPingDevice_function = {
+getDeviceLiveToolsPingDevice = {
     "name": "getDeviceLiveToolsPingDevice",
     "description": "Return a ping device job. Latency unit in response is in milliseconds. Size is in bytes.",
     "parameters": {
@@ -4587,7 +4587,7 @@ getDeviceLiveToolsPingDevice_function = {
     }
 }
 
-getDeviceLiveToolsThroughputTest_function = {
+getDeviceLiveToolsThroughputTest = {
     "name": "getDeviceLiveToolsThroughputTest",
     "description": "Return a throughput test job",
     "parameters": {
@@ -4600,7 +4600,7 @@ getDeviceLiveToolsThroughputTest_function = {
     }
 }
 
-getDeviceLiveToolsWakeOnLan_function = {
+getDeviceLiveToolsWakeOnLan = {
     "name": "getDeviceLiveToolsWakeOnLan",
     "description": "Return a Wake-on-LAN job",
     "parameters": {
@@ -4613,7 +4613,7 @@ getDeviceLiveToolsWakeOnLan_function = {
     }
 }
 
-getDeviceLldpCdp_function = {
+getDeviceLldpCdp = {
     "name": "getDeviceLldpCdp",
     "description": "List LLDP and CDP information for a device",
     "parameters": {
@@ -4625,7 +4625,7 @@ getDeviceLldpCdp_function = {
     }
 }
 
-getDeviceLossAndLatencyHistory_function = {
+getDeviceLossAndLatencyHistory = {
     "name": "getDeviceLossAndLatencyHistory",
     "description": "Get the uplink loss percentage and latency in milliseconds, and goodput in kilobits per second for MX, MG and Z devices.",
     "parameters": {
@@ -4643,7 +4643,7 @@ getDeviceLossAndLatencyHistory_function = {
     }
 }
 
-getDeviceManagementInterface_function = {
+getDeviceManagementInterface = {
     "name": "getDeviceManagementInterface",
     "description": "Return the management interface settings for a device",
     "parameters": {
@@ -4655,7 +4655,7 @@ getDeviceManagementInterface_function = {
     }
 }
 
-getDeviceSensorCommands_function = {
+getDeviceSensorCommands = {
     "name": "getDeviceSensorCommands",
     "description": "Returns a historical log of all commands",
     "parameters": {
@@ -4675,7 +4675,7 @@ getDeviceSensorCommands_function = {
     }
 }
 
-getDeviceSensorCommand_function = {
+getDeviceSensorCommand = {
     "name": "getDeviceSensorCommand",
     "description": "Returns information about the command's execution, including the status",
     "parameters": {
@@ -4688,7 +4688,7 @@ getDeviceSensorCommand_function = {
     }
 }
 
-getDeviceSensorRelationships_function = {
+getDeviceSensorRelationships = {
     "name": "getDeviceSensorRelationships",
     "description": "List the sensor roles for a given sensor or camera device.",
     "parameters": {
@@ -4700,7 +4700,7 @@ getDeviceSensorRelationships_function = {
     }
 }
 
-getDeviceSwitchPorts_function = {
+getDeviceSwitchPorts = {
     "name": "getDeviceSwitchPorts",
     "description": "List the switch ports for a switch",
     "parameters": {
@@ -4712,7 +4712,7 @@ getDeviceSwitchPorts_function = {
     }
 }
 
-getDeviceSwitchPortsStatuses_function = {
+getDeviceSwitchPortsStatuses = {
     "name": "getDeviceSwitchPortsStatuses",
     "description": "Return the status for all the ports of a switch",
     "parameters": {
@@ -4726,7 +4726,7 @@ getDeviceSwitchPortsStatuses_function = {
     }
 }
 
-getDeviceSwitchPortsStatusesPackets_function = {
+getDeviceSwitchPortsStatusesPackets = {
     "name": "getDeviceSwitchPortsStatusesPackets",
     "description": "Return the packet counters for all the ports of a switch",
     "parameters": {
@@ -4740,7 +4740,7 @@ getDeviceSwitchPortsStatusesPackets_function = {
     }
 }
 
-getDeviceSwitchPort_function = {
+getDeviceSwitchPort = {
     "name": "getDeviceSwitchPort",
     "description": "Return a switch port",
     "parameters": {
@@ -4753,7 +4753,7 @@ getDeviceSwitchPort_function = {
     }
 }
 
-getDeviceSwitchRoutingInterfaces_function = {
+getDeviceSwitchRoutingInterfaces = {
     "name": "getDeviceSwitchRoutingInterfaces",
     "description": "List layer 3 interfaces for a switch. Those for a stack may be found under switch stack routing.",
     "parameters": {
@@ -4765,7 +4765,7 @@ getDeviceSwitchRoutingInterfaces_function = {
     }
 }
 
-getDeviceSwitchRoutingInterface_function = {
+getDeviceSwitchRoutingInterface = {
     "name": "getDeviceSwitchRoutingInterface",
     "description": "Return a layer 3 interface for a switch",
     "parameters": {
@@ -4778,7 +4778,7 @@ getDeviceSwitchRoutingInterface_function = {
     }
 }
 
-getDeviceSwitchRoutingInterfaceDhcp_function = {
+getDeviceSwitchRoutingInterfaceDhcp = {
     "name": "getDeviceSwitchRoutingInterfaceDhcp",
     "description": "Return a layer 3 interface DHCP configuration for a switch",
     "parameters": {
@@ -4791,7 +4791,7 @@ getDeviceSwitchRoutingInterfaceDhcp_function = {
     }
 }
 
-getDeviceSwitchRoutingStaticRoutes_function = {
+getDeviceSwitchRoutingStaticRoutes = {
     "name": "getDeviceSwitchRoutingStaticRoutes",
     "description": "List layer 3 static routes for a switch",
     "parameters": {
@@ -4803,7 +4803,7 @@ getDeviceSwitchRoutingStaticRoutes_function = {
     }
 }
 
-getDeviceSwitchRoutingStaticRoute_function = {
+getDeviceSwitchRoutingStaticRoute = {
     "name": "getDeviceSwitchRoutingStaticRoute",
     "description": "Return a layer 3 static route for a switch",
     "parameters": {
@@ -4816,7 +4816,7 @@ getDeviceSwitchRoutingStaticRoute_function = {
     }
 }
 
-getDeviceSwitchWarmSpare_function = {
+getDeviceSwitchWarmSpare = {
     "name": "getDeviceSwitchWarmSpare",
     "description": "Return warm spare configuration for a switch",
     "parameters": {
@@ -4828,7 +4828,7 @@ getDeviceSwitchWarmSpare_function = {
     }
 }
 
-getDeviceWirelessBluetoothSettings_function = {
+getDeviceWirelessBluetoothSettings = {
     "name": "getDeviceWirelessBluetoothSettings",
     "description": "Return the bluetooth settings for a wireless device",
     "parameters": {
@@ -4840,7 +4840,7 @@ getDeviceWirelessBluetoothSettings_function = {
     }
 }
 
-getDeviceWirelessConnectionStats_function = {
+getDeviceWirelessConnectionStats = {
     "name": "getDeviceWirelessConnectionStats",
     "description": "Aggregated connectivity info for a given AP on this network",
     "parameters": {
@@ -4859,7 +4859,7 @@ getDeviceWirelessConnectionStats_function = {
     }
 }
 
-getDeviceWirelessElectronicShelfLabel_function = {
+getDeviceWirelessElectronicShelfLabel = {
     "name": "getDeviceWirelessElectronicShelfLabel",
     "description": "Return the ESL settings of a device",
     "parameters": {
@@ -4871,7 +4871,7 @@ getDeviceWirelessElectronicShelfLabel_function = {
     }
 }
 
-getDeviceWirelessLatencyStats_function = {
+getDeviceWirelessLatencyStats = {
     "name": "getDeviceWirelessLatencyStats",
     "description": "Aggregated latency info for a given AP on this network",
     "parameters": {
@@ -4891,7 +4891,7 @@ getDeviceWirelessLatencyStats_function = {
     }
 }
 
-getDeviceWirelessRadioSettings_function = {
+getDeviceWirelessRadioSettings = {
     "name": "getDeviceWirelessRadioSettings",
     "description": "Return the radio settings of a device",
     "parameters": {
@@ -4903,7 +4903,7 @@ getDeviceWirelessRadioSettings_function = {
     }
 }
 
-getDeviceWirelessStatus_function = {
+getDeviceWirelessStatus = {
     "name": "getDeviceWirelessStatus",
     "description": "Return the SSID statuses of an access point",
     "parameters": {
@@ -4915,7 +4915,7 @@ getDeviceWirelessStatus_function = {
     }
 }
 
-getNetwork_function = {
+getNetwork = {
     "name": "getNetwork",
     "description": "Return a network",
     "parameters": {
@@ -4927,7 +4927,7 @@ getNetwork_function = {
     }
 }
 
-getNetworkAlertsHistory_function = {
+getNetworkAlertsHistory = {
     "name": "getNetworkAlertsHistory",
     "description": "Return the alert history for this network",
     "parameters": {
@@ -4942,7 +4942,7 @@ getNetworkAlertsHistory_function = {
     }
 }
 
-getNetworkAlertsSettings_function = {
+getNetworkAlertsSettings = {
     "name": "getNetworkAlertsSettings",
     "description": "Return the alert configuration for this network",
     "parameters": {
@@ -4954,7 +4954,7 @@ getNetworkAlertsSettings_function = {
     }
 }
 
-getNetworkApplianceClientSecurityEvents_function = {
+getNetworkApplianceClientSecurityEvents = {
     "name": "getNetworkApplianceClientSecurityEvents",
     "description": "List the security events for a client. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -4974,7 +4974,7 @@ getNetworkApplianceClientSecurityEvents_function = {
     }
 }
 
-getNetworkApplianceConnectivityMonitoringDestinations_function = {
+getNetworkApplianceConnectivityMonitoringDestinations = {
     "name": "getNetworkApplianceConnectivityMonitoringDestinations",
     "description": "Return the connectivity testing destinations for an MX network",
     "parameters": {
@@ -4986,7 +4986,7 @@ getNetworkApplianceConnectivityMonitoringDestinations_function = {
     }
 }
 
-getNetworkApplianceContentFiltering_function = {
+getNetworkApplianceContentFiltering = {
     "name": "getNetworkApplianceContentFiltering",
     "description": "Return the content filtering settings for an MX network",
     "parameters": {
@@ -4998,7 +4998,7 @@ getNetworkApplianceContentFiltering_function = {
     }
 }
 
-getNetworkApplianceContentFilteringCategories_function = {
+getNetworkApplianceContentFilteringCategories = {
     "name": "getNetworkApplianceContentFilteringCategories",
     "description": "List all available content filtering categories for an MX network",
     "parameters": {
@@ -5010,7 +5010,7 @@ getNetworkApplianceContentFilteringCategories_function = {
     }
 }
 
-getNetworkApplianceFirewallCellularFirewallRules_function = {
+getNetworkApplianceFirewallCellularFirewallRules = {
     "name": "getNetworkApplianceFirewallCellularFirewallRules",
     "description": "Return the cellular firewall rules for an MX network",
     "parameters": {
@@ -5022,7 +5022,7 @@ getNetworkApplianceFirewallCellularFirewallRules_function = {
     }
 }
 
-getNetworkApplianceFirewallFirewalledServices_function = {
+getNetworkApplianceFirewallFirewalledServices = {
     "name": "getNetworkApplianceFirewallFirewalledServices",
     "description": "List the appliance services and their accessibility rules",
     "parameters": {
@@ -5034,7 +5034,7 @@ getNetworkApplianceFirewallFirewalledServices_function = {
     }
 }
 
-getNetworkApplianceFirewallFirewalledService_function = {
+getNetworkApplianceFirewallFirewalledService = {
     "name": "getNetworkApplianceFirewallFirewalledService",
     "description": "Return the accessibility settings of the given service ('ICMP', 'web', or 'SNMP')",
     "parameters": {
@@ -5047,7 +5047,7 @@ getNetworkApplianceFirewallFirewalledService_function = {
     }
 }
 
-getNetworkApplianceFirewallInboundCellularFirewallRules_function = {
+getNetworkApplianceFirewallInboundCellularFirewallRules = {
     "name": "getNetworkApplianceFirewallInboundCellularFirewallRules",
     "description": "Return the inbound cellular firewall rules for an MX network",
     "parameters": {
@@ -5059,7 +5059,7 @@ getNetworkApplianceFirewallInboundCellularFirewallRules_function = {
     }
 }
 
-getNetworkApplianceFirewallInboundFirewallRules_function = {
+getNetworkApplianceFirewallInboundFirewallRules = {
     "name": "getNetworkApplianceFirewallInboundFirewallRules",
     "description": "Return the inbound firewall rules for an MX network",
     "parameters": {
@@ -5071,7 +5071,7 @@ getNetworkApplianceFirewallInboundFirewallRules_function = {
     }
 }
 
-getNetworkApplianceFirewallL3FirewallRules_function = {
+getNetworkApplianceFirewallL3FirewallRules = {
     "name": "getNetworkApplianceFirewallL3FirewallRules",
     "description": "Return the L3 firewall rules for an MX network",
     "parameters": {
@@ -5083,7 +5083,7 @@ getNetworkApplianceFirewallL3FirewallRules_function = {
     }
 }
 
-getNetworkApplianceFirewallL7FirewallRules_function = {
+getNetworkApplianceFirewallL7FirewallRules = {
     "name": "getNetworkApplianceFirewallL7FirewallRules",
     "description": "List the MX L7 firewall rules for an MX network",
     "parameters": {
@@ -5095,7 +5095,7 @@ getNetworkApplianceFirewallL7FirewallRules_function = {
     }
 }
 
-getNetworkApplianceFirewallL7FirewallRulesApplicationCategories_function = {
+getNetworkApplianceFirewallL7FirewallRulesApplicationCategories = {
     "name": "getNetworkApplianceFirewallL7FirewallRulesApplicationCategories",
     "description": "Return the L7 firewall application categories and their associated applications for an MX network",
     "parameters": {
@@ -5107,7 +5107,7 @@ getNetworkApplianceFirewallL7FirewallRulesApplicationCategories_function = {
     }
 }
 
-getNetworkApplianceFirewallOneToManyNatRules_function = {
+getNetworkApplianceFirewallOneToManyNatRules = {
     "name": "getNetworkApplianceFirewallOneToManyNatRules",
     "description": "Return the 1:Many NAT mapping rules for an MX network",
     "parameters": {
@@ -5119,7 +5119,7 @@ getNetworkApplianceFirewallOneToManyNatRules_function = {
     }
 }
 
-getNetworkApplianceFirewallOneToOneNatRules_function = {
+getNetworkApplianceFirewallOneToOneNatRules = {
     "name": "getNetworkApplianceFirewallOneToOneNatRules",
     "description": "Return the 1:1 NAT mapping rules for an MX network",
     "parameters": {
@@ -5131,7 +5131,7 @@ getNetworkApplianceFirewallOneToOneNatRules_function = {
     }
 }
 
-getNetworkApplianceFirewallPortForwardingRules_function = {
+getNetworkApplianceFirewallPortForwardingRules = {
     "name": "getNetworkApplianceFirewallPortForwardingRules",
     "description": "Return the port forwarding rules for an MX network",
     "parameters": {
@@ -5143,7 +5143,7 @@ getNetworkApplianceFirewallPortForwardingRules_function = {
     }
 }
 
-getNetworkApplianceFirewallSettings_function = {
+getNetworkApplianceFirewallSettings = {
     "name": "getNetworkApplianceFirewallSettings",
     "description": "Return the firewall settings for this network",
     "parameters": {
@@ -5155,7 +5155,7 @@ getNetworkApplianceFirewallSettings_function = {
     }
 }
 
-getNetworkAppliancePorts_function = {
+getNetworkAppliancePorts = {
     "name": "getNetworkAppliancePorts",
     "description": "List per-port VLAN settings for all ports of a MX.",
     "parameters": {
@@ -5167,7 +5167,7 @@ getNetworkAppliancePorts_function = {
     }
 }
 
-getNetworkAppliancePort_function = {
+getNetworkAppliancePort = {
     "name": "getNetworkAppliancePort",
     "description": "Return per-port VLAN settings for a single MX port.",
     "parameters": {
@@ -5180,7 +5180,7 @@ getNetworkAppliancePort_function = {
     }
 }
 
-getNetworkAppliancePrefixesDelegatedStatics_function = {
+getNetworkAppliancePrefixesDelegatedStatics = {
     "name": "getNetworkAppliancePrefixesDelegatedStatics",
     "description": "List static delegated prefixes for a network",
     "parameters": {
@@ -5192,7 +5192,7 @@ getNetworkAppliancePrefixesDelegatedStatics_function = {
     }
 }
 
-getNetworkAppliancePrefixesDelegatedStatic_function = {
+getNetworkAppliancePrefixesDelegatedStatic = {
     "name": "getNetworkAppliancePrefixesDelegatedStatic",
     "description": "Return a static delegated prefix from a network",
     "parameters": {
@@ -5205,7 +5205,7 @@ getNetworkAppliancePrefixesDelegatedStatic_function = {
     }
 }
 
-getNetworkApplianceRfProfiles_function = {
+getNetworkApplianceRfProfiles = {
     "name": "getNetworkApplianceRfProfiles",
     "description": "List the RF profiles for this network",
     "parameters": {
@@ -5217,7 +5217,7 @@ getNetworkApplianceRfProfiles_function = {
     }
 }
 
-getNetworkApplianceRfProfile_function = {
+getNetworkApplianceRfProfile = {
     "name": "getNetworkApplianceRfProfile",
     "description": "Return a RF profile",
     "parameters": {
@@ -5230,7 +5230,7 @@ getNetworkApplianceRfProfile_function = {
     }
 }
 
-getNetworkApplianceSecurityEvents_function = {
+getNetworkApplianceSecurityEvents = {
     "name": "getNetworkApplianceSecurityEvents",
     "description": "List the security events for a network",
     "parameters": {
@@ -5249,7 +5249,7 @@ getNetworkApplianceSecurityEvents_function = {
     }
 }
 
-getNetworkApplianceSecurityIntrusion_function = {
+getNetworkApplianceSecurityIntrusion = {
     "name": "getNetworkApplianceSecurityIntrusion",
     "description": "Returns all supported intrusion settings for an MX network",
     "parameters": {
@@ -5261,7 +5261,7 @@ getNetworkApplianceSecurityIntrusion_function = {
     }
 }
 
-getNetworkApplianceSecurityMalware_function = {
+getNetworkApplianceSecurityMalware = {
     "name": "getNetworkApplianceSecurityMalware",
     "description": "Returns all supported malware settings for an MX network",
     "parameters": {
@@ -5273,7 +5273,7 @@ getNetworkApplianceSecurityMalware_function = {
     }
 }
 
-getNetworkApplianceSettings_function = {
+getNetworkApplianceSettings = {
     "name": "getNetworkApplianceSettings",
     "description": "Return the appliance settings for a network",
     "parameters": {
@@ -5285,7 +5285,7 @@ getNetworkApplianceSettings_function = {
     }
 }
 
-getNetworkApplianceSingleLan_function = {
+getNetworkApplianceSingleLan = {
     "name": "getNetworkApplianceSingleLan",
     "description": "Return single LAN configuration",
     "parameters": {
@@ -5297,7 +5297,7 @@ getNetworkApplianceSingleLan_function = {
     }
 }
 
-getNetworkApplianceSsids_function = {
+getNetworkApplianceSsids = {
     "name": "getNetworkApplianceSsids",
     "description": "List the MX SSIDs in a network",
     "parameters": {
@@ -5309,7 +5309,7 @@ getNetworkApplianceSsids_function = {
     }
 }
 
-getNetworkApplianceSsid_function = {
+getNetworkApplianceSsid = {
     "name": "getNetworkApplianceSsid",
     "description": "Return a single MX SSID",
     "parameters": {
@@ -5322,7 +5322,7 @@ getNetworkApplianceSsid_function = {
     }
 }
 
-getNetworkApplianceStaticRoutes_function = {
+getNetworkApplianceStaticRoutes = {
     "name": "getNetworkApplianceStaticRoutes",
     "description": "List the static routes for an MX or teleworker network",
     "parameters": {
@@ -5334,7 +5334,7 @@ getNetworkApplianceStaticRoutes_function = {
     }
 }
 
-getNetworkApplianceStaticRoute_function = {
+getNetworkApplianceStaticRoute = {
     "name": "getNetworkApplianceStaticRoute",
     "description": "Return a static route for an MX or teleworker network",
     "parameters": {
@@ -5347,7 +5347,7 @@ getNetworkApplianceStaticRoute_function = {
     }
 }
 
-getNetworkApplianceTrafficShaping_function = {
+getNetworkApplianceTrafficShaping = {
     "name": "getNetworkApplianceTrafficShaping",
     "description": "Display the traffic shaping settings for an MX network",
     "parameters": {
@@ -5359,7 +5359,7 @@ getNetworkApplianceTrafficShaping_function = {
     }
 }
 
-getNetworkApplianceTrafficShapingCustomPerformanceClasses_function = {
+getNetworkApplianceTrafficShapingCustomPerformanceClasses = {
     "name": "getNetworkApplianceTrafficShapingCustomPerformanceClasses",
     "description": "List all custom performance classes for an MX network",
     "parameters": {
@@ -5371,7 +5371,7 @@ getNetworkApplianceTrafficShapingCustomPerformanceClasses_function = {
     }
 }
 
-getNetworkApplianceTrafficShapingCustomPerformanceClass_function = {
+getNetworkApplianceTrafficShapingCustomPerformanceClass = {
     "name": "getNetworkApplianceTrafficShapingCustomPerformanceClass",
     "description": "Return a custom performance class for an MX network",
     "parameters": {
@@ -5384,7 +5384,7 @@ getNetworkApplianceTrafficShapingCustomPerformanceClass_function = {
     }
 }
 
-getNetworkApplianceTrafficShapingRules_function = {
+getNetworkApplianceTrafficShapingRules = {
     "name": "getNetworkApplianceTrafficShapingRules",
     "description": "Display the traffic shaping settings rules for an MX network",
     "parameters": {
@@ -5396,7 +5396,7 @@ getNetworkApplianceTrafficShapingRules_function = {
     }
 }
 
-getNetworkApplianceTrafficShapingUplinkBandwidth_function = {
+getNetworkApplianceTrafficShapingUplinkBandwidth = {
     "name": "getNetworkApplianceTrafficShapingUplinkBandwidth",
     "description": "Returns the uplink bandwidth limits for your MX network. This may not reflect the affected device's hardware capabilities.  For more information on your device's hardware capabilities, please consult our MX Family Datasheet - [https://meraki.cisco.com/product-collateral/mx-family-datasheet/?file]",
     "parameters": {
@@ -5408,7 +5408,7 @@ getNetworkApplianceTrafficShapingUplinkBandwidth_function = {
     }
 }
 
-getNetworkApplianceTrafficShapingUplinkSelection_function = {
+getNetworkApplianceTrafficShapingUplinkSelection = {
     "name": "getNetworkApplianceTrafficShapingUplinkSelection",
     "description": "Show uplink selection settings for an MX network",
     "parameters": {
@@ -5420,7 +5420,7 @@ getNetworkApplianceTrafficShapingUplinkSelection_function = {
     }
 }
 
-getNetworkApplianceUplinksUsageHistory_function = {
+getNetworkApplianceUplinksUsageHistory = {
     "name": "getNetworkApplianceUplinksUsageHistory",
     "description": "Get the sent and received bytes for each uplink of a network.",
     "parameters": {
@@ -5436,7 +5436,7 @@ getNetworkApplianceUplinksUsageHistory_function = {
     }
 }
 
-getNetworkApplianceVlans_function = {
+getNetworkApplianceVlans = {
     "name": "getNetworkApplianceVlans",
     "description": "List the VLANs for an MX network",
     "parameters": {
@@ -5448,7 +5448,7 @@ getNetworkApplianceVlans_function = {
     }
 }
 
-getNetworkApplianceVlansSettings_function = {
+getNetworkApplianceVlansSettings = {
     "name": "getNetworkApplianceVlansSettings",
     "description": "Returns the enabled status of VLANs for the network",
     "parameters": {
@@ -5460,7 +5460,7 @@ getNetworkApplianceVlansSettings_function = {
     }
 }
 
-getNetworkApplianceVlan_function = {
+getNetworkApplianceVlan = {
     "name": "getNetworkApplianceVlan",
     "description": "Return a VLAN",
     "parameters": {
@@ -5473,7 +5473,7 @@ getNetworkApplianceVlan_function = {
     }
 }
 
-getNetworkApplianceVpnBgp_function = {
+getNetworkApplianceVpnBgp = {
     "name": "getNetworkApplianceVpnBgp",
     "description": "Return a Hub BGP Configuration",
     "parameters": {
@@ -5485,7 +5485,7 @@ getNetworkApplianceVpnBgp_function = {
     }
 }
 
-getNetworkApplianceVpnSiteToSiteVpn_function = {
+getNetworkApplianceVpnSiteToSiteVpn = {
     "name": "getNetworkApplianceVpnSiteToSiteVpn",
     "description": "Return the site-to-site VPN settings of a network. Only valid for MX networks.",
     "parameters": {
@@ -5497,7 +5497,7 @@ getNetworkApplianceVpnSiteToSiteVpn_function = {
     }
 }
 
-getNetworkApplianceWarmSpare_function = {
+getNetworkApplianceWarmSpare = {
     "name": "getNetworkApplianceWarmSpare",
     "description": "Return MX warm spare settings",
     "parameters": {
@@ -5509,7 +5509,7 @@ getNetworkApplianceWarmSpare_function = {
     }
 }
 
-getNetworkBluetoothClients_function = {
+getNetworkBluetoothClients = {
     "name": "getNetworkBluetoothClients",
     "description": "List the Bluetooth clients seen by APs in this network",
     "parameters": {
@@ -5527,7 +5527,7 @@ getNetworkBluetoothClients_function = {
     }
 }
 
-getNetworkBluetoothClient_function = {
+getNetworkBluetoothClient = {
     "name": "getNetworkBluetoothClient",
     "description": "Return a Bluetooth client. Bluetooth clients can be identified by their ID or their MAC.",
     "parameters": {
@@ -5542,7 +5542,7 @@ getNetworkBluetoothClient_function = {
     }
 }
 
-getNetworkCameraQualityRetentionProfiles_function = {
+getNetworkCameraQualityRetentionProfiles = {
     "name": "getNetworkCameraQualityRetentionProfiles",
     "description": "List the quality retention profiles for this network",
     "parameters": {
@@ -5554,7 +5554,7 @@ getNetworkCameraQualityRetentionProfiles_function = {
     }
 }
 
-getNetworkCameraQualityRetentionProfile_function = {
+getNetworkCameraQualityRetentionProfile = {
     "name": "getNetworkCameraQualityRetentionProfile",
     "description": "Retrieve a single quality retention profile",
     "parameters": {
@@ -5567,7 +5567,7 @@ getNetworkCameraQualityRetentionProfile_function = {
     }
 }
 
-getNetworkCameraSchedules_function = {
+getNetworkCameraSchedules = {
     "name": "getNetworkCameraSchedules",
     "description": "Returns a list of all camera recording schedules.",
     "parameters": {
@@ -5579,7 +5579,7 @@ getNetworkCameraSchedules_function = {
     }
 }
 
-getNetworkCameraWirelessProfiles_function = {
+getNetworkCameraWirelessProfiles = {
     "name": "getNetworkCameraWirelessProfiles",
     "description": "List the camera wireless profiles for this network.",
     "parameters": {
@@ -5591,7 +5591,7 @@ getNetworkCameraWirelessProfiles_function = {
     }
 }
 
-getNetworkCameraWirelessProfile_function = {
+getNetworkCameraWirelessProfile = {
     "name": "getNetworkCameraWirelessProfile",
     "description": "Retrieve a single camera wireless profile.",
     "parameters": {
@@ -5604,7 +5604,7 @@ getNetworkCameraWirelessProfile_function = {
     }
 }
 
-getNetworkCellularGatewayConnectivityMonitoringDestinations_function = {
+getNetworkCellularGatewayConnectivityMonitoringDestinations = {
     "name": "getNetworkCellularGatewayConnectivityMonitoringDestinations",
     "description": "Return the connectivity testing destinations for an MG network",
     "parameters": {
@@ -5616,7 +5616,7 @@ getNetworkCellularGatewayConnectivityMonitoringDestinations_function = {
     }
 }
 
-getNetworkCellularGatewayDhcp_function = {
+getNetworkCellularGatewayDhcp = {
     "name": "getNetworkCellularGatewayDhcp",
     "description": "List common DHCP settings of MGs",
     "parameters": {
@@ -5628,7 +5628,7 @@ getNetworkCellularGatewayDhcp_function = {
     }
 }
 
-getNetworkCellularGatewaySubnetPool_function = {
+getNetworkCellularGatewaySubnetPool = {
     "name": "getNetworkCellularGatewaySubnetPool",
     "description": "Return the subnet pool and mask configured for MGs in the network.",
     "parameters": {
@@ -5640,7 +5640,7 @@ getNetworkCellularGatewaySubnetPool_function = {
     }
 }
 
-getNetworkCellularGatewayUplink_function = {
+getNetworkCellularGatewayUplink = {
     "name": "getNetworkCellularGatewayUplink",
     "description": "Returns the uplink settings for your MG network.",
     "parameters": {
@@ -5652,7 +5652,7 @@ getNetworkCellularGatewayUplink_function = {
     }
 }
 
-getNetworkClients_function = {
+getNetworkClients = {
     "name": "getNetworkClients",
     "description": "List the clients that have used this network in the timespan. The data is updated at most once every five minutes.",
     "parameters": {
@@ -5680,7 +5680,7 @@ getNetworkClients_function = {
     }
 }
 
-getNetworkClientsApplicationUsage_function = {
+getNetworkClientsApplicationUsage = {
     "name": "getNetworkClientsApplicationUsage",
     "description": "Return the application usage data for clients. Usage data is in kilobytes. Clients can be identified by client keys or either the MACs or IPs depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5700,7 +5700,7 @@ getNetworkClientsApplicationUsage_function = {
     }
 }
 
-getNetworkClientsBandwidthUsageHistory_function = {
+getNetworkClientsBandwidthUsageHistory = {
     "name": "getNetworkClientsBandwidthUsageHistory",
     "description": "Returns a timeseries of total traffic consumption rates for all clients on a network within a given timespan, in megabits per second.",
     "parameters": {
@@ -5718,7 +5718,7 @@ getNetworkClientsBandwidthUsageHistory_function = {
     }
 }
 
-getNetworkClientsOverview_function = {
+getNetworkClientsOverview = {
     "name": "getNetworkClientsOverview",
     "description": "Return overview statistics for network clients",
     "parameters": {
@@ -5734,7 +5734,7 @@ getNetworkClientsOverview_function = {
     }
 }
 
-getNetworkClientsUsageHistories_function = {
+getNetworkClientsUsageHistories = {
     "name": "getNetworkClientsUsageHistories",
     "description": "Return the usage histories for clients. Usage data is in kilobytes. Clients can be identified by client keys or either the MACs or IPs depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5754,7 +5754,7 @@ getNetworkClientsUsageHistories_function = {
     }
 }
 
-getNetworkClient_function = {
+getNetworkClient = {
     "name": "getNetworkClient",
     "description": "Return the client associated with the given identifier. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5767,7 +5767,7 @@ getNetworkClient_function = {
     }
 }
 
-getNetworkClientPolicy_function = {
+getNetworkClientPolicy = {
     "name": "getNetworkClientPolicy",
     "description": "Return the policy assigned to a client on the network. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5780,7 +5780,7 @@ getNetworkClientPolicy_function = {
     }
 }
 
-getNetworkClientSplashAuthorizationStatus_function = {
+getNetworkClientSplashAuthorizationStatus = {
     "name": "getNetworkClientSplashAuthorizationStatus",
     "description": "Return the splash authorization for a client, for each SSID they've associated with through splash. Only enabled SSIDs with Click-through splash enabled will be included. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5793,7 +5793,7 @@ getNetworkClientSplashAuthorizationStatus_function = {
     }
 }
 
-getNetworkClientTrafficHistory_function = {
+getNetworkClientTrafficHistory = {
     "name": "getNetworkClientTrafficHistory",
     "description": "Return the client's network traffic data over time. Usage data is in kilobytes. This endpoint requires detailed traffic analysis to be enabled on the Network-wide > General page. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5809,7 +5809,7 @@ getNetworkClientTrafficHistory_function = {
     }
 }
 
-getNetworkClientUsageHistory_function = {
+getNetworkClientUsageHistory = {
     "name": "getNetworkClientUsageHistory",
     "description": "Return the client's daily usage history. Usage data is in kilobytes. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.",
     "parameters": {
@@ -5822,7 +5822,7 @@ getNetworkClientUsageHistory_function = {
     }
 }
 
-getNetworkDevices_function = {
+getNetworkDevices = {
     "name": "getNetworkDevices",
     "description": "List the devices in a network",
     "parameters": {
@@ -5834,7 +5834,7 @@ getNetworkDevices_function = {
     }
 }
 
-getNetworkEvents_function = {
+getNetworkEvents = {
     "name": "getNetworkEvents",
     "description": "List the events for the network",
     "parameters": {
@@ -5863,7 +5863,7 @@ getNetworkEvents_function = {
     }
 }
 
-getNetworkEventsEventTypes_function = {
+getNetworkEventsEventTypes = {
     "name": "getNetworkEventsEventTypes",
     "description": "List the event type to human-readable description",
     "parameters": {
@@ -5875,7 +5875,7 @@ getNetworkEventsEventTypes_function = {
     }
 }
 
-getNetworkFirmwareUpgrades_function = {
+getNetworkFirmwareUpgrades = {
     "name": "getNetworkFirmwareUpgrades",
     "description": "Get firmware upgrade information for a network",
     "parameters": {
@@ -5887,7 +5887,7 @@ getNetworkFirmwareUpgrades_function = {
     }
 }
 
-getNetworkFirmwareUpgradesStagedEvents_function = {
+getNetworkFirmwareUpgradesStagedEvents = {
     "name": "getNetworkFirmwareUpgradesStagedEvents",
     "description": "Get the Staged Upgrade Event from a network",
     "parameters": {
@@ -5899,7 +5899,7 @@ getNetworkFirmwareUpgradesStagedEvents_function = {
     }
 }
 
-getNetworkFirmwareUpgradesStagedGroups_function = {
+getNetworkFirmwareUpgradesStagedGroups = {
     "name": "getNetworkFirmwareUpgradesStagedGroups",
     "description": "List of Staged Upgrade Groups in a network",
     "parameters": {
@@ -5911,7 +5911,7 @@ getNetworkFirmwareUpgradesStagedGroups_function = {
     }
 }
 
-getNetworkFirmwareUpgradesStagedGroup_function = {
+getNetworkFirmwareUpgradesStagedGroup = {
     "name": "getNetworkFirmwareUpgradesStagedGroup",
     "description": "Get a Staged Upgrade Group from a network",
     "parameters": {
@@ -5924,7 +5924,7 @@ getNetworkFirmwareUpgradesStagedGroup_function = {
     }
 }
 
-getNetworkFirmwareUpgradesStagedStages_function = {
+getNetworkFirmwareUpgradesStagedStages = {
     "name": "getNetworkFirmwareUpgradesStagedStages",
     "description": "Order of Staged Upgrade Groups in a network",
     "parameters": {
@@ -5936,7 +5936,7 @@ getNetworkFirmwareUpgradesStagedStages_function = {
     }
 }
 
-getNetworkFloorPlans_function = {
+getNetworkFloorPlans = {
     "name": "getNetworkFloorPlans",
     "description": "List the floor plans that belong to your network",
     "parameters": {
@@ -5948,7 +5948,7 @@ getNetworkFloorPlans_function = {
     }
 }
 
-getNetworkFloorPlan_function = {
+getNetworkFloorPlan = {
     "name": "getNetworkFloorPlan",
     "description": "Find a floor plan by ID",
     "parameters": {
@@ -5961,7 +5961,7 @@ getNetworkFloorPlan_function = {
     }
 }
 
-getNetworkGroupPolicies_function = {
+getNetworkGroupPolicies = {
     "name": "getNetworkGroupPolicies",
     "description": "List the group policies in a network",
     "parameters": {
@@ -5973,7 +5973,7 @@ getNetworkGroupPolicies_function = {
     }
 }
 
-getNetworkGroupPolicy_function = {
+getNetworkGroupPolicy = {
     "name": "getNetworkGroupPolicy",
     "description": "Display a group policy",
     "parameters": {
@@ -5986,7 +5986,7 @@ getNetworkGroupPolicy_function = {
     }
 }
 
-getNetworkHealthAlerts_function = {
+getNetworkHealthAlerts = {
     "name": "getNetworkHealthAlerts",
     "description": "Return all global alerts on this network",
     "parameters": {
@@ -5998,7 +5998,7 @@ getNetworkHealthAlerts_function = {
     }
 }
 
-getNetworkInsightApplicationHealthByTime_function = {
+getNetworkInsightApplicationHealthByTime = {
     "name": "getNetworkInsightApplicationHealthByTime",
     "description": "Get application health by time",
     "parameters": {
@@ -6015,7 +6015,7 @@ getNetworkInsightApplicationHealthByTime_function = {
     }
 }
 
-getNetworkMerakiAuthUsers_function = {
+getNetworkMerakiAuthUsers = {
     "name": "getNetworkMerakiAuthUsers",
     "description": "List the authorized users configured under Meraki Authentication for a network (splash guest or RADIUS users for a wireless network, or client VPN users for a MX network)",
     "parameters": {
@@ -6027,7 +6027,7 @@ getNetworkMerakiAuthUsers_function = {
     }
 }
 
-getNetworkMerakiAuthUser_function = {
+getNetworkMerakiAuthUser = {
     "name": "getNetworkMerakiAuthUser",
     "description": "Return the Meraki Auth splash guest, RADIUS, or client VPN user",
     "parameters": {
@@ -6040,7 +6040,7 @@ getNetworkMerakiAuthUser_function = {
     }
 }
 
-getNetworkMqttBrokers_function = {
+getNetworkMqttBrokers = {
     "name": "getNetworkMqttBrokers",
     "description": "List the MQTT brokers for this network",
     "parameters": {
@@ -6052,7 +6052,7 @@ getNetworkMqttBrokers_function = {
     }
 }
 
-getNetworkMqttBroker_function = {
+getNetworkMqttBroker = {
     "name": "getNetworkMqttBroker",
     "description": "Return an MQTT broker",
     "parameters": {
@@ -6065,7 +6065,7 @@ getNetworkMqttBroker_function = {
     }
 }
 
-getNetworkNetflow_function = {
+getNetworkNetflow = {
     "name": "getNetworkNetflow",
     "description": "Return the NetFlow traffic reporting settings for a network",
     "parameters": {
@@ -6077,7 +6077,7 @@ getNetworkNetflow_function = {
     }
 }
 
-getNetworkNetworkHealthChannelUtilization_function = {
+getNetworkNetworkHealthChannelUtilization = {
     "name": "getNetworkNetworkHealthChannelUtilization",
     "description": "Get the channel utilization over each radio for all APs in a network.",
     "parameters": {
@@ -6096,7 +6096,7 @@ getNetworkNetworkHealthChannelUtilization_function = {
     }
 }
 
-getNetworkPiiPiiKeys_function = {
+getNetworkPiiPiiKeys = {
     "name": "getNetworkPiiPiiKeys",
     "description": "List the keys required to access Personally Identifiable Information (PII) for a given identifier. Exactly one identifier will be accepted. If the organization contains org-wide Systems Manager users matching the key provided then there will be an entry with the key \"0\" containing the applicable keys.  ## ALTERNATE PATH  ``` /organizations/{organizationId}/pii/piiKeys ```",
     "parameters": {
@@ -6114,7 +6114,7 @@ getNetworkPiiPiiKeys_function = {
     }
 }
 
-getNetworkPiiRequests_function = {
+getNetworkPiiRequests = {
     "name": "getNetworkPiiRequests",
     "description": "List the PII requests for this network or organization  ## ALTERNATE PATH  ``` /organizations/{organizationId}/pii/requests ```",
     "parameters": {
@@ -6126,7 +6126,7 @@ getNetworkPiiRequests_function = {
     }
 }
 
-getNetworkPiiRequest_function = {
+getNetworkPiiRequest = {
     "name": "getNetworkPiiRequest",
     "description": "Return a PII request  ## ALTERNATE PATH  ``` /organizations/{organizationId}/pii/requests/{requestId} ```",
     "parameters": {
@@ -6139,7 +6139,7 @@ getNetworkPiiRequest_function = {
     }
 }
 
-getNetworkPiiSmDevicesForKey_function = {
+getNetworkPiiSmDevicesForKey = {
     "name": "getNetworkPiiSmDevicesForKey",
     "description": "Given a piece of Personally Identifiable Information (PII), return the Systems Manager device ID(s) associated with that identifier. These device IDs can be used with the Systems Manager API endpoints to retrieve device details. Exactly one identifier will be accepted.  ## ALTERNATE PATH  ``` /organizations/{organizationId}/pii/smDevicesForKey ```",
     "parameters": {
@@ -6157,7 +6157,7 @@ getNetworkPiiSmDevicesForKey_function = {
     }
 }
 
-getNetworkPiiSmOwnersForKey_function = {
+getNetworkPiiSmOwnersForKey = {
     "name": "getNetworkPiiSmOwnersForKey",
     "description": "Given a piece of Personally Identifiable Information (PII), return the Systems Manager owner ID(s) associated with that identifier. These owner IDs can be used with the Systems Manager API endpoints to retrieve owner details. Exactly one identifier will be accepted.  ## ALTERNATE PATH  ``` /organizations/{organizationId}/pii/smOwnersForKey ```",
     "parameters": {
@@ -6175,7 +6175,7 @@ getNetworkPiiSmOwnersForKey_function = {
     }
 }
 
-getNetworkPoliciesByClient_function = {
+getNetworkPoliciesByClient = {
     "name": "getNetworkPoliciesByClient",
     "description": "Get policies for all clients with policies",
     "parameters": {
@@ -6192,7 +6192,7 @@ getNetworkPoliciesByClient_function = {
     }
 }
 
-getNetworkSensorAlertsCurrentOverviewByMetric_function = {
+getNetworkSensorAlertsCurrentOverviewByMetric = {
     "name": "getNetworkSensorAlertsCurrentOverviewByMetric",
     "description": "Return an overview of currently alerting sensors by metric",
     "parameters": {
@@ -6204,7 +6204,7 @@ getNetworkSensorAlertsCurrentOverviewByMetric_function = {
     }
 }
 
-getNetworkSensorAlertsOverviewByMetric_function = {
+getNetworkSensorAlertsOverviewByMetric = {
     "name": "getNetworkSensorAlertsOverviewByMetric",
     "description": "Return an overview of alert occurrences over a timespan, by metric",
     "parameters": {
@@ -6220,7 +6220,7 @@ getNetworkSensorAlertsOverviewByMetric_function = {
     }
 }
 
-getNetworkSensorAlertsProfiles_function = {
+getNetworkSensorAlertsProfiles = {
     "name": "getNetworkSensorAlertsProfiles",
     "description": "Lists all sensor alert profiles for a network.",
     "parameters": {
@@ -6232,7 +6232,7 @@ getNetworkSensorAlertsProfiles_function = {
     }
 }
 
-getNetworkSensorAlertsProfile_function = {
+getNetworkSensorAlertsProfile = {
     "name": "getNetworkSensorAlertsProfile",
     "description": "Show details of a sensor alert profile for a network.",
     "parameters": {
@@ -6245,7 +6245,7 @@ getNetworkSensorAlertsProfile_function = {
     }
 }
 
-getNetworkSensorMqttBrokers_function = {
+getNetworkSensorMqttBrokers = {
     "name": "getNetworkSensorMqttBrokers",
     "description": "List the sensor settings of all MQTT brokers for this network. To get the brokers themselves, use /networks/{networkId}/mqttBrokers.",
     "parameters": {
@@ -6257,7 +6257,7 @@ getNetworkSensorMqttBrokers_function = {
     }
 }
 
-getNetworkSensorMqttBroker_function = {
+getNetworkSensorMqttBroker = {
     "name": "getNetworkSensorMqttBroker",
     "description": "Return the sensor settings of an MQTT broker. To get the broker itself, use /networks/{networkId}/mqttBrokers/{mqttBrokerId}.",
     "parameters": {
@@ -6270,7 +6270,7 @@ getNetworkSensorMqttBroker_function = {
     }
 }
 
-getNetworkSensorRelationships_function = {
+getNetworkSensorRelationships = {
     "name": "getNetworkSensorRelationships",
     "description": "List the sensor roles for devices in a given network",
     "parameters": {
@@ -6282,7 +6282,7 @@ getNetworkSensorRelationships_function = {
     }
 }
 
-getNetworkSettings_function = {
+getNetworkSettings = {
     "name": "getNetworkSettings",
     "description": "Return the settings for a network",
     "parameters": {
@@ -6294,7 +6294,7 @@ getNetworkSettings_function = {
     }
 }
 
-getNetworkSmBypassActivationLockAttempt_function = {
+getNetworkSmBypassActivationLockAttempt = {
     "name": "getNetworkSmBypassActivationLockAttempt",
     "description": "Bypass activation lock attempt status",
     "parameters": {
@@ -6307,7 +6307,7 @@ getNetworkSmBypassActivationLockAttempt_function = {
     }
 }
 
-getNetworkSmDevices_function = {
+getNetworkSmDevices = {
     "name": "getNetworkSmDevices",
     "description": "List the devices enrolled in an SM network with various specified fields and filters",
     "parameters": {
@@ -6329,7 +6329,7 @@ getNetworkSmDevices_function = {
     }
 }
 
-getNetworkSmDeviceCellularUsageHistory_function = {
+getNetworkSmDeviceCellularUsageHistory = {
     "name": "getNetworkSmDeviceCellularUsageHistory",
     "description": "Return the client's daily cellular data usage history. Usage data is in kilobytes.",
     "parameters": {
@@ -6342,7 +6342,7 @@ getNetworkSmDeviceCellularUsageHistory_function = {
     }
 }
 
-getNetworkSmDeviceCerts_function = {
+getNetworkSmDeviceCerts = {
     "name": "getNetworkSmDeviceCerts",
     "description": "List the certs on a device",
     "parameters": {
@@ -6355,7 +6355,7 @@ getNetworkSmDeviceCerts_function = {
     }
 }
 
-getNetworkSmDeviceConnectivity_function = {
+getNetworkSmDeviceConnectivity = {
     "name": "getNetworkSmDeviceConnectivity",
     "description": "Returns historical connectivity data (whether a device is regularly checking in to Dashboard).",
     "parameters": {
@@ -6371,7 +6371,7 @@ getNetworkSmDeviceConnectivity_function = {
     }
 }
 
-getNetworkSmDeviceDesktopLogs_function = {
+getNetworkSmDeviceDesktopLogs = {
     "name": "getNetworkSmDeviceDesktopLogs",
     "description": "Return historical records of various Systems Manager network connection details for desktop devices.",
     "parameters": {
@@ -6387,7 +6387,7 @@ getNetworkSmDeviceDesktopLogs_function = {
     }
 }
 
-getNetworkSmDeviceDeviceCommandLogs_function = {
+getNetworkSmDeviceDeviceCommandLogs = {
     "name": "getNetworkSmDeviceDeviceCommandLogs",
     "description": "Return historical records of commands sent to Systems Manager devices. Note that this will include the name of the Dashboard user who initiated the command if it was generated by a Dashboard admin rather than the automatic behavior of the system; you may wish to filter this out of any reports.",
     "parameters": {
@@ -6403,7 +6403,7 @@ getNetworkSmDeviceDeviceCommandLogs_function = {
     }
 }
 
-getNetworkSmDeviceDeviceProfiles_function = {
+getNetworkSmDeviceDeviceProfiles = {
     "name": "getNetworkSmDeviceDeviceProfiles",
     "description": "Get the installed profiles associated with a device",
     "parameters": {
@@ -6416,7 +6416,7 @@ getNetworkSmDeviceDeviceProfiles_function = {
     }
 }
 
-getNetworkSmDeviceNetworkAdapters_function = {
+getNetworkSmDeviceNetworkAdapters = {
     "name": "getNetworkSmDeviceNetworkAdapters",
     "description": "List the network adapters of a device",
     "parameters": {
@@ -6429,7 +6429,7 @@ getNetworkSmDeviceNetworkAdapters_function = {
     }
 }
 
-getNetworkSmDevicePerformanceHistory_function = {
+getNetworkSmDevicePerformanceHistory = {
     "name": "getNetworkSmDevicePerformanceHistory",
     "description": "Return historical records of various Systems Manager client metrics for desktop devices.",
     "parameters": {
@@ -6445,7 +6445,7 @@ getNetworkSmDevicePerformanceHistory_function = {
     }
 }
 
-getNetworkSmDeviceRestrictions_function = {
+getNetworkSmDeviceRestrictions = {
     "name": "getNetworkSmDeviceRestrictions",
     "description": "List the restrictions on a device",
     "parameters": {
@@ -6458,7 +6458,7 @@ getNetworkSmDeviceRestrictions_function = {
     }
 }
 
-getNetworkSmDeviceSecurityCenters_function = {
+getNetworkSmDeviceSecurityCenters = {
     "name": "getNetworkSmDeviceSecurityCenters",
     "description": "List the security centers on a device",
     "parameters": {
@@ -6471,7 +6471,7 @@ getNetworkSmDeviceSecurityCenters_function = {
     }
 }
 
-getNetworkSmDeviceSoftwares_function = {
+getNetworkSmDeviceSoftwares = {
     "name": "getNetworkSmDeviceSoftwares",
     "description": "Get a list of softwares associated with a device",
     "parameters": {
@@ -6484,7 +6484,7 @@ getNetworkSmDeviceSoftwares_function = {
     }
 }
 
-getNetworkSmDeviceWlanLists_function = {
+getNetworkSmDeviceWlanLists = {
     "name": "getNetworkSmDeviceWlanLists",
     "description": "List the saved SSID names on a device",
     "parameters": {
@@ -6497,7 +6497,7 @@ getNetworkSmDeviceWlanLists_function = {
     }
 }
 
-getNetworkSmProfiles_function = {
+getNetworkSmProfiles = {
     "name": "getNetworkSmProfiles",
     "description": "List all profiles in a network",
     "parameters": {
@@ -6510,7 +6510,7 @@ getNetworkSmProfiles_function = {
     }
 }
 
-getNetworkSmTargetGroups_function = {
+getNetworkSmTargetGroups = {
     "name": "getNetworkSmTargetGroups",
     "description": "List the target groups in this network",
     "parameters": {
@@ -6523,7 +6523,7 @@ getNetworkSmTargetGroups_function = {
     }
 }
 
-getNetworkSmTargetGroup_function = {
+getNetworkSmTargetGroup = {
     "name": "getNetworkSmTargetGroup",
     "description": "Return a target group",
     "parameters": {
@@ -6537,7 +6537,7 @@ getNetworkSmTargetGroup_function = {
     }
 }
 
-getNetworkSmTrustedAccessConfigs_function = {
+getNetworkSmTrustedAccessConfigs = {
     "name": "getNetworkSmTrustedAccessConfigs",
     "description": "List Trusted Access Configs",
     "parameters": {
@@ -6552,7 +6552,7 @@ getNetworkSmTrustedAccessConfigs_function = {
     }
 }
 
-getNetworkSmUserAccessDevices_function = {
+getNetworkSmUserAccessDevices = {
     "name": "getNetworkSmUserAccessDevices",
     "description": "List User Access Devices and its Trusted Access Connections",
     "parameters": {
@@ -6567,7 +6567,7 @@ getNetworkSmUserAccessDevices_function = {
     }
 }
 
-getNetworkSmUsers_function = {
+getNetworkSmUsers = {
     "name": "getNetworkSmUsers",
     "description": "List the owners in an SM network with various specified fields and filters",
     "parameters": {
@@ -6583,7 +6583,7 @@ getNetworkSmUsers_function = {
     }
 }
 
-getNetworkSmUserDeviceProfiles_function = {
+getNetworkSmUserDeviceProfiles = {
     "name": "getNetworkSmUserDeviceProfiles",
     "description": "Get the profiles associated with a user",
     "parameters": {
@@ -6596,7 +6596,7 @@ getNetworkSmUserDeviceProfiles_function = {
     }
 }
 
-getNetworkSmUserSoftwares_function = {
+getNetworkSmUserSoftwares = {
     "name": "getNetworkSmUserSoftwares",
     "description": "Get a list of softwares associated with a user",
     "parameters": {
@@ -6609,7 +6609,7 @@ getNetworkSmUserSoftwares_function = {
     }
 }
 
-getNetworkSnmp_function = {
+getNetworkSnmp = {
     "name": "getNetworkSnmp",
     "description": "Return the SNMP settings for a network",
     "parameters": {
@@ -6621,7 +6621,7 @@ getNetworkSnmp_function = {
     }
 }
 
-getNetworkSplashLoginAttempts_function = {
+getNetworkSplashLoginAttempts = {
     "name": "getNetworkSplashLoginAttempts",
     "description": "List the splash login attempts for a network",
     "parameters": {
@@ -6636,7 +6636,7 @@ getNetworkSplashLoginAttempts_function = {
     }
 }
 
-getNetworkSwitchAccessControlLists_function = {
+getNetworkSwitchAccessControlLists = {
     "name": "getNetworkSwitchAccessControlLists",
     "description": "Return the access control lists for a MS network",
     "parameters": {
@@ -6648,7 +6648,7 @@ getNetworkSwitchAccessControlLists_function = {
     }
 }
 
-getNetworkSwitchAccessPolicies_function = {
+getNetworkSwitchAccessPolicies = {
     "name": "getNetworkSwitchAccessPolicies",
     "description": "List the access policies for a switch network. Only returns access policies with 'my RADIUS server' as authentication method",
     "parameters": {
@@ -6660,7 +6660,7 @@ getNetworkSwitchAccessPolicies_function = {
     }
 }
 
-getNetworkSwitchAccessPolicy_function = {
+getNetworkSwitchAccessPolicy = {
     "name": "getNetworkSwitchAccessPolicy",
     "description": "Return a specific access policy for a switch network",
     "parameters": {
@@ -6673,7 +6673,7 @@ getNetworkSwitchAccessPolicy_function = {
     }
 }
 
-getNetworkSwitchAlternateManagementInterface_function = {
+getNetworkSwitchAlternateManagementInterface = {
     "name": "getNetworkSwitchAlternateManagementInterface",
     "description": "Return the switch alternate management interface for the network",
     "parameters": {
@@ -6685,7 +6685,7 @@ getNetworkSwitchAlternateManagementInterface_function = {
     }
 }
 
-getNetworkSwitchDhcpV4ServersSeen_function = {
+getNetworkSwitchDhcpV4ServersSeen = {
     "name": "getNetworkSwitchDhcpV4ServersSeen",
     "description": "Return the network's DHCPv4 servers seen within the selected timeframe (default 1 day)",
     "parameters": {
@@ -6702,7 +6702,7 @@ getNetworkSwitchDhcpV4ServersSeen_function = {
     }
 }
 
-getNetworkSwitchDhcpServerPolicy_function = {
+getNetworkSwitchDhcpServerPolicy = {
     "name": "getNetworkSwitchDhcpServerPolicy",
     "description": "Return the DHCP server settings. Blocked/allowed servers are only applied when default policy is allow/block, respectively",
     "parameters": {
@@ -6714,7 +6714,7 @@ getNetworkSwitchDhcpServerPolicy_function = {
     }
 }
 
-getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers_function = {
+getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers = {
     "name": "getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers",
     "description": "Return the list of servers trusted by Dynamic ARP Inspection on this network. These are also known as allow listed snoop entries",
     "parameters": {
@@ -6729,7 +6729,7 @@ getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers_function = {
     }
 }
 
-getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice_function = {
+getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice = {
     "name": "getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice",
     "description": "Return the devices that have a Dynamic ARP Inspection warning and their warnings",
     "parameters": {
@@ -6744,7 +6744,7 @@ getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice_function = {
     }
 }
 
-getNetworkSwitchDscpToCosMappings_function = {
+getNetworkSwitchDscpToCosMappings = {
     "name": "getNetworkSwitchDscpToCosMappings",
     "description": "Return the DSCP to CoS mappings",
     "parameters": {
@@ -6756,7 +6756,7 @@ getNetworkSwitchDscpToCosMappings_function = {
     }
 }
 
-getNetworkSwitchLinkAggregations_function = {
+getNetworkSwitchLinkAggregations = {
     "name": "getNetworkSwitchLinkAggregations",
     "description": "List link aggregation groups",
     "parameters": {
@@ -6768,7 +6768,7 @@ getNetworkSwitchLinkAggregations_function = {
     }
 }
 
-getNetworkSwitchMtu_function = {
+getNetworkSwitchMtu = {
     "name": "getNetworkSwitchMtu",
     "description": "Return the MTU configuration",
     "parameters": {
@@ -6780,7 +6780,7 @@ getNetworkSwitchMtu_function = {
     }
 }
 
-getNetworkSwitchPortSchedules_function = {
+getNetworkSwitchPortSchedules = {
     "name": "getNetworkSwitchPortSchedules",
     "description": "List switch port schedules",
     "parameters": {
@@ -6792,7 +6792,7 @@ getNetworkSwitchPortSchedules_function = {
     }
 }
 
-getNetworkSwitchQosRules_function = {
+getNetworkSwitchQosRules = {
     "name": "getNetworkSwitchQosRules",
     "description": "List quality of service rules",
     "parameters": {
@@ -6804,7 +6804,7 @@ getNetworkSwitchQosRules_function = {
     }
 }
 
-getNetworkSwitchQosRulesOrder_function = {
+getNetworkSwitchQosRulesOrder = {
     "name": "getNetworkSwitchQosRulesOrder",
     "description": "Return the quality of service rule IDs by order in which they will be processed by the switch",
     "parameters": {
@@ -6816,7 +6816,7 @@ getNetworkSwitchQosRulesOrder_function = {
     }
 }
 
-getNetworkSwitchQosRule_function = {
+getNetworkSwitchQosRule = {
     "name": "getNetworkSwitchQosRule",
     "description": "Return a quality of service rule",
     "parameters": {
@@ -6829,7 +6829,7 @@ getNetworkSwitchQosRule_function = {
     }
 }
 
-getNetworkSwitchRoutingMulticast_function = {
+getNetworkSwitchRoutingMulticast = {
     "name": "getNetworkSwitchRoutingMulticast",
     "description": "Return multicast settings for a network",
     "parameters": {
@@ -6841,7 +6841,7 @@ getNetworkSwitchRoutingMulticast_function = {
     }
 }
 
-getNetworkSwitchRoutingMulticastRendezvousPoints_function = {
+getNetworkSwitchRoutingMulticastRendezvousPoints = {
     "name": "getNetworkSwitchRoutingMulticastRendezvousPoints",
     "description": "List multicast rendezvous points",
     "parameters": {
@@ -6853,7 +6853,7 @@ getNetworkSwitchRoutingMulticastRendezvousPoints_function = {
     }
 }
 
-getNetworkSwitchRoutingMulticastRendezvousPoint_function = {
+getNetworkSwitchRoutingMulticastRendezvousPoint = {
     "name": "getNetworkSwitchRoutingMulticastRendezvousPoint",
     "description": "Return a multicast rendezvous point",
     "parameters": {
@@ -6866,7 +6866,7 @@ getNetworkSwitchRoutingMulticastRendezvousPoint_function = {
     }
 }
 
-getNetworkSwitchRoutingOspf_function = {
+getNetworkSwitchRoutingOspf = {
     "name": "getNetworkSwitchRoutingOspf",
     "description": "Return layer 3 OSPF routing configuration",
     "parameters": {
@@ -6878,7 +6878,7 @@ getNetworkSwitchRoutingOspf_function = {
     }
 }
 
-getNetworkSwitchSettings_function = {
+getNetworkSwitchSettings = {
     "name": "getNetworkSwitchSettings",
     "description": "Returns the switch network settings",
     "parameters": {
@@ -6890,7 +6890,7 @@ getNetworkSwitchSettings_function = {
     }
 }
 
-getNetworkSwitchStacks_function = {
+getNetworkSwitchStacks = {
     "name": "getNetworkSwitchStacks",
     "description": "List the switch stacks in a network",
     "parameters": {
@@ -6902,7 +6902,7 @@ getNetworkSwitchStacks_function = {
     }
 }
 
-getNetworkSwitchStack_function = {
+getNetworkSwitchStack = {
     "name": "getNetworkSwitchStack",
     "description": "Show a switch stack",
     "parameters": {
@@ -6915,7 +6915,7 @@ getNetworkSwitchStack_function = {
     }
 }
 
-getNetworkSwitchStackRoutingInterfaces_function = {
+getNetworkSwitchStackRoutingInterfaces = {
     "name": "getNetworkSwitchStackRoutingInterfaces",
     "description": "List layer 3 interfaces for a switch stack",
     "parameters": {
@@ -6928,7 +6928,7 @@ getNetworkSwitchStackRoutingInterfaces_function = {
     }
 }
 
-getNetworkSwitchStackRoutingInterface_function = {
+getNetworkSwitchStackRoutingInterface = {
     "name": "getNetworkSwitchStackRoutingInterface",
     "description": "Return a layer 3 interface from a switch stack",
     "parameters": {
@@ -6942,7 +6942,7 @@ getNetworkSwitchStackRoutingInterface_function = {
     }
 }
 
-getNetworkSwitchStackRoutingInterfaceDhcp_function = {
+getNetworkSwitchStackRoutingInterfaceDhcp = {
     "name": "getNetworkSwitchStackRoutingInterfaceDhcp",
     "description": "Return a layer 3 interface DHCP configuration for a switch stack",
     "parameters": {
@@ -6956,7 +6956,7 @@ getNetworkSwitchStackRoutingInterfaceDhcp_function = {
     }
 }
 
-getNetworkSwitchStackRoutingStaticRoutes_function = {
+getNetworkSwitchStackRoutingStaticRoutes = {
     "name": "getNetworkSwitchStackRoutingStaticRoutes",
     "description": "List layer 3 static routes for a switch stack",
     "parameters": {
@@ -6969,7 +6969,7 @@ getNetworkSwitchStackRoutingStaticRoutes_function = {
     }
 }
 
-getNetworkSwitchStackRoutingStaticRoute_function = {
+getNetworkSwitchStackRoutingStaticRoute = {
     "name": "getNetworkSwitchStackRoutingStaticRoute",
     "description": "Return a layer 3 static route for a switch stack",
     "parameters": {
@@ -6983,7 +6983,7 @@ getNetworkSwitchStackRoutingStaticRoute_function = {
     }
 }
 
-getNetworkSwitchStormControl_function = {
+getNetworkSwitchStormControl = {
     "name": "getNetworkSwitchStormControl",
     "description": "Return the storm control configuration for a switch network",
     "parameters": {
@@ -6995,7 +6995,7 @@ getNetworkSwitchStormControl_function = {
     }
 }
 
-getNetworkSwitchStp_function = {
+getNetworkSwitchStp = {
     "name": "getNetworkSwitchStp",
     "description": "Returns STP settings",
     "parameters": {
@@ -7007,7 +7007,7 @@ getNetworkSwitchStp_function = {
     }
 }
 
-getNetworkSyslogServers_function = {
+getNetworkSyslogServers = {
     "name": "getNetworkSyslogServers",
     "description": "List the syslog servers for a network",
     "parameters": {
@@ -7019,7 +7019,7 @@ getNetworkSyslogServers_function = {
     }
 }
 
-getNetworkTopologyLinkLayer_function = {
+getNetworkTopologyLinkLayer = {
     "name": "getNetworkTopologyLinkLayer",
     "description": "List the LLDP and CDP information for all discovered devices and connections in a network. At least one MX or MS device must be in the network in order to build the topology.",
     "parameters": {
@@ -7031,7 +7031,7 @@ getNetworkTopologyLinkLayer_function = {
     }
 }
 
-getNetworkTraffic_function = {
+getNetworkTraffic = {
     "name": "getNetworkTraffic",
     "description": "Return the traffic analysis data for this network. Traffic analysis with hostname visibility must be enabled on the network.",
     "parameters": {
@@ -7046,7 +7046,7 @@ getNetworkTraffic_function = {
     }
 }
 
-getNetworkTrafficAnalysis_function = {
+getNetworkTrafficAnalysis = {
     "name": "getNetworkTrafficAnalysis",
     "description": "Return the traffic analysis settings for a network",
     "parameters": {
@@ -7058,7 +7058,7 @@ getNetworkTrafficAnalysis_function = {
     }
 }
 
-getNetworkTrafficShapingApplicationCategories_function = {
+getNetworkTrafficShapingApplicationCategories = {
     "name": "getNetworkTrafficShapingApplicationCategories",
     "description": "Returns the application categories for traffic shaping rules. Only applicable on networks with a security applicance.",
     "parameters": {
@@ -7070,7 +7070,7 @@ getNetworkTrafficShapingApplicationCategories_function = {
     }
 }
 
-getNetworkTrafficShapingDscpTaggingOptions_function = {
+getNetworkTrafficShapingDscpTaggingOptions = {
     "name": "getNetworkTrafficShapingDscpTaggingOptions",
     "description": "Returns the available DSCP tagging options for your traffic shaping rules.",
     "parameters": {
@@ -7082,7 +7082,7 @@ getNetworkTrafficShapingDscpTaggingOptions_function = {
     }
 }
 
-getNetworkVlanProfiles_function = {
+getNetworkVlanProfiles = {
     "name": "getNetworkVlanProfiles",
     "description": "List VLAN profiles for a network",
     "parameters": {
@@ -7094,7 +7094,7 @@ getNetworkVlanProfiles_function = {
     }
 }
 
-getNetworkVlanProfilesAssignmentsByDevice_function = {
+getNetworkVlanProfilesAssignmentsByDevice = {
     "name": "getNetworkVlanProfilesAssignmentsByDevice",
     "description": "Get the assigned VLAN Profiles for devices in a network",
     "parameters": {
@@ -7112,7 +7112,7 @@ getNetworkVlanProfilesAssignmentsByDevice_function = {
     }
 }
 
-getNetworkVlanProfile_function = {
+getNetworkVlanProfile = {
     "name": "getNetworkVlanProfile",
     "description": "Get an existing VLAN profile of a network",
     "parameters": {
@@ -7125,7 +7125,7 @@ getNetworkVlanProfile_function = {
     }
 }
 
-getNetworkWebhooksHttpServers_function = {
+getNetworkWebhooksHttpServers = {
     "name": "getNetworkWebhooksHttpServers",
     "description": "List the HTTP servers for a network",
     "parameters": {
@@ -7137,7 +7137,7 @@ getNetworkWebhooksHttpServers_function = {
     }
 }
 
-getNetworkWebhooksHttpServer_function = {
+getNetworkWebhooksHttpServer = {
     "name": "getNetworkWebhooksHttpServer",
     "description": "Return an HTTP server for a network",
     "parameters": {
@@ -7150,7 +7150,7 @@ getNetworkWebhooksHttpServer_function = {
     }
 }
 
-getNetworkWebhooksPayloadTemplates_function = {
+getNetworkWebhooksPayloadTemplates = {
     "name": "getNetworkWebhooksPayloadTemplates",
     "description": "List the webhook payload templates for a network",
     "parameters": {
@@ -7162,7 +7162,7 @@ getNetworkWebhooksPayloadTemplates_function = {
     }
 }
 
-getNetworkWebhooksPayloadTemplate_function = {
+getNetworkWebhooksPayloadTemplate = {
     "name": "getNetworkWebhooksPayloadTemplate",
     "description": "Get the webhook payload template for a network",
     "parameters": {
@@ -7175,7 +7175,7 @@ getNetworkWebhooksPayloadTemplate_function = {
     }
 }
 
-getNetworkWebhooksWebhookTest_function = {
+getNetworkWebhooksWebhookTest = {
     "name": "getNetworkWebhooksWebhookTest",
     "description": "Return the status of a webhook test for a network",
     "parameters": {
@@ -7188,7 +7188,7 @@ getNetworkWebhooksWebhookTest_function = {
     }
 }
 
-getNetworkWirelessAirMarshal_function = {
+getNetworkWirelessAirMarshal = {
     "name": "getNetworkWirelessAirMarshal",
     "description": "List Air Marshal scan results from a network",
     "parameters": {
@@ -7202,7 +7202,7 @@ getNetworkWirelessAirMarshal_function = {
     }
 }
 
-getNetworkWirelessAlternateManagementInterface_function = {
+getNetworkWirelessAlternateManagementInterface = {
     "name": "getNetworkWirelessAlternateManagementInterface",
     "description": "Return alternate management interface and devices with IP assigned",
     "parameters": {
@@ -7214,7 +7214,7 @@ getNetworkWirelessAlternateManagementInterface_function = {
     }
 }
 
-getNetworkWirelessBilling_function = {
+getNetworkWirelessBilling = {
     "name": "getNetworkWirelessBilling",
     "description": "Return the billing settings of this network",
     "parameters": {
@@ -7226,7 +7226,7 @@ getNetworkWirelessBilling_function = {
     }
 }
 
-getNetworkWirelessBluetoothSettings_function = {
+getNetworkWirelessBluetoothSettings = {
     "name": "getNetworkWirelessBluetoothSettings",
     "description": "Return the Bluetooth settings for a network. <a href=\"https://documentation.meraki.com/MR/Bluetooth/Bluetooth_Low_Energy_(BLE)\">Bluetooth settings</a> must be enabled on the network.",
     "parameters": {
@@ -7238,7 +7238,7 @@ getNetworkWirelessBluetoothSettings_function = {
     }
 }
 
-getNetworkWirelessChannelUtilizationHistory_function = {
+getNetworkWirelessChannelUtilizationHistory = {
     "name": "getNetworkWirelessChannelUtilizationHistory",
     "description": "Return AP channel utilization over time for a device or network client",
     "parameters": {
@@ -7259,7 +7259,7 @@ getNetworkWirelessChannelUtilizationHistory_function = {
     }
 }
 
-getNetworkWirelessClientCountHistory_function = {
+getNetworkWirelessClientCountHistory = {
     "name": "getNetworkWirelessClientCountHistory",
     "description": "Return wireless client counts over time for a network, device, or network client",
     "parameters": {
@@ -7281,7 +7281,7 @@ getNetworkWirelessClientCountHistory_function = {
     }
 }
 
-getNetworkWirelessClientsConnectionStats_function = {
+getNetworkWirelessClientsConnectionStats = {
     "name": "getNetworkWirelessClientsConnectionStats",
     "description": "Aggregated connectivity info for this network, grouped by clients",
     "parameters": {
@@ -7300,7 +7300,7 @@ getNetworkWirelessClientsConnectionStats_function = {
     }
 }
 
-getNetworkWirelessClientsLatencyStats_function = {
+getNetworkWirelessClientsLatencyStats = {
     "name": "getNetworkWirelessClientsLatencyStats",
     "description": "Aggregated latency info for this network, grouped by clients",
     "parameters": {
@@ -7320,7 +7320,7 @@ getNetworkWirelessClientsLatencyStats_function = {
     }
 }
 
-getNetworkWirelessClientConnectionStats_function = {
+getNetworkWirelessClientConnectionStats = {
     "name": "getNetworkWirelessClientConnectionStats",
     "description": "Aggregated connectivity info for a given client on this network. Clients are identified by their MAC.",
     "parameters": {
@@ -7340,7 +7340,7 @@ getNetworkWirelessClientConnectionStats_function = {
     }
 }
 
-getNetworkWirelessClientConnectivityEvents_function = {
+getNetworkWirelessClientConnectivityEvents = {
     "name": "getNetworkWirelessClientConnectivityEvents",
     "description": "List the wireless connectivity events for a client within a network in the timespan.",
     "parameters": {
@@ -7365,7 +7365,7 @@ getNetworkWirelessClientConnectivityEvents_function = {
     }
 }
 
-getNetworkWirelessClientLatencyHistory_function = {
+getNetworkWirelessClientLatencyHistory = {
     "name": "getNetworkWirelessClientLatencyHistory",
     "description": "Return the latency history for a client. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP. The latency data is from a sample of 2% of packets and is grouped into 4 traffic categories: background, best effort, video, voice. Within these categories the sampled packet counters are bucketed by latency in milliseconds.",
     "parameters": {
@@ -7382,7 +7382,7 @@ getNetworkWirelessClientLatencyHistory_function = {
     }
 }
 
-getNetworkWirelessClientLatencyStats_function = {
+getNetworkWirelessClientLatencyStats = {
     "name": "getNetworkWirelessClientLatencyStats",
     "description": "Aggregated latency info for a given client on this network. Clients are identified by their MAC.",
     "parameters": {
@@ -7403,7 +7403,7 @@ getNetworkWirelessClientLatencyStats_function = {
     }
 }
 
-getNetworkWirelessConnectionStats_function = {
+getNetworkWirelessConnectionStats = {
     "name": "getNetworkWirelessConnectionStats",
     "description": "Aggregated connectivity info for this network",
     "parameters": {
@@ -7422,7 +7422,7 @@ getNetworkWirelessConnectionStats_function = {
     }
 }
 
-getNetworkWirelessDataRateHistory_function = {
+getNetworkWirelessDataRateHistory = {
     "name": "getNetworkWirelessDataRateHistory",
     "description": "Return PHY data rates over time for a network, device, or network client",
     "parameters": {
@@ -7444,7 +7444,7 @@ getNetworkWirelessDataRateHistory_function = {
     }
 }
 
-getNetworkWirelessDevicesConnectionStats_function = {
+getNetworkWirelessDevicesConnectionStats = {
     "name": "getNetworkWirelessDevicesConnectionStats",
     "description": "Aggregated connectivity info for this network, grouped by node",
     "parameters": {
@@ -7463,7 +7463,7 @@ getNetworkWirelessDevicesConnectionStats_function = {
     }
 }
 
-getNetworkWirelessDevicesLatencyStats_function = {
+getNetworkWirelessDevicesLatencyStats = {
     "name": "getNetworkWirelessDevicesLatencyStats",
     "description": "Aggregated latency info for this network, grouped by node",
     "parameters": {
@@ -7483,7 +7483,7 @@ getNetworkWirelessDevicesLatencyStats_function = {
     }
 }
 
-getNetworkWirelessElectronicShelfLabel_function = {
+getNetworkWirelessElectronicShelfLabel = {
     "name": "getNetworkWirelessElectronicShelfLabel",
     "description": "Return the ESL settings of a wireless network",
     "parameters": {
@@ -7495,7 +7495,7 @@ getNetworkWirelessElectronicShelfLabel_function = {
     }
 }
 
-getNetworkWirelessElectronicShelfLabelConfiguredDevices_function = {
+getNetworkWirelessElectronicShelfLabelConfiguredDevices = {
     "name": "getNetworkWirelessElectronicShelfLabelConfiguredDevices",
     "description": "Get a list of all ESL eligible devices of a network",
     "parameters": {
@@ -7507,7 +7507,7 @@ getNetworkWirelessElectronicShelfLabelConfiguredDevices_function = {
     }
 }
 
-getNetworkWirelessEthernetPortsProfiles_function = {
+getNetworkWirelessEthernetPortsProfiles = {
     "name": "getNetworkWirelessEthernetPortsProfiles",
     "description": "List the AP port profiles for this network",
     "parameters": {
@@ -7519,7 +7519,7 @@ getNetworkWirelessEthernetPortsProfiles_function = {
     }
 }
 
-getNetworkWirelessEthernetPortsProfile_function = {
+getNetworkWirelessEthernetPortsProfile = {
     "name": "getNetworkWirelessEthernetPortsProfile",
     "description": "Show the AP port profile by ID for this network",
     "parameters": {
@@ -7532,7 +7532,7 @@ getNetworkWirelessEthernetPortsProfile_function = {
     }
 }
 
-getNetworkWirelessFailedConnections_function = {
+getNetworkWirelessFailedConnections = {
     "name": "getNetworkWirelessFailedConnections",
     "description": "List of all failed client connection events on this network in a given time range",
     "parameters": {
@@ -7553,7 +7553,7 @@ getNetworkWirelessFailedConnections_function = {
     }
 }
 
-getNetworkWirelessLatencyHistory_function = {
+getNetworkWirelessLatencyHistory = {
     "name": "getNetworkWirelessLatencyHistory",
     "description": "Return average wireless latency over time for a network, device, or network client",
     "parameters": {
@@ -7576,7 +7576,7 @@ getNetworkWirelessLatencyHistory_function = {
     }
 }
 
-getNetworkWirelessLatencyStats_function = {
+getNetworkWirelessLatencyStats = {
     "name": "getNetworkWirelessLatencyStats",
     "description": "Aggregated latency info for this network",
     "parameters": {
@@ -7596,7 +7596,7 @@ getNetworkWirelessLatencyStats_function = {
     }
 }
 
-getNetworkWirelessMeshStatuses_function = {
+getNetworkWirelessMeshStatuses = {
     "name": "getNetworkWirelessMeshStatuses",
     "description": "List wireless mesh statuses for repeaters",
     "parameters": {
@@ -7611,7 +7611,7 @@ getNetworkWirelessMeshStatuses_function = {
     }
 }
 
-getNetworkWirelessRfProfiles_function = {
+getNetworkWirelessRfProfiles = {
     "name": "getNetworkWirelessRfProfiles",
     "description": "List RF profiles for this network",
     "parameters": {
@@ -7624,7 +7624,7 @@ getNetworkWirelessRfProfiles_function = {
     }
 }
 
-getNetworkWirelessRfProfile_function = {
+getNetworkWirelessRfProfile = {
     "name": "getNetworkWirelessRfProfile",
     "description": "Return a RF profile",
     "parameters": {
@@ -7637,7 +7637,7 @@ getNetworkWirelessRfProfile_function = {
     }
 }
 
-getNetworkWirelessSettings_function = {
+getNetworkWirelessSettings = {
     "name": "getNetworkWirelessSettings",
     "description": "Return the wireless settings for a network",
     "parameters": {
@@ -7649,7 +7649,7 @@ getNetworkWirelessSettings_function = {
     }
 }
 
-getNetworkWirelessSignalQualityHistory_function = {
+getNetworkWirelessSignalQualityHistory = {
     "name": "getNetworkWirelessSignalQualityHistory",
     "description": "Return signal quality (SNR/RSSI) over time for a device or network client",
     "parameters": {
@@ -7671,7 +7671,7 @@ getNetworkWirelessSignalQualityHistory_function = {
     }
 }
 
-getNetworkWirelessSsids_function = {
+getNetworkWirelessSsids = {
     "name": "getNetworkWirelessSsids",
     "description": "List the MR SSIDs in a network",
     "parameters": {
@@ -7683,7 +7683,7 @@ getNetworkWirelessSsids_function = {
     }
 }
 
-getNetworkWirelessSsid_function = {
+getNetworkWirelessSsid = {
     "name": "getNetworkWirelessSsid",
     "description": "Return a single MR SSID",
     "parameters": {
@@ -7696,7 +7696,7 @@ getNetworkWirelessSsid_function = {
     }
 }
 
-getNetworkWirelessSsidBonjourForwarding_function = {
+getNetworkWirelessSsidBonjourForwarding = {
     "name": "getNetworkWirelessSsidBonjourForwarding",
     "description": "List the Bonjour forwarding setting and rules for the SSID",
     "parameters": {
@@ -7709,7 +7709,7 @@ getNetworkWirelessSsidBonjourForwarding_function = {
     }
 }
 
-getNetworkWirelessSsidDeviceTypeGroupPolicies_function = {
+getNetworkWirelessSsidDeviceTypeGroupPolicies = {
     "name": "getNetworkWirelessSsidDeviceTypeGroupPolicies",
     "description": "List the device type group policies for the SSID",
     "parameters": {
@@ -7722,7 +7722,7 @@ getNetworkWirelessSsidDeviceTypeGroupPolicies_function = {
     }
 }
 
-getNetworkWirelessSsidEapOverride_function = {
+getNetworkWirelessSsidEapOverride = {
     "name": "getNetworkWirelessSsidEapOverride",
     "description": "Return the EAP overridden parameters for an SSID",
     "parameters": {
@@ -7735,7 +7735,7 @@ getNetworkWirelessSsidEapOverride_function = {
     }
 }
 
-getNetworkWirelessSsidFirewallL3FirewallRules_function = {
+getNetworkWirelessSsidFirewallL3FirewallRules = {
     "name": "getNetworkWirelessSsidFirewallL3FirewallRules",
     "description": "Return the L3 firewall rules for an SSID on an MR network",
     "parameters": {
@@ -7748,7 +7748,7 @@ getNetworkWirelessSsidFirewallL3FirewallRules_function = {
     }
 }
 
-getNetworkWirelessSsidFirewallL7FirewallRules_function = {
+getNetworkWirelessSsidFirewallL7FirewallRules = {
     "name": "getNetworkWirelessSsidFirewallL7FirewallRules",
     "description": "Return the L7 firewall rules for an SSID on an MR network",
     "parameters": {
@@ -7761,7 +7761,7 @@ getNetworkWirelessSsidFirewallL7FirewallRules_function = {
     }
 }
 
-getNetworkWirelessSsidHotspot20_function = {
+getNetworkWirelessSsidHotspot20 = {
     "name": "getNetworkWirelessSsidHotspot20",
     "description": "Return the Hotspot 2.0 settings for an SSID",
     "parameters": {
@@ -7774,7 +7774,7 @@ getNetworkWirelessSsidHotspot20_function = {
     }
 }
 
-getNetworkWirelessSsidIdentityPsks_function = {
+getNetworkWirelessSsidIdentityPsks = {
     "name": "getNetworkWirelessSsidIdentityPsks",
     "description": "List all Identity PSKs in a wireless network",
     "parameters": {
@@ -7787,7 +7787,7 @@ getNetworkWirelessSsidIdentityPsks_function = {
     }
 }
 
-getNetworkWirelessSsidIdentityPsk_function = {
+getNetworkWirelessSsidIdentityPsk = {
     "name": "getNetworkWirelessSsidIdentityPsk",
     "description": "Return an Identity PSK",
     "parameters": {
@@ -7801,7 +7801,7 @@ getNetworkWirelessSsidIdentityPsk_function = {
     }
 }
 
-getNetworkWirelessSsidSchedules_function = {
+getNetworkWirelessSsidSchedules = {
     "name": "getNetworkWirelessSsidSchedules",
     "description": "List the outage schedule for the SSID",
     "parameters": {
@@ -7814,7 +7814,7 @@ getNetworkWirelessSsidSchedules_function = {
     }
 }
 
-getNetworkWirelessSsidSplashSettings_function = {
+getNetworkWirelessSsidSplashSettings = {
     "name": "getNetworkWirelessSsidSplashSettings",
     "description": "Display the splash page settings for the given SSID",
     "parameters": {
@@ -7827,7 +7827,7 @@ getNetworkWirelessSsidSplashSettings_function = {
     }
 }
 
-getNetworkWirelessSsidTrafficShapingRules_function = {
+getNetworkWirelessSsidTrafficShapingRules = {
     "name": "getNetworkWirelessSsidTrafficShapingRules",
     "description": "Display the traffic shaping settings for a SSID on an MR network",
     "parameters": {
@@ -7840,7 +7840,7 @@ getNetworkWirelessSsidTrafficShapingRules_function = {
     }
 }
 
-getNetworkWirelessSsidVpn_function = {
+getNetworkWirelessSsidVpn = {
     "name": "getNetworkWirelessSsidVpn",
     "description": "List the VPN settings for the SSID.",
     "parameters": {
@@ -7853,7 +7853,7 @@ getNetworkWirelessSsidVpn_function = {
     }
 }
 
-getNetworkWirelessUsageHistory_function = {
+getNetworkWirelessUsageHistory = {
     "name": "getNetworkWirelessUsageHistory",
     "description": "Return AP usage over time for a device or network client",
     "parameters": {
@@ -7875,7 +7875,7 @@ getNetworkWirelessUsageHistory_function = {
     }
 }
 
-getOrganizations_function = {
+getOrganizations = {
     "name": "getOrganizations",
     "description": "List the organizations that the user has privileges on",
     "parameters": {
@@ -7889,7 +7889,7 @@ getOrganizations_function = {
     }
 }
 
-getOrganization_function = {
+getOrganization = {
     "name": "getOrganization",
     "description": "Return an organization",
     "parameters": {
@@ -7901,7 +7901,7 @@ getOrganization_function = {
     }
 }
 
-getOrganizationActionBatches_function = {
+getOrganizationActionBatches = {
     "name": "getOrganizationActionBatches",
     "description": "Return the list of action batches in the organization",
     "parameters": {
@@ -7914,7 +7914,7 @@ getOrganizationActionBatches_function = {
     }
 }
 
-getOrganizationActionBatch_function = {
+getOrganizationActionBatch = {
     "name": "getOrganizationActionBatch",
     "description": "Return an action batch",
     "parameters": {
@@ -7927,7 +7927,7 @@ getOrganizationActionBatch_function = {
     }
 }
 
-getOrganizationAdaptivePolicyAcls_function = {
+getOrganizationAdaptivePolicyAcls = {
     "name": "getOrganizationAdaptivePolicyAcls",
     "description": "List adaptive policy ACLs in a organization",
     "parameters": {
@@ -7939,7 +7939,7 @@ getOrganizationAdaptivePolicyAcls_function = {
     }
 }
 
-getOrganizationAdaptivePolicyAcl_function = {
+getOrganizationAdaptivePolicyAcl = {
     "name": "getOrganizationAdaptivePolicyAcl",
     "description": "Returns the adaptive policy ACL information",
     "parameters": {
@@ -7952,7 +7952,7 @@ getOrganizationAdaptivePolicyAcl_function = {
     }
 }
 
-getOrganizationAdaptivePolicyGroups_function = {
+getOrganizationAdaptivePolicyGroups = {
     "name": "getOrganizationAdaptivePolicyGroups",
     "description": "List adaptive policy groups in a organization",
     "parameters": {
@@ -7964,7 +7964,7 @@ getOrganizationAdaptivePolicyGroups_function = {
     }
 }
 
-getOrganizationAdaptivePolicyGroup_function = {
+getOrganizationAdaptivePolicyGroup = {
     "name": "getOrganizationAdaptivePolicyGroup",
     "description": "Returns an adaptive policy group",
     "parameters": {
@@ -7977,7 +7977,7 @@ getOrganizationAdaptivePolicyGroup_function = {
     }
 }
 
-getOrganizationAdaptivePolicyOverview_function = {
+getOrganizationAdaptivePolicyOverview = {
     "name": "getOrganizationAdaptivePolicyOverview",
     "description": "Returns adaptive policy aggregate statistics for an organization",
     "parameters": {
@@ -7989,7 +7989,7 @@ getOrganizationAdaptivePolicyOverview_function = {
     }
 }
 
-getOrganizationAdaptivePolicyPolicies_function = {
+getOrganizationAdaptivePolicyPolicies = {
     "name": "getOrganizationAdaptivePolicyPolicies",
     "description": "List adaptive policies in an organization",
     "parameters": {
@@ -8001,7 +8001,7 @@ getOrganizationAdaptivePolicyPolicies_function = {
     }
 }
 
-getOrganizationAdaptivePolicyPolicy_function = {
+getOrganizationAdaptivePolicyPolicy = {
     "name": "getOrganizationAdaptivePolicyPolicy",
     "description": "Return an adaptive policy",
     "parameters": {
@@ -8014,7 +8014,7 @@ getOrganizationAdaptivePolicyPolicy_function = {
     }
 }
 
-getOrganizationAdaptivePolicySettings_function = {
+getOrganizationAdaptivePolicySettings = {
     "name": "getOrganizationAdaptivePolicySettings",
     "description": "Returns global adaptive policy settings in an organization",
     "parameters": {
@@ -8026,7 +8026,7 @@ getOrganizationAdaptivePolicySettings_function = {
     }
 }
 
-getOrganizationAdmins_function = {
+getOrganizationAdmins = {
     "name": "getOrganizationAdmins",
     "description": "List the dashboard administrators in this organization",
     "parameters": {
@@ -8039,7 +8039,7 @@ getOrganizationAdmins_function = {
     }
 }
 
-getOrganizationAlertsProfiles_function = {
+getOrganizationAlertsProfiles = {
     "name": "getOrganizationAlertsProfiles",
     "description": "List all organization-wide alert configurations",
     "parameters": {
@@ -8051,7 +8051,7 @@ getOrganizationAlertsProfiles_function = {
     }
 }
 
-getOrganizationApiRequests_function = {
+getOrganizationApiRequests = {
     "name": "getOrganizationApiRequests",
     "description": "List the API requests made by an organization",
     "parameters": {
@@ -8077,7 +8077,7 @@ getOrganizationApiRequests_function = {
     }
 }
 
-getOrganizationApiRequestsOverview_function = {
+getOrganizationApiRequestsOverview = {
     "name": "getOrganizationApiRequestsOverview",
     "description": "Return an aggregated overview of API requests data",
     "parameters": {
@@ -8092,7 +8092,7 @@ getOrganizationApiRequestsOverview_function = {
     }
 }
 
-getOrganizationApiRequestsOverviewResponseCodesByInterval_function = {
+getOrganizationApiRequestsOverviewResponseCodesByInterval = {
     "name": "getOrganizationApiRequestsOverviewResponseCodesByInterval",
     "description": "Tracks organizations' API requests by response code across a given time period",
     "parameters": {
@@ -8113,7 +8113,7 @@ getOrganizationApiRequestsOverviewResponseCodesByInterval_function = {
     }
 }
 
-getOrganizationApplianceSecurityEvents_function = {
+getOrganizationApplianceSecurityEvents = {
     "name": "getOrganizationApplianceSecurityEvents",
     "description": "List the security events for an organization",
     "parameters": {
@@ -8132,7 +8132,7 @@ getOrganizationApplianceSecurityEvents_function = {
     }
 }
 
-getOrganizationApplianceSecurityIntrusion_function = {
+getOrganizationApplianceSecurityIntrusion = {
     "name": "getOrganizationApplianceSecurityIntrusion",
     "description": "Returns all supported intrusion settings for an organization",
     "parameters": {
@@ -8144,7 +8144,7 @@ getOrganizationApplianceSecurityIntrusion_function = {
     }
 }
 
-getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork_function = {
+getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork = {
     "name": "getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork",
     "description": "Display VPN exclusion rules for MX networks.",
     "parameters": {
@@ -8160,7 +8160,7 @@ getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork_function = {
     }
 }
 
-getOrganizationApplianceUplinkStatuses_function = {
+getOrganizationApplianceUplinkStatuses = {
     "name": "getOrganizationApplianceUplinkStatuses",
     "description": "List the uplink status of every Meraki MX and Z series appliances in the organization",
     "parameters": {
@@ -8178,7 +8178,7 @@ getOrganizationApplianceUplinkStatuses_function = {
     }
 }
 
-getOrganizationApplianceUplinksStatusesOverview_function = {
+getOrganizationApplianceUplinksStatusesOverview = {
     "name": "getOrganizationApplianceUplinksStatusesOverview",
     "description": "Returns an overview of uplink statuses",
     "parameters": {
@@ -8190,7 +8190,7 @@ getOrganizationApplianceUplinksStatusesOverview_function = {
     }
 }
 
-getOrganizationApplianceUplinksUsageByNetwork_function = {
+getOrganizationApplianceUplinksUsageByNetwork = {
     "name": "getOrganizationApplianceUplinksUsageByNetwork",
     "description": "Get the sent and received bytes for each uplink of all MX and Z networks within an organization. If more than one device was active during the specified timespan, then the sent and received bytes will be aggregated by interface.",
     "parameters": {
@@ -8205,7 +8205,7 @@ getOrganizationApplianceUplinksUsageByNetwork_function = {
     }
 }
 
-getOrganizationApplianceVpnStats_function = {
+getOrganizationApplianceVpnStats = {
     "name": "getOrganizationApplianceVpnStats",
     "description": "Show VPN history stat for networks in an organization",
     "parameters": {
@@ -8224,7 +8224,7 @@ getOrganizationApplianceVpnStats_function = {
     }
 }
 
-getOrganizationApplianceVpnStatuses_function = {
+getOrganizationApplianceVpnStatuses = {
     "name": "getOrganizationApplianceVpnStatuses",
     "description": "Show VPN status for networks in an organization",
     "parameters": {
@@ -8240,7 +8240,7 @@ getOrganizationApplianceVpnStatuses_function = {
     }
 }
 
-getOrganizationApplianceVpnThirdPartyVPNPeers_function = {
+getOrganizationApplianceVpnThirdPartyVPNPeers = {
     "name": "getOrganizationApplianceVpnThirdPartyVPNPeers",
     "description": "Return the third party VPN peers for an organization",
     "parameters": {
@@ -8252,7 +8252,7 @@ getOrganizationApplianceVpnThirdPartyVPNPeers_function = {
     }
 }
 
-getOrganizationApplianceVpnVpnFirewallRules_function = {
+getOrganizationApplianceVpnVpnFirewallRules = {
     "name": "getOrganizationApplianceVpnVpnFirewallRules",
     "description": "Return the firewall rules for an organization's site-to-site VPN",
     "parameters": {
@@ -8264,7 +8264,7 @@ getOrganizationApplianceVpnVpnFirewallRules_function = {
     }
 }
 
-getOrganizationAssuranceAlerts_function = {
+getOrganizationAssuranceAlerts = {
     "name": "getOrganizationAssuranceAlerts",
     "description": "Return all health alerts for an organization",
     "parameters": {
@@ -8294,7 +8294,7 @@ getOrganizationAssuranceAlerts_function = {
     }
 }
 
-getOrganizationAssuranceAlertsOverview_function = {
+getOrganizationAssuranceAlertsOverview = {
     "name": "getOrganizationAssuranceAlertsOverview",
     "description": "Return overview of active health alerts for an organization",
     "parameters": {
@@ -8319,7 +8319,7 @@ getOrganizationAssuranceAlertsOverview_function = {
     }
 }
 
-getOrganizationAssuranceAlertsOverviewByNetwork_function = {
+getOrganizationAssuranceAlertsOverviewByNetwork = {
     "name": "getOrganizationAssuranceAlertsOverviewByNetwork",
     "description": "Return a Summary of Alerts grouped by network and severity",
     "parameters": {
@@ -8348,7 +8348,7 @@ getOrganizationAssuranceAlertsOverviewByNetwork_function = {
     }
 }
 
-getOrganizationAssuranceAlertsOverviewByType_function = {
+getOrganizationAssuranceAlertsOverviewByType = {
     "name": "getOrganizationAssuranceAlertsOverviewByType",
     "description": "Return a Summary of Alerts grouped by type and severity",
     "parameters": {
@@ -8378,7 +8378,7 @@ getOrganizationAssuranceAlertsOverviewByType_function = {
     }
 }
 
-getOrganizationAssuranceAlertsOverviewHistorical_function = {
+getOrganizationAssuranceAlertsOverviewHistorical = {
     "name": "getOrganizationAssuranceAlertsOverviewHistorical",
     "description": "Returns historical health alert overviews",
     "parameters": {
@@ -8399,7 +8399,7 @@ getOrganizationAssuranceAlertsOverviewHistorical_function = {
     }
 }
 
-getOrganizationAssuranceAlert_function = {
+getOrganizationAssuranceAlert = {
     "name": "getOrganizationAssuranceAlert",
     "description": "Return a singular Health Alert by its id",
     "parameters": {
@@ -8412,7 +8412,7 @@ getOrganizationAssuranceAlert_function = {
     }
 }
 
-getOrganizationBrandingPolicies_function = {
+getOrganizationBrandingPolicies = {
     "name": "getOrganizationBrandingPolicies",
     "description": "List the branding policies of an organization",
     "parameters": {
@@ -8424,7 +8424,7 @@ getOrganizationBrandingPolicies_function = {
     }
 }
 
-getOrganizationBrandingPoliciesPriorities_function = {
+getOrganizationBrandingPoliciesPriorities = {
     "name": "getOrganizationBrandingPoliciesPriorities",
     "description": "Return the branding policy IDs of an organization in priority order. IDs are ordered in ascending order of priority (IDs later in the array have higher priority).",
     "parameters": {
@@ -8436,7 +8436,7 @@ getOrganizationBrandingPoliciesPriorities_function = {
     }
 }
 
-getOrganizationBrandingPolicy_function = {
+getOrganizationBrandingPolicy = {
     "name": "getOrganizationBrandingPolicy",
     "description": "Return a branding policy",
     "parameters": {
@@ -8449,7 +8449,7 @@ getOrganizationBrandingPolicy_function = {
     }
 }
 
-getOrganizationCameraBoundariesAreasByDevice_function = {
+getOrganizationCameraBoundariesAreasByDevice = {
     "name": "getOrganizationCameraBoundariesAreasByDevice",
     "description": "Returns all configured area boundaries of cameras",
     "parameters": {
@@ -8462,7 +8462,7 @@ getOrganizationCameraBoundariesAreasByDevice_function = {
     }
 }
 
-getOrganizationCameraBoundariesLinesByDevice_function = {
+getOrganizationCameraBoundariesLinesByDevice = {
     "name": "getOrganizationCameraBoundariesLinesByDevice",
     "description": "Returns all configured crossingline boundaries of cameras",
     "parameters": {
@@ -8475,7 +8475,7 @@ getOrganizationCameraBoundariesLinesByDevice_function = {
     }
 }
 
-getOrganizationCameraCustomAnalyticsArtifacts_function = {
+getOrganizationCameraCustomAnalyticsArtifacts = {
     "name": "getOrganizationCameraCustomAnalyticsArtifacts",
     "description": "List Custom Analytics Artifacts",
     "parameters": {
@@ -8487,7 +8487,7 @@ getOrganizationCameraCustomAnalyticsArtifacts_function = {
     }
 }
 
-getOrganizationCameraCustomAnalyticsArtifact_function = {
+getOrganizationCameraCustomAnalyticsArtifact = {
     "name": "getOrganizationCameraCustomAnalyticsArtifact",
     "description": "Get Custom Analytics Artifact",
     "parameters": {
@@ -8500,7 +8500,7 @@ getOrganizationCameraCustomAnalyticsArtifact_function = {
     }
 }
 
-getOrganizationCameraDetectionsHistoryByBoundaryByInterval_function = {
+getOrganizationCameraDetectionsHistoryByBoundaryByInterval = {
     "name": "getOrganizationCameraDetectionsHistoryByBoundaryByInterval",
     "description": "Returns analytics data for timespans",
     "parameters": {
@@ -8517,7 +8517,7 @@ getOrganizationCameraDetectionsHistoryByBoundaryByInterval_function = {
     }
 }
 
-getOrganizationCameraOnboardingStatuses_function = {
+getOrganizationCameraOnboardingStatuses = {
     "name": "getOrganizationCameraOnboardingStatuses",
     "description": "Fetch onboarding status of cameras",
     "parameters": {
@@ -8531,7 +8531,7 @@ getOrganizationCameraOnboardingStatuses_function = {
     }
 }
 
-getOrganizationCameraPermissions_function = {
+getOrganizationCameraPermissions = {
     "name": "getOrganizationCameraPermissions",
     "description": "List the permissions scopes for this organization",
     "parameters": {
@@ -8543,7 +8543,7 @@ getOrganizationCameraPermissions_function = {
     }
 }
 
-getOrganizationCameraPermission_function = {
+getOrganizationCameraPermission = {
     "name": "getOrganizationCameraPermission",
     "description": "Retrieve a single permission scope",
     "parameters": {
@@ -8556,7 +8556,7 @@ getOrganizationCameraPermission_function = {
     }
 }
 
-getOrganizationCameraRoles_function = {
+getOrganizationCameraRoles = {
     "name": "getOrganizationCameraRoles",
     "description": "List all the roles in this organization",
     "parameters": {
@@ -8568,7 +8568,7 @@ getOrganizationCameraRoles_function = {
     }
 }
 
-getOrganizationCameraRole_function = {
+getOrganizationCameraRole = {
     "name": "getOrganizationCameraRole",
     "description": "Retrieve a single role.",
     "parameters": {
@@ -8581,7 +8581,7 @@ getOrganizationCameraRole_function = {
     }
 }
 
-getOrganizationCellularGatewayEsimsInventory_function = {
+getOrganizationCellularGatewayEsimsInventory = {
     "name": "getOrganizationCellularGatewayEsimsInventory",
     "description": "The eSIM inventory of a given organization.",
     "parameters": {
@@ -8594,7 +8594,7 @@ getOrganizationCellularGatewayEsimsInventory_function = {
     }
 }
 
-getOrganizationCellularGatewayEsimsServiceProviders_function = {
+getOrganizationCellularGatewayEsimsServiceProviders = {
     "name": "getOrganizationCellularGatewayEsimsServiceProviders",
     "description": "Service providers customers can add accounts for.",
     "parameters": {
@@ -8606,7 +8606,7 @@ getOrganizationCellularGatewayEsimsServiceProviders_function = {
     }
 }
 
-getOrganizationCellularGatewayEsimsServiceProvidersAccounts_function = {
+getOrganizationCellularGatewayEsimsServiceProvidersAccounts = {
     "name": "getOrganizationCellularGatewayEsimsServiceProvidersAccounts",
     "description": "Inventory of service provider accounts tied to the organization.",
     "parameters": {
@@ -8619,7 +8619,7 @@ getOrganizationCellularGatewayEsimsServiceProvidersAccounts_function = {
     }
 }
 
-getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans_function = {
+getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans = {
     "name": "getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans",
     "description": "The communication plans available for a given provider.",
     "parameters": {
@@ -8632,7 +8632,7 @@ getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans_fu
     }
 }
 
-getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans_function = {
+getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans = {
     "name": "getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans",
     "description": "The rate plans available for a given provider.",
     "parameters": {
@@ -8645,7 +8645,7 @@ getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans_function = 
     }
 }
 
-getOrganizationCellularGatewayUplinkStatuses_function = {
+getOrganizationCellularGatewayUplinkStatuses = {
     "name": "getOrganizationCellularGatewayUplinkStatuses",
     "description": "List the uplink status of every Meraki MG cellular gateway in the organization",
     "parameters": {
@@ -8663,7 +8663,7 @@ getOrganizationCellularGatewayUplinkStatuses_function = {
     }
 }
 
-getOrganizationClientsBandwidthUsageHistory_function = {
+getOrganizationClientsBandwidthUsageHistory = {
     "name": "getOrganizationClientsBandwidthUsageHistory",
     "description": "Return data usage (in megabits per second) over time for all clients in the given organization within a given time range.",
     "parameters": {
@@ -8682,7 +8682,7 @@ getOrganizationClientsBandwidthUsageHistory_function = {
     }
 }
 
-getOrganizationClientsOverview_function = {
+getOrganizationClientsOverview = {
     "name": "getOrganizationClientsOverview",
     "description": "Return summary information around client data usage (in kb) across the given organization.",
     "parameters": {
@@ -8697,7 +8697,7 @@ getOrganizationClientsOverview_function = {
     }
 }
 
-getOrganizationClientsSearch_function = {
+getOrganizationClientsSearch = {
     "name": "getOrganizationClientsSearch",
     "description": "Return the client details in an organization",
     "parameters": {
@@ -8713,7 +8713,7 @@ getOrganizationClientsSearch_function = {
     }
 }
 
-getOrganizationConfigTemplates_function = {
+getOrganizationConfigTemplates = {
     "name": "getOrganizationConfigTemplates",
     "description": "List the configuration templates for this organization",
     "parameters": {
@@ -8725,7 +8725,7 @@ getOrganizationConfigTemplates_function = {
     }
 }
 
-getOrganizationConfigTemplate_function = {
+getOrganizationConfigTemplate = {
     "name": "getOrganizationConfigTemplate",
     "description": "Return a single configuration template",
     "parameters": {
@@ -8738,7 +8738,7 @@ getOrganizationConfigTemplate_function = {
     }
 }
 
-getOrganizationConfigTemplateSwitchProfiles_function = {
+getOrganizationConfigTemplateSwitchProfiles = {
     "name": "getOrganizationConfigTemplateSwitchProfiles",
     "description": "List the switch templates for your switch template configuration",
     "parameters": {
@@ -8751,7 +8751,7 @@ getOrganizationConfigTemplateSwitchProfiles_function = {
     }
 }
 
-getOrganizationConfigTemplateSwitchProfilePorts_function = {
+getOrganizationConfigTemplateSwitchProfilePorts = {
     "name": "getOrganizationConfigTemplateSwitchProfilePorts",
     "description": "Return all the ports of a switch template",
     "parameters": {
@@ -8765,7 +8765,7 @@ getOrganizationConfigTemplateSwitchProfilePorts_function = {
     }
 }
 
-getOrganizationConfigTemplateSwitchProfilePort_function = {
+getOrganizationConfigTemplateSwitchProfilePort = {
     "name": "getOrganizationConfigTemplateSwitchProfilePort",
     "description": "Return a switch template port",
     "parameters": {
@@ -8780,7 +8780,7 @@ getOrganizationConfigTemplateSwitchProfilePort_function = {
     }
 }
 
-getOrganizationConfigurationChanges_function = {
+getOrganizationConfigurationChanges = {
     "name": "getOrganizationConfigurationChanges",
     "description": "View the Change Log for your organization",
     "parameters": {
@@ -8800,7 +8800,7 @@ getOrganizationConfigurationChanges_function = {
     }
 }
 
-getOrganizationDevices_function = {
+getOrganizationDevices = {
     "name": "getOrganizationDevices",
     "description": "List the devices in an organization that have been assigned to a network.",
     "parameters": {
@@ -8829,7 +8829,7 @@ getOrganizationDevices_function = {
     }
 }
 
-getOrganizationDevicesAvailabilities_function = {
+getOrganizationDevicesAvailabilities = {
     "name": "getOrganizationDevicesAvailabilities",
     "description": "List the availability information for devices in an organization. The data returned by this endpoint is updated every 5 minutes.",
     "parameters": {
@@ -8850,7 +8850,7 @@ getOrganizationDevicesAvailabilities_function = {
     }
 }
 
-getOrganizationDevicesAvailabilitiesChangeHistory_function = {
+getOrganizationDevicesAvailabilitiesChangeHistory = {
     "name": "getOrganizationDevicesAvailabilitiesChangeHistory",
     "description": "List the availability history information for devices in an organization.",
     "parameters": {
@@ -8872,7 +8872,7 @@ getOrganizationDevicesAvailabilitiesChangeHistory_function = {
     }
 }
 
-getOrganizationDevicesOverviewByModel_function = {
+getOrganizationDevicesOverviewByModel = {
     "name": "getOrganizationDevicesOverviewByModel",
     "description": "Lists the count for each device model",
     "parameters": {
@@ -8887,7 +8887,7 @@ getOrganizationDevicesOverviewByModel_function = {
     }
 }
 
-getOrganizationDevicesPowerModulesStatusesByDevice_function = {
+getOrganizationDevicesPowerModulesStatusesByDevice = {
     "name": "getOrganizationDevicesPowerModulesStatusesByDevice",
     "description": "List the most recent status information for power modules in rackmount MX and MS devices that support them. The data returned by this endpoint is updated every 5 minutes.",
     "parameters": {
@@ -8907,7 +8907,7 @@ getOrganizationDevicesPowerModulesStatusesByDevice_function = {
     }
 }
 
-getOrganizationDevicesProvisioningStatuses_function = {
+getOrganizationDevicesProvisioningStatuses = {
     "name": "getOrganizationDevicesProvisioningStatuses",
     "description": "List the provisioning statuses information for devices in an organization.",
     "parameters": {
@@ -8928,7 +8928,7 @@ getOrganizationDevicesProvisioningStatuses_function = {
     }
 }
 
-getOrganizationDevicesStatuses_function = {
+getOrganizationDevicesStatuses = {
     "name": "getOrganizationDevicesStatuses",
     "description": "List the status of every Meraki device in the organization",
     "parameters": {
@@ -8950,7 +8950,7 @@ getOrganizationDevicesStatuses_function = {
     }
 }
 
-getOrganizationDevicesStatusesOverview_function = {
+getOrganizationDevicesStatusesOverview = {
     "name": "getOrganizationDevicesStatusesOverview",
     "description": "Return an overview of current device statuses",
     "parameters": {
@@ -8964,7 +8964,7 @@ getOrganizationDevicesStatusesOverview_function = {
     }
 }
 
-getOrganizationDevicesUplinksAddressesByDevice_function = {
+getOrganizationDevicesUplinksAddressesByDevice = {
     "name": "getOrganizationDevicesUplinksAddressesByDevice",
     "description": "List the current uplink addresses for devices in an organization.",
     "parameters": {
@@ -8984,7 +8984,7 @@ getOrganizationDevicesUplinksAddressesByDevice_function = {
     }
 }
 
-getOrganizationDevicesUplinksLossAndLatency_function = {
+getOrganizationDevicesUplinksLossAndLatency = {
     "name": "getOrganizationDevicesUplinksLossAndLatency",
     "description": "Return the uplink loss and latency for every MX in the organization from at latest 2 minutes ago",
     "parameters": {
@@ -9001,7 +9001,7 @@ getOrganizationDevicesUplinksLossAndLatency_function = {
     }
 }
 
-getOrganizationEarlyAccessFeatures_function = {
+getOrganizationEarlyAccessFeatures = {
     "name": "getOrganizationEarlyAccessFeatures",
     "description": "List the available early access features for organization",
     "parameters": {
@@ -9013,7 +9013,7 @@ getOrganizationEarlyAccessFeatures_function = {
     }
 }
 
-getOrganizationEarlyAccessFeaturesOptIns_function = {
+getOrganizationEarlyAccessFeaturesOptIns = {
     "name": "getOrganizationEarlyAccessFeaturesOptIns",
     "description": "List the early access feature opt-ins for an organization",
     "parameters": {
@@ -9025,7 +9025,7 @@ getOrganizationEarlyAccessFeaturesOptIns_function = {
     }
 }
 
-getOrganizationEarlyAccessFeaturesOptIn_function = {
+getOrganizationEarlyAccessFeaturesOptIn = {
     "name": "getOrganizationEarlyAccessFeaturesOptIn",
     "description": "Show an early access feature opt-in for an organization",
     "parameters": {
@@ -9038,7 +9038,7 @@ getOrganizationEarlyAccessFeaturesOptIn_function = {
     }
 }
 
-getOrganizationFirmwareUpgrades_function = {
+getOrganizationFirmwareUpgrades = {
     "name": "getOrganizationFirmwareUpgrades",
     "description": "Get firmware upgrade information for an organization",
     "parameters": {
@@ -9055,7 +9055,7 @@ getOrganizationFirmwareUpgrades_function = {
     }
 }
 
-getOrganizationFirmwareUpgradesByDevice_function = {
+getOrganizationFirmwareUpgradesByDevice = {
     "name": "getOrganizationFirmwareUpgradesByDevice",
     "description": "Get firmware upgrade status for the filtered devices. This endpoint currently only supports Meraki switches.",
     "parameters": {
@@ -9076,7 +9076,7 @@ getOrganizationFirmwareUpgradesByDevice_function = {
     }
 }
 
-getOrganizationFloorPlansAutoLocateDevices_function = {
+getOrganizationFloorPlansAutoLocateDevices = {
     "name": "getOrganizationFloorPlansAutoLocateDevices",
     "description": "List auto locate details for each device in your organization",
     "parameters": {
@@ -9093,7 +9093,7 @@ getOrganizationFloorPlansAutoLocateDevices_function = {
     }
 }
 
-getOrganizationFloorPlansAutoLocateStatuses_function = {
+getOrganizationFloorPlansAutoLocateStatuses = {
     "name": "getOrganizationFloorPlansAutoLocateStatuses",
     "description": "List the status of auto locate for each floorplan in your organization",
     "parameters": {
@@ -9110,7 +9110,7 @@ getOrganizationFloorPlansAutoLocateStatuses_function = {
     }
 }
 
-getOrganizationInsightApplications_function = {
+getOrganizationInsightApplications = {
     "name": "getOrganizationInsightApplications",
     "description": "List all Insight tracked applications",
     "parameters": {
@@ -9122,7 +9122,7 @@ getOrganizationInsightApplications_function = {
     }
 }
 
-getOrganizationInsightMonitoredMediaServers_function = {
+getOrganizationInsightMonitoredMediaServers = {
     "name": "getOrganizationInsightMonitoredMediaServers",
     "description": "List the monitored media servers for this organization. Only valid for organizations with Meraki Insight.",
     "parameters": {
@@ -9134,7 +9134,7 @@ getOrganizationInsightMonitoredMediaServers_function = {
     }
 }
 
-getOrganizationInsightMonitoredMediaServer_function = {
+getOrganizationInsightMonitoredMediaServer = {
     "name": "getOrganizationInsightMonitoredMediaServer",
     "description": "Return a monitored media server for this organization. Only valid for organizations with Meraki Insight.",
     "parameters": {
@@ -9147,7 +9147,7 @@ getOrganizationInsightMonitoredMediaServer_function = {
     }
 }
 
-getOrganizationInventoryDevices_function = {
+getOrganizationInventoryDevices = {
     "name": "getOrganizationInventoryDevices",
     "description": "Return the device inventory for an organization",
     "parameters": {
@@ -9172,7 +9172,7 @@ getOrganizationInventoryDevices_function = {
     }
 }
 
-getOrganizationInventoryDevicesSwapsBulk_function = {
+getOrganizationInventoryDevicesSwapsBulk = {
     "name": "getOrganizationInventoryDevicesSwapsBulk",
     "description": "List of device swaps for a given request ID ({id}).",
     "parameters": {
@@ -9185,7 +9185,7 @@ getOrganizationInventoryDevicesSwapsBulk_function = {
     }
 }
 
-getOrganizationInventoryDevice_function = {
+getOrganizationInventoryDevice = {
     "name": "getOrganizationInventoryDevice",
     "description": "Return a single device from the inventory of an organization",
     "parameters": {
@@ -9198,7 +9198,7 @@ getOrganizationInventoryDevice_function = {
     }
 }
 
-getOrganizationInventoryOnboardingCloudMonitoringImports_function = {
+getOrganizationInventoryOnboardingCloudMonitoringImports = {
     "name": "getOrganizationInventoryOnboardingCloudMonitoringImports",
     "description": "Check the status of a committed Import operation",
     "parameters": {
@@ -9211,7 +9211,7 @@ getOrganizationInventoryOnboardingCloudMonitoringImports_function = {
     }
 }
 
-getOrganizationInventoryOnboardingCloudMonitoringNetworks_function = {
+getOrganizationInventoryOnboardingCloudMonitoringNetworks = {
     "name": "getOrganizationInventoryOnboardingCloudMonitoringNetworks",
     "description": "Returns list of networks eligible for adding cloud monitored device",
     "parameters": {
@@ -9228,7 +9228,7 @@ getOrganizationInventoryOnboardingCloudMonitoringNetworks_function = {
     }
 }
 
-getOrganizationLicenses_function = {
+getOrganizationLicenses = {
     "name": "getOrganizationLicenses",
     "description": "List the licenses for an organization",
     "parameters": {
@@ -9246,7 +9246,7 @@ getOrganizationLicenses_function = {
     }
 }
 
-getOrganizationLicensesOverview_function = {
+getOrganizationLicensesOverview = {
     "name": "getOrganizationLicensesOverview",
     "description": "Return an overview of the license state for an organization",
     "parameters": {
@@ -9258,7 +9258,7 @@ getOrganizationLicensesOverview_function = {
     }
 }
 
-getOrganizationLicense_function = {
+getOrganizationLicense = {
     "name": "getOrganizationLicense",
     "description": "Display a license",
     "parameters": {
@@ -9271,7 +9271,7 @@ getOrganizationLicense_function = {
     }
 }
 
-getOrganizationLicensingCotermLicenses_function = {
+getOrganizationLicensingCotermLicenses = {
     "name": "getOrganizationLicensingCotermLicenses",
     "description": "List the licenses in a coterm organization",
     "parameters": {
@@ -9288,7 +9288,7 @@ getOrganizationLicensingCotermLicenses_function = {
     }
 }
 
-getOrganizationLoginSecurity_function = {
+getOrganizationLoginSecurity = {
     "name": "getOrganizationLoginSecurity",
     "description": "Returns the login security settings for an organization.",
     "parameters": {
@@ -9300,7 +9300,7 @@ getOrganizationLoginSecurity_function = {
     }
 }
 
-getOrganizationNetworks_function = {
+getOrganizationNetworks = {
     "name": "getOrganizationNetworks",
     "description": "List the networks that the user has privileges on in an organization",
     "parameters": {
@@ -9320,7 +9320,7 @@ getOrganizationNetworks_function = {
     }
 }
 
-getOrganizationOpenapiSpec_function = {
+getOrganizationOpenapiSpec = {
     "name": "getOrganizationOpenapiSpec",
     "description": "Return the OpenAPI Specification of the organization's API documentation in JSON",
     "parameters": {
@@ -9333,7 +9333,7 @@ getOrganizationOpenapiSpec_function = {
     }
 }
 
-getOrganizationPolicyObjects_function = {
+getOrganizationPolicyObjects = {
     "name": "getOrganizationPolicyObjects",
     "description": "Lists Policy Objects belonging to the organization.",
     "parameters": {
@@ -9348,7 +9348,7 @@ getOrganizationPolicyObjects_function = {
     }
 }
 
-getOrganizationPolicyObjectsGroups_function = {
+getOrganizationPolicyObjectsGroups = {
     "name": "getOrganizationPolicyObjectsGroups",
     "description": "Lists Policy Object Groups belonging to the organization.",
     "parameters": {
@@ -9363,7 +9363,7 @@ getOrganizationPolicyObjectsGroups_function = {
     }
 }
 
-getOrganizationPolicyObjectsGroup_function = {
+getOrganizationPolicyObjectsGroup = {
     "name": "getOrganizationPolicyObjectsGroup",
     "description": "Shows details of a Policy Object Group.",
     "parameters": {
@@ -9376,7 +9376,7 @@ getOrganizationPolicyObjectsGroup_function = {
     }
 }
 
-getOrganizationPolicyObject_function = {
+getOrganizationPolicyObject = {
     "name": "getOrganizationPolicyObject",
     "description": "Shows details of a Policy Object.",
     "parameters": {
@@ -9389,7 +9389,7 @@ getOrganizationPolicyObject_function = {
     }
 }
 
-getOrganizationSaml_function = {
+getOrganizationSaml = {
     "name": "getOrganizationSaml",
     "description": "Returns the SAML SSO enabled settings for an organization.",
     "parameters": {
@@ -9401,7 +9401,7 @@ getOrganizationSaml_function = {
     }
 }
 
-getOrganizationSamlIdps_function = {
+getOrganizationSamlIdps = {
     "name": "getOrganizationSamlIdps",
     "description": "List the SAML IdPs in your organization.",
     "parameters": {
@@ -9413,7 +9413,7 @@ getOrganizationSamlIdps_function = {
     }
 }
 
-getOrganizationSamlIdp_function = {
+getOrganizationSamlIdp = {
     "name": "getOrganizationSamlIdp",
     "description": "Get a SAML IdP from your organization.",
     "parameters": {
@@ -9426,7 +9426,7 @@ getOrganizationSamlIdp_function = {
     }
 }
 
-getOrganizationSamlRoles_function = {
+getOrganizationSamlRoles = {
     "name": "getOrganizationSamlRoles",
     "description": "List the SAML roles for this organization",
     "parameters": {
@@ -9438,7 +9438,7 @@ getOrganizationSamlRoles_function = {
     }
 }
 
-getOrganizationSamlRole_function = {
+getOrganizationSamlRole = {
     "name": "getOrganizationSamlRole",
     "description": "Return a SAML role",
     "parameters": {
@@ -9451,7 +9451,7 @@ getOrganizationSamlRole_function = {
     }
 }
 
-getOrganizationSensorReadingsHistory_function = {
+getOrganizationSensorReadingsHistory = {
     "name": "getOrganizationSensorReadingsHistory",
     "description": "Return all reported readings from sensors in a given timespan, sorted by timestamp",
     "parameters": {
@@ -9472,7 +9472,7 @@ getOrganizationSensorReadingsHistory_function = {
     }
 }
 
-getOrganizationSensorReadingsLatest_function = {
+getOrganizationSensorReadingsLatest = {
     "name": "getOrganizationSensorReadingsLatest",
     "description": "Return the latest available reading for each metric from each sensor, sorted by sensor serial",
     "parameters": {
@@ -9490,7 +9490,7 @@ getOrganizationSensorReadingsLatest_function = {
     }
 }
 
-getOrganizationSmAdminsRoles_function = {
+getOrganizationSmAdminsRoles = {
     "name": "getOrganizationSmAdminsRoles",
     "description": "List the Limited Access Roles for an organization",
     "parameters": {
@@ -9505,7 +9505,7 @@ getOrganizationSmAdminsRoles_function = {
     }
 }
 
-getOrganizationSmAdminsRole_function = {
+getOrganizationSmAdminsRole = {
     "name": "getOrganizationSmAdminsRole",
     "description": "Return a Limited Access Role",
     "parameters": {
@@ -9518,7 +9518,7 @@ getOrganizationSmAdminsRole_function = {
     }
 }
 
-getOrganizationSmApnsCert_function = {
+getOrganizationSmApnsCert = {
     "name": "getOrganizationSmApnsCert",
     "description": "Get the organization's APNS certificate",
     "parameters": {
@@ -9530,7 +9530,7 @@ getOrganizationSmApnsCert_function = {
     }
 }
 
-getOrganizationSmSentryPoliciesAssignmentsByNetwork_function = {
+getOrganizationSmSentryPoliciesAssignmentsByNetwork = {
     "name": "getOrganizationSmSentryPoliciesAssignmentsByNetwork",
     "description": "List the Sentry Policies for an organization ordered in ascending order of priority",
     "parameters": {
@@ -9546,7 +9546,7 @@ getOrganizationSmSentryPoliciesAssignmentsByNetwork_function = {
     }
 }
 
-getOrganizationSmVppAccounts_function = {
+getOrganizationSmVppAccounts = {
     "name": "getOrganizationSmVppAccounts",
     "description": "List the VPP accounts in the organization",
     "parameters": {
@@ -9558,7 +9558,7 @@ getOrganizationSmVppAccounts_function = {
     }
 }
 
-getOrganizationSmVppAccount_function = {
+getOrganizationSmVppAccount = {
     "name": "getOrganizationSmVppAccount",
     "description": "Get a hash containing the unparsed token of the VPP account with the given ID",
     "parameters": {
@@ -9571,7 +9571,7 @@ getOrganizationSmVppAccount_function = {
     }
 }
 
-getOrganizationSnmp_function = {
+getOrganizationSnmp = {
     "name": "getOrganizationSnmp",
     "description": "Return the SNMP settings for an organization",
     "parameters": {
@@ -9583,7 +9583,7 @@ getOrganizationSnmp_function = {
     }
 }
 
-getOrganizationSplashAsset_function = {
+getOrganizationSplashAsset = {
     "name": "getOrganizationSplashAsset",
     "description": "Get a Splash Theme Asset",
     "parameters": {
@@ -9596,7 +9596,7 @@ getOrganizationSplashAsset_function = {
     }
 }
 
-getOrganizationSplashThemes_function = {
+getOrganizationSplashThemes = {
     "name": "getOrganizationSplashThemes",
     "description": "List Splash Themes",
     "parameters": {
@@ -9608,7 +9608,7 @@ getOrganizationSplashThemes_function = {
     }
 }
 
-getOrganizationSummarySwitchPowerHistory_function = {
+getOrganizationSummarySwitchPowerHistory = {
     "name": "getOrganizationSummarySwitchPowerHistory",
     "description": "Returns the total PoE power draw for all switch ports in the organization over the requested timespan (by default the last 24 hours). The returned array is a newest-first list of intervals. The time between intervals depends on the requested timespan with 20 minute intervals used for timespans up to 1 day, 4 hour intervals used for timespans up to 2 weeks, and 1 day intervals for timespans larger than 2 weeks.",
     "parameters": {
@@ -9623,7 +9623,7 @@ getOrganizationSummarySwitchPowerHistory_function = {
     }
 }
 
-getOrganizationSummaryTopAppliancesByUtilization_function = {
+getOrganizationSummaryTopAppliancesByUtilization = {
     "name": "getOrganizationSummaryTopAppliancesByUtilization",
     "description": "Return the top 10 appliances sorted by utilization over given time range.",
     "parameters": {
@@ -9643,7 +9643,7 @@ getOrganizationSummaryTopAppliancesByUtilization_function = {
     }
 }
 
-getOrganizationSummaryTopApplicationsByUsage_function = {
+getOrganizationSummaryTopApplicationsByUsage = {
     "name": "getOrganizationSummaryTopApplicationsByUsage",
     "description": "Return the top applications sorted by data usage over given time range. Default unit is megabytes.",
     "parameters": {
@@ -9664,7 +9664,7 @@ getOrganizationSummaryTopApplicationsByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopApplicationsCategoriesByUsage_function = {
+getOrganizationSummaryTopApplicationsCategoriesByUsage = {
     "name": "getOrganizationSummaryTopApplicationsCategoriesByUsage",
     "description": "Return the top application categories sorted by data usage over given time range. Default unit is megabytes.",
     "parameters": {
@@ -9685,7 +9685,7 @@ getOrganizationSummaryTopApplicationsCategoriesByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopClientsByUsage_function = {
+getOrganizationSummaryTopClientsByUsage = {
     "name": "getOrganizationSummaryTopClientsByUsage",
     "description": "Return metrics for organization's top 10 clients by data usage (in mb) over given time range.",
     "parameters": {
@@ -9705,7 +9705,7 @@ getOrganizationSummaryTopClientsByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopClientsManufacturersByUsage_function = {
+getOrganizationSummaryTopClientsManufacturersByUsage = {
     "name": "getOrganizationSummaryTopClientsManufacturersByUsage",
     "description": "Return metrics for organization's top clients by data usage (in mb) over given time range, grouped by manufacturer.",
     "parameters": {
@@ -9725,7 +9725,7 @@ getOrganizationSummaryTopClientsManufacturersByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopDevicesByUsage_function = {
+getOrganizationSummaryTopDevicesByUsage = {
     "name": "getOrganizationSummaryTopDevicesByUsage",
     "description": "Return metrics for organization's top 10 devices sorted by data usage over given time range. Default unit is megabytes.",
     "parameters": {
@@ -9745,7 +9745,7 @@ getOrganizationSummaryTopDevicesByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopDevicesModelsByUsage_function = {
+getOrganizationSummaryTopDevicesModelsByUsage = {
     "name": "getOrganizationSummaryTopDevicesModelsByUsage",
     "description": "Return metrics for organization's top 10 device models sorted by data usage over given time range. Default unit is megabytes.",
     "parameters": {
@@ -9765,7 +9765,7 @@ getOrganizationSummaryTopDevicesModelsByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopNetworksByStatus_function = {
+getOrganizationSummaryTopNetworksByStatus = {
     "name": "getOrganizationSummaryTopNetworksByStatus",
     "description": "List the client and status overview information for the networks in an organization. Usage is measured in kilobytes and from the last seven days.",
     "parameters": {
@@ -9785,7 +9785,7 @@ getOrganizationSummaryTopNetworksByStatus_function = {
     }
 }
 
-getOrganizationSummaryTopSsidsByUsage_function = {
+getOrganizationSummaryTopSsidsByUsage = {
     "name": "getOrganizationSummaryTopSsidsByUsage",
     "description": "Return metrics for organization's top 10 ssids by data usage over given time range. Default unit is megabytes.",
     "parameters": {
@@ -9805,7 +9805,7 @@ getOrganizationSummaryTopSsidsByUsage_function = {
     }
 }
 
-getOrganizationSummaryTopSwitchesByEnergyUsage_function = {
+getOrganizationSummaryTopSwitchesByEnergyUsage = {
     "name": "getOrganizationSummaryTopSwitchesByEnergyUsage",
     "description": "Return metrics for organization's top 10 switches by energy usage over given time range. Default unit is joules.",
     "parameters": {
@@ -9825,7 +9825,7 @@ getOrganizationSummaryTopSwitchesByEnergyUsage_function = {
     }
 }
 
-getOrganizationSwitchPortsBySwitch_function = {
+getOrganizationSwitchPortsBySwitch = {
     "name": "getOrganizationSwitchPortsBySwitch",
     "description": "List the switchports in an organization by switch",
     "parameters": {
@@ -9848,7 +9848,7 @@ getOrganizationSwitchPortsBySwitch_function = {
     }
 }
 
-getOrganizationSwitchPortsClientsOverviewByDevice_function = {
+getOrganizationSwitchPortsClientsOverviewByDevice = {
     "name": "getOrganizationSwitchPortsClientsOverviewByDevice",
     "description": "List the number of clients for all switchports with at least one online client in an organization.",
     "parameters": {
@@ -9873,7 +9873,7 @@ getOrganizationSwitchPortsClientsOverviewByDevice_function = {
     }
 }
 
-getOrganizationSwitchPortsOverview_function = {
+getOrganizationSwitchPortsOverview = {
     "name": "getOrganizationSwitchPortsOverview",
     "description": "Returns the counts of all active ports for the requested timespan, grouped by speed. An active port is a port that at any point during the timeframe is observed to be connected to a responsive device and isn't configured to be disabled. For a port that is observed at multiple speeds during the timeframe, it will be counted at the highest speed observed. The number of inactive ports, and the total number of ports are also provided. Only ports on switches online during the timeframe will be represented and a port is only guaranteed to be present if its switch was online for at least 6 hours of the timeframe.",
     "parameters": {
@@ -9888,7 +9888,7 @@ getOrganizationSwitchPortsOverview_function = {
     }
 }
 
-getOrganizationSwitchPortsStatusesBySwitch_function = {
+getOrganizationSwitchPortsStatusesBySwitch = {
     "name": "getOrganizationSwitchPortsStatusesBySwitch",
     "description": "List the switchports in an organization",
     "parameters": {
@@ -9911,7 +9911,7 @@ getOrganizationSwitchPortsStatusesBySwitch_function = {
     }
 }
 
-getOrganizationSwitchPortsTopologyDiscoveryByDevice_function = {
+getOrganizationSwitchPortsTopologyDiscoveryByDevice = {
     "name": "getOrganizationSwitchPortsTopologyDiscoveryByDevice",
     "description": "List most recently seen LLDP/CDP discovery and topology information per switch port in an organization.",
     "parameters": {
@@ -9936,7 +9936,7 @@ getOrganizationSwitchPortsTopologyDiscoveryByDevice_function = {
     }
 }
 
-getOrganizationUplinksStatuses_function = {
+getOrganizationUplinksStatuses = {
     "name": "getOrganizationUplinksStatuses",
     "description": "List the uplink status of every Meraki MX, MG and Z series devices in the organization",
     "parameters": {
@@ -9954,7 +9954,7 @@ getOrganizationUplinksStatuses_function = {
     }
 }
 
-getOrganizationWebhooksAlertTypes_function = {
+getOrganizationWebhooksAlertTypes = {
     "name": "getOrganizationWebhooksAlertTypes",
     "description": "Return a list of alert types to be used with managing webhook alerts",
     "parameters": {
@@ -9967,7 +9967,7 @@ getOrganizationWebhooksAlertTypes_function = {
     }
 }
 
-getOrganizationWebhooksCallbacksStatus_function = {
+getOrganizationWebhooksCallbacksStatus = {
     "name": "getOrganizationWebhooksCallbacksStatus",
     "description": "Return the status of an API callback",
     "parameters": {
@@ -9980,7 +9980,7 @@ getOrganizationWebhooksCallbacksStatus_function = {
     }
 }
 
-getOrganizationWebhooksLogs_function = {
+getOrganizationWebhooksLogs = {
     "name": "getOrganizationWebhooksLogs",
     "description": "Return the log of webhook POSTs sent",
     "parameters": {
@@ -9999,7 +9999,7 @@ getOrganizationWebhooksLogs_function = {
     }
 }
 
-getOrganizationWirelessAirMarshalRules_function = {
+getOrganizationWirelessAirMarshalRules = {
     "name": "getOrganizationWirelessAirMarshalRules",
     "description": "Returns the current Air Marshal rules for this organization",
     "parameters": {
@@ -10015,7 +10015,7 @@ getOrganizationWirelessAirMarshalRules_function = {
     }
 }
 
-getOrganizationWirelessAirMarshalSettingsByNetwork_function = {
+getOrganizationWirelessAirMarshalSettingsByNetwork = {
     "name": "getOrganizationWirelessAirMarshalSettingsByNetwork",
     "description": "Returns the current Air Marshal settings for this network",
     "parameters": {
@@ -10031,7 +10031,7 @@ getOrganizationWirelessAirMarshalSettingsByNetwork_function = {
     }
 }
 
-getOrganizationWirelessClientsOverviewByDevice_function = {
+getOrganizationWirelessClientsOverviewByDevice = {
     "name": "getOrganizationWirelessClientsOverviewByDevice",
     "description": "List access point client count at the moment in an organization",
     "parameters": {
@@ -10049,7 +10049,7 @@ getOrganizationWirelessClientsOverviewByDevice_function = {
     }
 }
 
-getOrganizationWirelessDevicesChannelUtilizationByDevice_function = {
+getOrganizationWirelessDevicesChannelUtilizationByDevice = {
     "name": "getOrganizationWirelessDevicesChannelUtilizationByDevice",
     "description": "Get average channel utilization for all bands in a network, split by AP",
     "parameters": {
@@ -10070,7 +10070,7 @@ getOrganizationWirelessDevicesChannelUtilizationByDevice_function = {
     }
 }
 
-getOrganizationWirelessDevicesChannelUtilizationByNetwork_function = {
+getOrganizationWirelessDevicesChannelUtilizationByNetwork = {
     "name": "getOrganizationWirelessDevicesChannelUtilizationByNetwork",
     "description": "Get average channel utilization across all bands for all networks in the organization",
     "parameters": {
@@ -10091,7 +10091,7 @@ getOrganizationWirelessDevicesChannelUtilizationByNetwork_function = {
     }
 }
 
-getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval_function = {
+getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval = {
     "name": "getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval",
     "description": "Get a time-series of average channel utilization for all bands, segmented by device.",
     "parameters": {
@@ -10112,7 +10112,7 @@ getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval_functi
     }
 }
 
-getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval_function = {
+getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval = {
     "name": "getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval",
     "description": "Get a time-series of average channel utilization for all bands",
     "parameters": {
@@ -10133,7 +10133,7 @@ getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval_funct
     }
 }
 
-getOrganizationWirelessDevicesEthernetStatuses_function = {
+getOrganizationWirelessDevicesEthernetStatuses = {
     "name": "getOrganizationWirelessDevicesEthernetStatuses",
     "description": "List the most recent Ethernet link speed, duplex, aggregation and power mode and status information for wireless devices.",
     "parameters": {
@@ -10149,7 +10149,7 @@ getOrganizationWirelessDevicesEthernetStatuses_function = {
     }
 }
 
-getOrganizationWirelessDevicesPacketLossByClient_function = {
+getOrganizationWirelessDevicesPacketLossByClient = {
     "name": "getOrganizationWirelessDevicesPacketLossByClient",
     "description": "Get average packet loss for the given timespan for all clients in the organization.",
     "parameters": {
@@ -10171,7 +10171,7 @@ getOrganizationWirelessDevicesPacketLossByClient_function = {
     }
 }
 
-getOrganizationWirelessDevicesPacketLossByDevice_function = {
+getOrganizationWirelessDevicesPacketLossByDevice = {
     "name": "getOrganizationWirelessDevicesPacketLossByDevice",
     "description": "Get average packet loss for the given timespan for all devices in the organization. Does not include device's own traffic.",
     "parameters": {
@@ -10193,7 +10193,7 @@ getOrganizationWirelessDevicesPacketLossByDevice_function = {
     }
 }
 
-getOrganizationWirelessDevicesPacketLossByNetwork_function = {
+getOrganizationWirelessDevicesPacketLossByNetwork = {
     "name": "getOrganizationWirelessDevicesPacketLossByNetwork",
     "description": "Get average packet loss for the given timespan for all networks in the organization.",
     "parameters": {
@@ -10215,7 +10215,7 @@ getOrganizationWirelessDevicesPacketLossByNetwork_function = {
     }
 }
 
-getOrganizationWirelessDevicesWirelessControllersByDevice_function = {
+getOrganizationWirelessDevicesWirelessControllersByDevice = {
     "name": "getOrganizationWirelessDevicesWirelessControllersByDevice",
     "description": "List of Catalyst access points information",
     "parameters": {
@@ -10233,7 +10233,7 @@ getOrganizationWirelessDevicesWirelessControllersByDevice_function = {
     }
 }
 
-getOrganizationWirelessRfProfilesAssignmentsByDevice_function = {
+getOrganizationWirelessRfProfilesAssignmentsByDevice = {
     "name": "getOrganizationWirelessRfProfilesAssignmentsByDevice",
     "description": "List the RF profiles of an organization by device",
     "parameters": {
@@ -10257,7 +10257,7 @@ getOrganizationWirelessRfProfilesAssignmentsByDevice_function = {
     }
 }
 
-getOrganizationWirelessSsidsStatusesByDevice_function = {
+getOrganizationWirelessSsidsStatusesByDevice = {
     "name": "getOrganizationWirelessSsidsStatusesByDevice",
     "description": "List status information of all BSSIDs in your organization",
     "parameters": {
@@ -10275,6 +10275,9 @@ getOrganizationWirelessSsidsStatusesByDevice_function = {
         "required": ["organizationId"]
     }
 }
+
+
+
 
 
 
@@ -10308,6 +10311,10 @@ get_webex_meeting_by_id_function = {
         "required": ["meeting_id"]
     }
 }
+
+
+
+
 
 #############################
 # Combine all function definitions
@@ -10606,425 +10613,429 @@ FUNCTION_DEFINITIONS = [
     list_all_switches_in_org,
     list_all_cameras_in_org,
 
+
+
     # Meraki SDK
-    getAdministeredIdentitiesMe_function,
-    getAdministeredIdentitiesMeApiKeys_function,
-    getAdministeredLicensingSubscriptionEntitlements_function,
-    getAdministeredLicensingSubscriptionSubscriptions_function,
-    getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses_function,
-    getDevice_function,
-    getDeviceApplianceDhcpSubnets_function,
-    getDeviceAppliancePerformance_function,
-    getDeviceAppliancePrefixesDelegated_function,
-    getDeviceAppliancePrefixesDelegatedVlanAssignments_function,
-    getDeviceApplianceRadioSettings_function,
-    getDeviceApplianceUplinksSettings_function,
-    getDeviceCameraAnalyticsLive_function,
-    getDeviceCameraAnalyticsOverview_function,
-    getDeviceCameraAnalyticsRecent_function,
-    getDeviceCameraAnalyticsZones_function,
-    getDeviceCameraAnalyticsZoneHistory_function,
-    getDeviceCameraCustomAnalytics_function,
-    getDeviceCameraQualityAndRetention_function,
-    getDeviceCameraSense_function,
-    getDeviceCameraSenseObjectDetectionModels_function,
-    getDeviceCameraVideoSettings_function,
-    getDeviceCameraVideoLink_function,
-    getDeviceCameraWirelessProfiles_function,
-    getDeviceCellularSims_function,
-    getDeviceCellularGatewayLan_function,
-    getDeviceCellularGatewayPortForwardingRules_function,
-    getDeviceClients_function,
-    getDeviceLiveToolsArpTable_function,
-    getDeviceLiveToolsCableTest_function,
-    getDeviceLiveToolsLedsBlink_function,
-    getDeviceLiveToolsPing_function,
-    getDeviceLiveToolsPingDevice_function,
-    getDeviceLiveToolsThroughputTest_function,
-    getDeviceLiveToolsWakeOnLan_function,
-    getDeviceLldpCdp_function,
-    getDeviceLossAndLatencyHistory_function,
-    getDeviceManagementInterface_function,
-    getDeviceSensorCommands_function,
-    getDeviceSensorCommand_function,
-    getDeviceSensorRelationships_function,
-    getDeviceSwitchPorts_function,
-    getDeviceSwitchPortsStatuses_function,
-    getDeviceSwitchPortsStatusesPackets_function,
-    getDeviceSwitchPort_function,
-    getDeviceSwitchRoutingInterfaces_function,
-    getDeviceSwitchRoutingInterface_function,
-    getDeviceSwitchRoutingInterfaceDhcp_function,
-    getDeviceSwitchRoutingStaticRoutes_function,
-    getDeviceSwitchRoutingStaticRoute_function,
-    getDeviceSwitchWarmSpare_function,
-    getDeviceWirelessBluetoothSettings_function,
-    getDeviceWirelessConnectionStats_function,
-    getDeviceWirelessElectronicShelfLabel_function,
-    getDeviceWirelessLatencyStats_function,
-    getDeviceWirelessRadioSettings_function,
-    getDeviceWirelessStatus_function,
-    getNetwork_function,
-    getNetworkAlertsHistory_function,
-    getNetworkAlertsSettings_function,
-    getNetworkApplianceClientSecurityEvents_function,
-    getNetworkApplianceConnectivityMonitoringDestinations_function,
-    getNetworkApplianceContentFiltering_function,
-    getNetworkApplianceContentFilteringCategories_function,
-    getNetworkApplianceFirewallCellularFirewallRules_function,
-    getNetworkApplianceFirewallFirewalledServices_function,
-    getNetworkApplianceFirewallFirewalledService_function,
-    getNetworkApplianceFirewallInboundCellularFirewallRules_function,
-    getNetworkApplianceFirewallInboundFirewallRules_function,
-    getNetworkApplianceFirewallL3FirewallRules_function,
-    getNetworkApplianceFirewallL7FirewallRules_function,
-    getNetworkApplianceFirewallL7FirewallRulesApplicationCategories_function,
-    getNetworkApplianceFirewallOneToManyNatRules_function,
-    getNetworkApplianceFirewallOneToOneNatRules_function,
-    getNetworkApplianceFirewallPortForwardingRules_function,
-    getNetworkApplianceFirewallSettings_function,
-    getNetworkAppliancePorts_function,
-    getNetworkAppliancePort_function,
-    getNetworkAppliancePrefixesDelegatedStatics_function,
-    getNetworkAppliancePrefixesDelegatedStatic_function,
-    getNetworkApplianceRfProfiles_function,
-    getNetworkApplianceRfProfile_function,
-    getNetworkApplianceSecurityEvents_function,
-    getNetworkApplianceSecurityIntrusion_function,
-    getNetworkApplianceSecurityMalware_function,
-    getNetworkApplianceSettings_function,
-    getNetworkApplianceSingleLan_function,
-    getNetworkApplianceSsids_function,
-    getNetworkApplianceSsid_function,
-    getNetworkApplianceStaticRoutes_function,
-    getNetworkApplianceStaticRoute_function,
-    getNetworkApplianceTrafficShaping_function,
-    getNetworkApplianceTrafficShapingCustomPerformanceClasses_function,
-    getNetworkApplianceTrafficShapingCustomPerformanceClass_function,
-    getNetworkApplianceTrafficShapingRules_function,
-    getNetworkApplianceTrafficShapingUplinkBandwidth_function,
-    getNetworkApplianceTrafficShapingUplinkSelection_function,
-    getNetworkApplianceUplinksUsageHistory_function,
-    getNetworkApplianceVlans_function,
-    getNetworkApplianceVlansSettings_function,
-    getNetworkApplianceVlan_function,
-    getNetworkApplianceVpnBgp_function,
-    getNetworkApplianceVpnSiteToSiteVpn_function,
-    getNetworkApplianceWarmSpare_function,
-    getNetworkBluetoothClients_function,
-    getNetworkBluetoothClient_function,
-    getNetworkCameraQualityRetentionProfiles_function,
-    getNetworkCameraQualityRetentionProfile_function,
-    getNetworkCameraSchedules_function,
-    getNetworkCameraWirelessProfiles_function,
-    getNetworkCameraWirelessProfile_function,
-    getNetworkCellularGatewayConnectivityMonitoringDestinations_function,
-    getNetworkCellularGatewayDhcp_function,
-    getNetworkCellularGatewaySubnetPool_function,
-    getNetworkCellularGatewayUplink_function,
-    getNetworkClients_function,
-    getNetworkClientsApplicationUsage_function,
-    getNetworkClientsBandwidthUsageHistory_function,
-    getNetworkClientsOverview_function,
-    getNetworkClientsUsageHistories_function,
-    getNetworkClient_function,
-    getNetworkClientPolicy_function,
-    getNetworkClientSplashAuthorizationStatus_function,
-    getNetworkClientTrafficHistory_function,
-    getNetworkClientUsageHistory_function,
-    getNetworkDevices_function,
-    getNetworkEvents_function,
-    getNetworkEventsEventTypes_function,
-    getNetworkFirmwareUpgrades_function,
-    getNetworkFirmwareUpgradesStagedEvents_function,
-    getNetworkFirmwareUpgradesStagedGroups_function,
-    getNetworkFirmwareUpgradesStagedGroup_function,
-    getNetworkFirmwareUpgradesStagedStages_function,
-    getNetworkFloorPlans_function,
-    getNetworkFloorPlan_function,
-    getNetworkGroupPolicies_function,
-    getNetworkGroupPolicy_function,
-    getNetworkHealthAlerts_function,
-    getNetworkInsightApplicationHealthByTime_function,
-    getNetworkMerakiAuthUsers_function,
-    getNetworkMerakiAuthUser_function,
-    getNetworkMqttBrokers_function,
-    getNetworkMqttBroker_function,
-    getNetworkNetflow_function,
-    getNetworkNetworkHealthChannelUtilization_function,
-    getNetworkPiiPiiKeys_function,
-    getNetworkPiiRequests_function,
-    getNetworkPiiRequest_function,
-    getNetworkPiiSmDevicesForKey_function,
-    getNetworkPiiSmOwnersForKey_function,
-    getNetworkPoliciesByClient_function,
-    getNetworkSensorAlertsCurrentOverviewByMetric_function,
-    getNetworkSensorAlertsOverviewByMetric_function,
-    getNetworkSensorAlertsProfiles_function,
-    getNetworkSensorAlertsProfile_function,
-    getNetworkSensorMqttBrokers_function,
-    getNetworkSensorMqttBroker_function,
-    getNetworkSensorRelationships_function,
-    getNetworkSettings_function,
-    getNetworkSmBypassActivationLockAttempt_function,
-    getNetworkSmDevices_function,
-    getNetworkSmDeviceCellularUsageHistory_function,
-    getNetworkSmDeviceCerts_function,
-    getNetworkSmDeviceConnectivity_function,
-    getNetworkSmDeviceDesktopLogs_function,
-    getNetworkSmDeviceDeviceCommandLogs_function,
-    getNetworkSmDeviceDeviceProfiles_function,
-    getNetworkSmDeviceNetworkAdapters_function,
-    getNetworkSmDevicePerformanceHistory_function,
-    getNetworkSmDeviceRestrictions_function,
-    getNetworkSmDeviceSecurityCenters_function,
-    getNetworkSmDeviceSoftwares_function,
-    getNetworkSmDeviceWlanLists_function,
-    getNetworkSmProfiles_function,
-    getNetworkSmTargetGroups_function,
-    getNetworkSmTargetGroup_function,
-    getNetworkSmTrustedAccessConfigs_function,
-    getNetworkSmUserAccessDevices_function,
-    getNetworkSmUsers_function,
-    getNetworkSmUserDeviceProfiles_function,
-    getNetworkSmUserSoftwares_function,
-    getNetworkSnmp_function,
-    getNetworkSplashLoginAttempts_function,
-    getNetworkSwitchAccessControlLists_function,
-    getNetworkSwitchAccessPolicies_function,
-    getNetworkSwitchAccessPolicy_function,
-    getNetworkSwitchAlternateManagementInterface_function,
-    getNetworkSwitchDhcpV4ServersSeen_function,
-    getNetworkSwitchDhcpServerPolicy_function,
-    getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers_function,
-    getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice_function,
-    getNetworkSwitchDscpToCosMappings_function,
-    getNetworkSwitchLinkAggregations_function,
-    getNetworkSwitchMtu_function,
-    getNetworkSwitchPortSchedules_function,
-    getNetworkSwitchQosRules_function,
-    getNetworkSwitchQosRulesOrder_function,
-    getNetworkSwitchQosRule_function,
-    getNetworkSwitchRoutingMulticast_function,
-    getNetworkSwitchRoutingMulticastRendezvousPoints_function,
-    getNetworkSwitchRoutingMulticastRendezvousPoint_function,
-    getNetworkSwitchRoutingOspf_function,
-    getNetworkSwitchSettings_function,
-    getNetworkSwitchStacks_function,
-    getNetworkSwitchStack_function,
-    getNetworkSwitchStackRoutingInterfaces_function,
-    getNetworkSwitchStackRoutingInterface_function,
-    getNetworkSwitchStackRoutingInterfaceDhcp_function,
-    getNetworkSwitchStackRoutingStaticRoutes_function,
-    getNetworkSwitchStackRoutingStaticRoute_function,
-    getNetworkSwitchStormControl_function,
-    getNetworkSwitchStp_function,
-    getNetworkSyslogServers_function,
-    getNetworkTopologyLinkLayer_function,
-    getNetworkTraffic_function,
-    getNetworkTrafficAnalysis_function,
-    getNetworkTrafficShapingApplicationCategories_function,
-    getNetworkTrafficShapingDscpTaggingOptions_function,
-    getNetworkVlanProfiles_function,
-    getNetworkVlanProfilesAssignmentsByDevice_function,
-    getNetworkVlanProfile_function,
-    getNetworkWebhooksHttpServers_function,
-    getNetworkWebhooksHttpServer_function,
-    getNetworkWebhooksPayloadTemplates_function,
-    getNetworkWebhooksPayloadTemplate_function,
-    getNetworkWebhooksWebhookTest_function,
-    getNetworkWirelessAirMarshal_function,
-    getNetworkWirelessAlternateManagementInterface_function,
-    getNetworkWirelessBilling_function,
-    getNetworkWirelessBluetoothSettings_function,
-    getNetworkWirelessChannelUtilizationHistory_function,
-    getNetworkWirelessClientCountHistory_function,
-    getNetworkWirelessClientsConnectionStats_function,
-    getNetworkWirelessClientsLatencyStats_function,
-    getNetworkWirelessClientConnectionStats_function,
-    getNetworkWirelessClientConnectivityEvents_function,
-    getNetworkWirelessClientLatencyHistory_function,
-    getNetworkWirelessClientLatencyStats_function,
-    getNetworkWirelessConnectionStats_function,
-    getNetworkWirelessDataRateHistory_function,
-    getNetworkWirelessDevicesConnectionStats_function,
-    getNetworkWirelessDevicesLatencyStats_function,
-    getNetworkWirelessElectronicShelfLabel_function,
-    getNetworkWirelessElectronicShelfLabelConfiguredDevices_function,
-    getNetworkWirelessEthernetPortsProfiles_function,
-    getNetworkWirelessEthernetPortsProfile_function,
-    getNetworkWirelessFailedConnections_function,
-    getNetworkWirelessLatencyHistory_function,
-    getNetworkWirelessLatencyStats_function,
-    getNetworkWirelessMeshStatuses_function,
-    getNetworkWirelessRfProfiles_function,
-    getNetworkWirelessRfProfile_function,
-    getNetworkWirelessSettings_function,
-    getNetworkWirelessSignalQualityHistory_function,
-    getNetworkWirelessSsids_function,
-    getNetworkWirelessSsid_function,
-    getNetworkWirelessSsidBonjourForwarding_function,
-    getNetworkWirelessSsidDeviceTypeGroupPolicies_function,
-    getNetworkWirelessSsidEapOverride_function,
-    getNetworkWirelessSsidFirewallL3FirewallRules_function,
-    getNetworkWirelessSsidFirewallL7FirewallRules_function,
-    getNetworkWirelessSsidHotspot20_function,
-    getNetworkWirelessSsidIdentityPsks_function,
-    getNetworkWirelessSsidIdentityPsk_function,
-    getNetworkWirelessSsidSchedules_function,
-    getNetworkWirelessSsidSplashSettings_function,
-    getNetworkWirelessSsidTrafficShapingRules_function,
-    getNetworkWirelessSsidVpn_function,
-    getNetworkWirelessUsageHistory_function,
-    getOrganizations_function,
-    getOrganization_function,
-    getOrganizationActionBatches_function,
-    getOrganizationActionBatch_function,
-    getOrganizationAdaptivePolicyAcls_function,
-    getOrganizationAdaptivePolicyAcl_function,
-    getOrganizationAdaptivePolicyGroups_function,
-    getOrganizationAdaptivePolicyGroup_function,
-    getOrganizationAdaptivePolicyOverview_function,
-    getOrganizationAdaptivePolicyPolicies_function,
-    getOrganizationAdaptivePolicyPolicy_function,
-    getOrganizationAdaptivePolicySettings_function,
-    getOrganizationAdmins_function,
-    getOrganizationAlertsProfiles_function,
-    getOrganizationApiRequests_function,
-    getOrganizationApiRequestsOverview_function,
-    getOrganizationApiRequestsOverviewResponseCodesByInterval_function,
-    getOrganizationApplianceSecurityEvents_function,
-    getOrganizationApplianceSecurityIntrusion_function,
-    getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork_function,
-    getOrganizationApplianceUplinkStatuses_function,
-    getOrganizationApplianceUplinksStatusesOverview_function,
-    getOrganizationApplianceUplinksUsageByNetwork_function,
-    getOrganizationApplianceVpnStats_function,
-    getOrganizationApplianceVpnStatuses_function,
-    getOrganizationApplianceVpnThirdPartyVPNPeers_function,
-    getOrganizationApplianceVpnVpnFirewallRules_function,
-    getOrganizationAssuranceAlerts_function,
-    getOrganizationAssuranceAlertsOverview_function,
-    getOrganizationAssuranceAlertsOverviewByNetwork_function,
-    getOrganizationAssuranceAlertsOverviewByType_function,
-    getOrganizationAssuranceAlertsOverviewHistorical_function,
-    getOrganizationAssuranceAlert_function,
-    getOrganizationBrandingPolicies_function,
-    getOrganizationBrandingPoliciesPriorities_function,
-    getOrganizationBrandingPolicy_function,
-    getOrganizationCameraBoundariesAreasByDevice_function,
-    getOrganizationCameraBoundariesLinesByDevice_function,
-    getOrganizationCameraCustomAnalyticsArtifacts_function,
-    getOrganizationCameraCustomAnalyticsArtifact_function,
-    getOrganizationCameraDetectionsHistoryByBoundaryByInterval_function,
-    getOrganizationCameraOnboardingStatuses_function,
-    getOrganizationCameraPermissions_function,
-    getOrganizationCameraPermission_function,
-    getOrganizationCameraRoles_function,
-    getOrganizationCameraRole_function,
-    getOrganizationCellularGatewayEsimsInventory_function,
-    getOrganizationCellularGatewayEsimsServiceProviders_function,
-    getOrganizationCellularGatewayEsimsServiceProvidersAccounts_function,
-    getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans_function,
-    getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans_function,
-    getOrganizationCellularGatewayUplinkStatuses_function,
-    getOrganizationClientsBandwidthUsageHistory_function,
-    getOrganizationClientsOverview_function,
-    getOrganizationClientsSearch_function,
-    getOrganizationConfigTemplates_function,
-    getOrganizationConfigTemplate_function,
-    getOrganizationConfigTemplateSwitchProfiles_function,
-    getOrganizationConfigTemplateSwitchProfilePorts_function,
-    getOrganizationConfigTemplateSwitchProfilePort_function,
-    getOrganizationConfigurationChanges_function,
-    getOrganizationDevices_function,
-    getOrganizationDevicesAvailabilities_function,
-    getOrganizationDevicesAvailabilitiesChangeHistory_function,
-    getOrganizationDevicesOverviewByModel_function,
-    getOrganizationDevicesPowerModulesStatusesByDevice_function,
-    getOrganizationDevicesProvisioningStatuses_function,
-    getOrganizationDevicesStatuses_function,
-    getOrganizationDevicesStatusesOverview_function,
-    getOrganizationDevicesUplinksAddressesByDevice_function,
-    getOrganizationDevicesUplinksLossAndLatency_function,
-    getOrganizationEarlyAccessFeatures_function,
-    getOrganizationEarlyAccessFeaturesOptIns_function,
-    getOrganizationEarlyAccessFeaturesOptIn_function,
-    getOrganizationFirmwareUpgrades_function,
-    getOrganizationFirmwareUpgradesByDevice_function,
-    getOrganizationFloorPlansAutoLocateDevices_function,
-    getOrganizationFloorPlansAutoLocateStatuses_function,
-    getOrganizationInsightApplications_function,
-    getOrganizationInsightMonitoredMediaServers_function,
-    getOrganizationInsightMonitoredMediaServer_function,
-    getOrganizationInventoryDevices_function,
-    getOrganizationInventoryDevicesSwapsBulk_function,
-    getOrganizationInventoryDevice_function,
-    getOrganizationInventoryOnboardingCloudMonitoringImports_function,
-    getOrganizationInventoryOnboardingCloudMonitoringNetworks_function,
-    getOrganizationLicenses_function,
-    getOrganizationLicensesOverview_function,
-    getOrganizationLicense_function,
-    getOrganizationLicensingCotermLicenses_function,
-    getOrganizationLoginSecurity_function,
-    getOrganizationNetworks_function,
-    getOrganizationOpenapiSpec_function,
-    getOrganizationPolicyObjects_function,
-    getOrganizationPolicyObjectsGroups_function,
-    getOrganizationPolicyObjectsGroup_function,
-    getOrganizationPolicyObject_function,
-    getOrganizationSaml_function,
-    getOrganizationSamlIdps_function,
-    getOrganizationSamlIdp_function,
-    getOrganizationSamlRoles_function,
-    getOrganizationSamlRole_function,
-    getOrganizationSensorReadingsHistory_function,
-    getOrganizationSensorReadingsLatest_function,
-    getOrganizationSmAdminsRoles_function,
-    getOrganizationSmAdminsRole_function,
-    getOrganizationSmApnsCert_function,
-    getOrganizationSmSentryPoliciesAssignmentsByNetwork_function,
-    getOrganizationSmVppAccounts_function,
-    getOrganizationSmVppAccount_function,
-    getOrganizationSnmp_function,
-    getOrganizationSplashAsset_function,
-    getOrganizationSplashThemes_function,
-    getOrganizationSummarySwitchPowerHistory_function,
-    getOrganizationSummaryTopAppliancesByUtilization_function,
-    getOrganizationSummaryTopApplicationsByUsage_function,
-    getOrganizationSummaryTopApplicationsCategoriesByUsage_function,
-    getOrganizationSummaryTopClientsByUsage_function,
-    getOrganizationSummaryTopClientsManufacturersByUsage_function,
-    getOrganizationSummaryTopDevicesByUsage_function,
-    getOrganizationSummaryTopDevicesModelsByUsage_function,
-    getOrganizationSummaryTopNetworksByStatus_function,
-    getOrganizationSummaryTopSsidsByUsage_function,
-    getOrganizationSummaryTopSwitchesByEnergyUsage_function,
-    getOrganizationSwitchPortsBySwitch_function,
-    getOrganizationSwitchPortsClientsOverviewByDevice_function,
-    getOrganizationSwitchPortsOverview_function,
-    getOrganizationSwitchPortsStatusesBySwitch_function,
-    getOrganizationSwitchPortsTopologyDiscoveryByDevice_function,
-    getOrganizationUplinksStatuses_function,
-    getOrganizationWebhooksAlertTypes_function,
-    getOrganizationWebhooksCallbacksStatus_function,
-    getOrganizationWebhooksLogs_function,
-    getOrganizationWirelessAirMarshalRules_function,
-    getOrganizationWirelessAirMarshalSettingsByNetwork_function,
-    getOrganizationWirelessClientsOverviewByDevice_function,
-    getOrganizationWirelessDevicesChannelUtilizationByDevice_function,
-    getOrganizationWirelessDevicesChannelUtilizationByNetwork_function,
-    getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval_function,
-    getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval_function,
-    getOrganizationWirelessDevicesEthernetStatuses_function,
-    getOrganizationWirelessDevicesPacketLossByClient_function,
-    getOrganizationWirelessDevicesPacketLossByDevice_function,
-    getOrganizationWirelessDevicesPacketLossByNetwork_function,
-    getOrganizationWirelessDevicesWirelessControllersByDevice_function,
-    getOrganizationWirelessRfProfilesAssignmentsByDevice_function,
-    getOrganizationWirelessSsidsStatusesByDevice_function,
+        getAdministeredIdentitiesMe,
+    getAdministeredIdentitiesMeApiKeys,
+    getAdministeredLicensingSubscriptionEntitlements,
+    getAdministeredLicensingSubscriptionSubscriptions,
+    getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses,
+    getDevice,
+    getDeviceApplianceDhcpSubnets,
+    getDeviceAppliancePerformance,
+    getDeviceAppliancePrefixesDelegated,
+    getDeviceAppliancePrefixesDelegatedVlanAssignments,
+    getDeviceApplianceRadioSettings,
+    getDeviceApplianceUplinksSettings,
+    getDeviceCameraAnalyticsLive,
+    getDeviceCameraAnalyticsOverview,
+    getDeviceCameraAnalyticsRecent,
+    getDeviceCameraAnalyticsZones,
+    getDeviceCameraAnalyticsZoneHistory,
+    getDeviceCameraCustomAnalytics,
+    getDeviceCameraQualityAndRetention,
+    getDeviceCameraSense,
+    getDeviceCameraSenseObjectDetectionModels,
+    getDeviceCameraVideoSettings,
+    getDeviceCameraVideoLink,
+    getDeviceCameraWirelessProfiles,
+    getDeviceCellularSims,
+    getDeviceCellularGatewayLan,
+    getDeviceCellularGatewayPortForwardingRules,
+    getDeviceClients,
+    getDeviceLiveToolsArpTable,
+    getDeviceLiveToolsCableTest,
+    getDeviceLiveToolsLedsBlink,
+    getDeviceLiveToolsPing,
+    getDeviceLiveToolsPingDevice,
+    getDeviceLiveToolsThroughputTest,
+    getDeviceLiveToolsWakeOnLan,
+    getDeviceLldpCdp,
+    getDeviceLossAndLatencyHistory,
+    getDeviceManagementInterface,
+    getDeviceSensorCommands,
+    getDeviceSensorCommand,
+    getDeviceSensorRelationships,
+    getDeviceSwitchPorts,
+    getDeviceSwitchPortsStatuses,
+    getDeviceSwitchPortsStatusesPackets,
+    getDeviceSwitchPort,
+    getDeviceSwitchRoutingInterfaces,
+    getDeviceSwitchRoutingInterface,
+    getDeviceSwitchRoutingInterfaceDhcp,
+    getDeviceSwitchRoutingStaticRoutes,
+    getDeviceSwitchRoutingStaticRoute,
+    getDeviceSwitchWarmSpare,
+    getDeviceWirelessBluetoothSettings,
+    getDeviceWirelessConnectionStats,
+    getDeviceWirelessElectronicShelfLabel,
+    getDeviceWirelessLatencyStats,
+    getDeviceWirelessRadioSettings,
+    getDeviceWirelessStatus,
+    getNetwork,
+    getNetworkAlertsHistory,
+    getNetworkAlertsSettings,
+    getNetworkApplianceClientSecurityEvents,
+    getNetworkApplianceConnectivityMonitoringDestinations,
+    getNetworkApplianceContentFiltering,
+    getNetworkApplianceContentFilteringCategories,
+    getNetworkApplianceFirewallCellularFirewallRules,
+    getNetworkApplianceFirewallFirewalledServices,
+    getNetworkApplianceFirewallFirewalledService,
+    getNetworkApplianceFirewallInboundCellularFirewallRules,
+    getNetworkApplianceFirewallInboundFirewallRules,
+    getNetworkApplianceFirewallL3FirewallRules,
+    getNetworkApplianceFirewallL7FirewallRules,
+    getNetworkApplianceFirewallL7FirewallRulesApplicationCategories,
+    getNetworkApplianceFirewallOneToManyNatRules,
+    getNetworkApplianceFirewallOneToOneNatRules,
+    getNetworkApplianceFirewallPortForwardingRules,
+    getNetworkApplianceFirewallSettings,
+    getNetworkAppliancePorts,
+    getNetworkAppliancePort,
+    getNetworkAppliancePrefixesDelegatedStatics,
+    getNetworkAppliancePrefixesDelegatedStatic,
+    getNetworkApplianceRfProfiles,
+    getNetworkApplianceRfProfile,
+    getNetworkApplianceSecurityEvents,
+    getNetworkApplianceSecurityIntrusion,
+    getNetworkApplianceSecurityMalware,
+    getNetworkApplianceSettings,
+    getNetworkApplianceSingleLan,
+    getNetworkApplianceSsids,
+    getNetworkApplianceSsid,
+    getNetworkApplianceStaticRoutes,
+    getNetworkApplianceStaticRoute,
+    getNetworkApplianceTrafficShaping,
+    getNetworkApplianceTrafficShapingCustomPerformanceClasses,
+    getNetworkApplianceTrafficShapingCustomPerformanceClass,
+    getNetworkApplianceTrafficShapingRules,
+    getNetworkApplianceTrafficShapingUplinkBandwidth,
+    getNetworkApplianceTrafficShapingUplinkSelection,
+    getNetworkApplianceUplinksUsageHistory,
+    getNetworkApplianceVlans,
+    getNetworkApplianceVlansSettings,
+    getNetworkApplianceVlan,
+    getNetworkApplianceVpnBgp,
+    getNetworkApplianceVpnSiteToSiteVpn,
+    getNetworkApplianceWarmSpare,
+    getNetworkBluetoothClients,
+    getNetworkBluetoothClient,
+    getNetworkCameraQualityRetentionProfiles,
+    getNetworkCameraQualityRetentionProfile,
+    getNetworkCameraSchedules,
+    getNetworkCameraWirelessProfiles,
+    getNetworkCameraWirelessProfile,
+    getNetworkCellularGatewayConnectivityMonitoringDestinations,
+    getNetworkCellularGatewayDhcp,
+    getNetworkCellularGatewaySubnetPool,
+    getNetworkCellularGatewayUplink,
+    getNetworkClients,
+    getNetworkClientsApplicationUsage,
+    getNetworkClientsBandwidthUsageHistory,
+    getNetworkClientsOverview,
+    getNetworkClientsUsageHistories,
+    getNetworkClient,
+    getNetworkClientPolicy,
+    getNetworkClientSplashAuthorizationStatus,
+    getNetworkClientTrafficHistory,
+    getNetworkClientUsageHistory,
+    getNetworkDevices,
+    getNetworkEvents,
+    getNetworkEventsEventTypes,
+    getNetworkFirmwareUpgrades,
+    getNetworkFirmwareUpgradesStagedEvents,
+    getNetworkFirmwareUpgradesStagedGroups,
+    getNetworkFirmwareUpgradesStagedGroup,
+    getNetworkFirmwareUpgradesStagedStages,
+    getNetworkFloorPlans,
+    getNetworkFloorPlan,
+    getNetworkGroupPolicies,
+    getNetworkGroupPolicy,
+    getNetworkHealthAlerts,
+    getNetworkInsightApplicationHealthByTime,
+    getNetworkMerakiAuthUsers,
+    getNetworkMerakiAuthUser,
+    getNetworkMqttBrokers,
+    getNetworkMqttBroker,
+    getNetworkNetflow,
+    getNetworkNetworkHealthChannelUtilization,
+    getNetworkPiiPiiKeys,
+    getNetworkPiiRequests,
+    getNetworkPiiRequest,
+    getNetworkPiiSmDevicesForKey,
+    getNetworkPiiSmOwnersForKey,
+    getNetworkPoliciesByClient,
+    getNetworkSensorAlertsCurrentOverviewByMetric,
+    getNetworkSensorAlertsOverviewByMetric,
+    getNetworkSensorAlertsProfiles,
+    getNetworkSensorAlertsProfile,
+    getNetworkSensorMqttBrokers,
+    getNetworkSensorMqttBroker,
+    getNetworkSensorRelationships,
+    getNetworkSettings,
+    getNetworkSmBypassActivationLockAttempt,
+    getNetworkSmDevices,
+    getNetworkSmDeviceCellularUsageHistory,
+    getNetworkSmDeviceCerts,
+    getNetworkSmDeviceConnectivity,
+    getNetworkSmDeviceDesktopLogs,
+    getNetworkSmDeviceDeviceCommandLogs,
+    getNetworkSmDeviceDeviceProfiles,
+    getNetworkSmDeviceNetworkAdapters,
+    getNetworkSmDevicePerformanceHistory,
+    getNetworkSmDeviceRestrictions,
+    getNetworkSmDeviceSecurityCenters,
+    getNetworkSmDeviceSoftwares,
+    getNetworkSmDeviceWlanLists,
+    getNetworkSmProfiles,
+    getNetworkSmTargetGroups,
+    getNetworkSmTargetGroup,
+    getNetworkSmTrustedAccessConfigs,
+    getNetworkSmUserAccessDevices,
+    getNetworkSmUsers,
+    getNetworkSmUserDeviceProfiles,
+    getNetworkSmUserSoftwares,
+    getNetworkSnmp,
+    getNetworkSplashLoginAttempts,
+    getNetworkSwitchAccessControlLists,
+    getNetworkSwitchAccessPolicies,
+    getNetworkSwitchAccessPolicy,
+    getNetworkSwitchAlternateManagementInterface,
+    getNetworkSwitchDhcpV4ServersSeen,
+    getNetworkSwitchDhcpServerPolicy,
+    getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers,
+    getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice,
+    getNetworkSwitchDscpToCosMappings,
+    getNetworkSwitchLinkAggregations,
+    getNetworkSwitchMtu,
+    getNetworkSwitchPortSchedules,
+    getNetworkSwitchQosRules,
+    getNetworkSwitchQosRulesOrder,
+    getNetworkSwitchQosRule,
+    getNetworkSwitchRoutingMulticast,
+    getNetworkSwitchRoutingMulticastRendezvousPoints,
+    getNetworkSwitchRoutingMulticastRendezvousPoint,
+    getNetworkSwitchRoutingOspf,
+    getNetworkSwitchSettings,
+    getNetworkSwitchStacks,
+    getNetworkSwitchStack,
+    getNetworkSwitchStackRoutingInterfaces,
+    getNetworkSwitchStackRoutingInterface,
+    getNetworkSwitchStackRoutingInterfaceDhcp,
+    getNetworkSwitchStackRoutingStaticRoutes,
+    getNetworkSwitchStackRoutingStaticRoute,
+    getNetworkSwitchStormControl,
+    getNetworkSwitchStp,
+    getNetworkSyslogServers,
+    getNetworkTopologyLinkLayer,
+    getNetworkTraffic,
+    getNetworkTrafficAnalysis,
+    getNetworkTrafficShapingApplicationCategories,
+    getNetworkTrafficShapingDscpTaggingOptions,
+    getNetworkVlanProfiles,
+    getNetworkVlanProfilesAssignmentsByDevice,
+    getNetworkVlanProfile,
+    getNetworkWebhooksHttpServers,
+    getNetworkWebhooksHttpServer,
+    getNetworkWebhooksPayloadTemplates,
+    getNetworkWebhooksPayloadTemplate,
+    getNetworkWebhooksWebhookTest,
+    getNetworkWirelessAirMarshal,
+    getNetworkWirelessAlternateManagementInterface,
+    getNetworkWirelessBilling,
+    getNetworkWirelessBluetoothSettings,
+    getNetworkWirelessChannelUtilizationHistory,
+    getNetworkWirelessClientCountHistory,
+    getNetworkWirelessClientsConnectionStats,
+    getNetworkWirelessClientsLatencyStats,
+    getNetworkWirelessClientConnectionStats,
+    getNetworkWirelessClientConnectivityEvents,
+    getNetworkWirelessClientLatencyHistory,
+    getNetworkWirelessClientLatencyStats,
+    getNetworkWirelessConnectionStats,
+    getNetworkWirelessDataRateHistory,
+    getNetworkWirelessDevicesConnectionStats,
+    getNetworkWirelessDevicesLatencyStats,
+    getNetworkWirelessElectronicShelfLabel,
+    getNetworkWirelessElectronicShelfLabelConfiguredDevices,
+    getNetworkWirelessEthernetPortsProfiles,
+    getNetworkWirelessEthernetPortsProfile,
+    getNetworkWirelessFailedConnections,
+    getNetworkWirelessLatencyHistory,
+    getNetworkWirelessLatencyStats,
+    getNetworkWirelessMeshStatuses,
+    getNetworkWirelessRfProfiles,
+    getNetworkWirelessRfProfile,
+    getNetworkWirelessSettings,
+    getNetworkWirelessSignalQualityHistory,
+    getNetworkWirelessSsids,
+    getNetworkWirelessSsid,
+    getNetworkWirelessSsidBonjourForwarding,
+    getNetworkWirelessSsidDeviceTypeGroupPolicies,
+    getNetworkWirelessSsidEapOverride,
+    getNetworkWirelessSsidFirewallL3FirewallRules,
+    getNetworkWirelessSsidFirewallL7FirewallRules,
+    getNetworkWirelessSsidHotspot20,
+    getNetworkWirelessSsidIdentityPsks,
+    getNetworkWirelessSsidIdentityPsk,
+    getNetworkWirelessSsidSchedules,
+    getNetworkWirelessSsidSplashSettings,
+    getNetworkWirelessSsidTrafficShapingRules,
+    getNetworkWirelessSsidVpn,
+    getNetworkWirelessUsageHistory,
+    getOrganizations,
+    getOrganization,
+    getOrganizationActionBatches,
+    getOrganizationActionBatch,
+    getOrganizationAdaptivePolicyAcls,
+    getOrganizationAdaptivePolicyAcl,
+    getOrganizationAdaptivePolicyGroups,
+    getOrganizationAdaptivePolicyGroup,
+    getOrganizationAdaptivePolicyOverview,
+    getOrganizationAdaptivePolicyPolicies,
+    getOrganizationAdaptivePolicyPolicy,
+    getOrganizationAdaptivePolicySettings,
+    getOrganizationAdmins,
+    getOrganizationAlertsProfiles,
+    getOrganizationApiRequests,
+    getOrganizationApiRequestsOverview,
+    getOrganizationApiRequestsOverviewResponseCodesByInterval,
+    getOrganizationApplianceSecurityEvents,
+    getOrganizationApplianceSecurityIntrusion,
+    getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork,
+    getOrganizationApplianceUplinkStatuses,
+    getOrganizationApplianceUplinksStatusesOverview,
+    getOrganizationApplianceUplinksUsageByNetwork,
+    getOrganizationApplianceVpnStats,
+    getOrganizationApplianceVpnStatuses,
+    getOrganizationApplianceVpnThirdPartyVPNPeers,
+    getOrganizationApplianceVpnVpnFirewallRules,
+    getOrganizationAssuranceAlerts,
+    getOrganizationAssuranceAlertsOverview,
+    getOrganizationAssuranceAlertsOverviewByNetwork,
+    getOrganizationAssuranceAlertsOverviewByType,
+    getOrganizationAssuranceAlertsOverviewHistorical,
+    getOrganizationAssuranceAlert,
+    getOrganizationBrandingPolicies,
+    getOrganizationBrandingPoliciesPriorities,
+    getOrganizationBrandingPolicy,
+    getOrganizationCameraBoundariesAreasByDevice,
+    getOrganizationCameraBoundariesLinesByDevice,
+    getOrganizationCameraCustomAnalyticsArtifacts,
+    getOrganizationCameraCustomAnalyticsArtifact,
+    getOrganizationCameraDetectionsHistoryByBoundaryByInterval,
+    getOrganizationCameraOnboardingStatuses,
+    getOrganizationCameraPermissions,
+    getOrganizationCameraPermission,
+    getOrganizationCameraRoles,
+    getOrganizationCameraRole,
+    getOrganizationCellularGatewayEsimsInventory,
+    getOrganizationCellularGatewayEsimsServiceProviders,
+    getOrganizationCellularGatewayEsimsServiceProvidersAccounts,
+    getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans,
+    getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans,
+    getOrganizationCellularGatewayUplinkStatuses,
+    getOrganizationClientsBandwidthUsageHistory,
+    getOrganizationClientsOverview,
+    getOrganizationClientsSearch,
+    getOrganizationConfigTemplates,
+    getOrganizationConfigTemplate,
+    getOrganizationConfigTemplateSwitchProfiles,
+    getOrganizationConfigTemplateSwitchProfilePorts,
+    getOrganizationConfigTemplateSwitchProfilePort,
+    getOrganizationConfigurationChanges,
+    getOrganizationDevices,
+    getOrganizationDevicesAvailabilities,
+    getOrganizationDevicesAvailabilitiesChangeHistory,
+    getOrganizationDevicesOverviewByModel,
+    getOrganizationDevicesPowerModulesStatusesByDevice,
+    getOrganizationDevicesProvisioningStatuses,
+    getOrganizationDevicesStatuses,
+    getOrganizationDevicesStatusesOverview,
+    getOrganizationDevicesUplinksAddressesByDevice,
+    getOrganizationDevicesUplinksLossAndLatency,
+    getOrganizationEarlyAccessFeatures,
+    getOrganizationEarlyAccessFeaturesOptIns,
+    getOrganizationEarlyAccessFeaturesOptIn,
+    getOrganizationFirmwareUpgrades,
+    getOrganizationFirmwareUpgradesByDevice,
+    getOrganizationFloorPlansAutoLocateDevices,
+    getOrganizationFloorPlansAutoLocateStatuses,
+    getOrganizationInsightApplications,
+    getOrganizationInsightMonitoredMediaServers,
+    getOrganizationInsightMonitoredMediaServer,
+    getOrganizationInventoryDevices,
+    getOrganizationInventoryDevicesSwapsBulk,
+    getOrganizationInventoryDevice,
+    getOrganizationInventoryOnboardingCloudMonitoringImports,
+    getOrganizationInventoryOnboardingCloudMonitoringNetworks,
+    getOrganizationLicenses,
+    getOrganizationLicensesOverview,
+    getOrganizationLicense,
+    getOrganizationLicensingCotermLicenses,
+    getOrganizationLoginSecurity,
+    getOrganizationNetworks,
+    getOrganizationOpenapiSpec,
+    getOrganizationPolicyObjects,
+    getOrganizationPolicyObjectsGroups,
+    getOrganizationPolicyObjectsGroup,
+    getOrganizationPolicyObject,
+    getOrganizationSaml,
+    getOrganizationSamlIdps,
+    getOrganizationSamlIdp,
+    getOrganizationSamlRoles,
+    getOrganizationSamlRole,
+    getOrganizationSensorReadingsHistory,
+    getOrganizationSensorReadingsLatest,
+    getOrganizationSmAdminsRoles,
+    getOrganizationSmAdminsRole,
+    getOrganizationSmApnsCert,
+    getOrganizationSmSentryPoliciesAssignmentsByNetwork,
+    getOrganizationSmVppAccounts,
+    getOrganizationSmVppAccount,
+    getOrganizationSnmp,
+    getOrganizationSplashAsset,
+    getOrganizationSplashThemes,
+    getOrganizationSummarySwitchPowerHistory,
+    getOrganizationSummaryTopAppliancesByUtilization,
+    getOrganizationSummaryTopApplicationsByUsage,
+    getOrganizationSummaryTopApplicationsCategoriesByUsage,
+    getOrganizationSummaryTopClientsByUsage,
+    getOrganizationSummaryTopClientsManufacturersByUsage,
+    getOrganizationSummaryTopDevicesByUsage,
+    getOrganizationSummaryTopDevicesModelsByUsage,
+    getOrganizationSummaryTopNetworksByStatus,
+    getOrganizationSummaryTopSsidsByUsage,
+    getOrganizationSummaryTopSwitchesByEnergyUsage,
+    getOrganizationSwitchPortsBySwitch,
+    getOrganizationSwitchPortsClientsOverviewByDevice,
+    getOrganizationSwitchPortsOverview,
+    getOrganizationSwitchPortsStatusesBySwitch,
+    getOrganizationSwitchPortsTopologyDiscoveryByDevice,
+    getOrganizationUplinksStatuses,
+    getOrganizationWebhooksAlertTypes,
+    getOrganizationWebhooksCallbacksStatus,
+    getOrganizationWebhooksLogs,
+    getOrganizationWirelessAirMarshalRules,
+    getOrganizationWirelessAirMarshalSettingsByNetwork,
+    getOrganizationWirelessClientsOverviewByDevice,
+    getOrganizationWirelessDevicesChannelUtilizationByDevice,
+    getOrganizationWirelessDevicesChannelUtilizationByNetwork,
+    getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval,
+    getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval,
+    getOrganizationWirelessDevicesEthernetStatuses,
+    getOrganizationWirelessDevicesPacketLossByClient,
+    getOrganizationWirelessDevicesPacketLossByDevice,
+    getOrganizationWirelessDevicesPacketLossByNetwork,
+    getOrganizationWirelessDevicesWirelessControllersByDevice,
+    getOrganizationWirelessRfProfilesAssignmentsByDevice,
+    getOrganizationWirelessSsidsStatusesByDevice,
 
        
+
+
     # Webex
     get_webex_meetings_function,
     get_webex_meeting_by_id_function,

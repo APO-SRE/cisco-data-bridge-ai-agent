@@ -1,10 +1,14 @@
 ################################################################################
-## cisco_integrations/cisco_meraki_sdk_client.py
-## Copyright (c) 2025 Jeff Teeter, Ph.D.
-## Cisco Systems, Inc.
-## Licensed under the Apache License, Version 2.0 (see LICENSE)
-## Distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+# cisco-data-bridge-ai-agent\teeter_tools\Output\Meraki\meraki_sdk_client.py
+# Copyright (c) 2025 Jeff Teeter, Ph.D.
+# Cisco Systems, Inc.
+# Licensed under the Apache License, Version 2.0 (see LICENSE)
+# Distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
 ################################################################################
+#!/usr/bin/env python3
+
+
+# This file was auto-generated to include only matched read-only methods.
 
 import logging
 
@@ -15,6704 +19,4169 @@ from typing import Dict, Any
 
 class MerakiSDKClientCustom:
 
+    """Filtered Meraki client with only matched read-only methods."""
 
     def __init__(self, dashboard):
-
-        """Initialize with a meraki.DashboardAPI client instance."""
 
         self.dashboard = dashboard
 
 
-    def getadministeredidentitiesme(self, ) -> Dict[str, Any]:
-        """Auto-generated method for 'getadministeredidentitiesme'.
-        Calls 'self.dashboard.getadministeredidentitiesme' with the same parameters.
-        
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getAdministeredIdentitiesMe(self, ) -> Dict[str, Any]:
         try:
-            return self.dashboard.getadministeredidentitiesme()
+            return self.dashboard.getAdministeredIdentitiesMe()
         except APIError as e:
-            logging.error(f"API Error in getadministeredidentitiesme: {e}")
+            logging.error(f"API Error in getAdministeredIdentitiesMe: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getadministeredidentitiesme: {ex}")
+            logging.error(f"Unknown error in getAdministeredIdentitiesMe: {ex}")
             return {"error": str(ex)}
 
-    def getadministeredidentitiesmeapikeys(self, ) -> Dict[str, Any]:
-        """Auto-generated method for 'getadministeredidentitiesmeapikeys'.
-        Calls 'self.dashboard.getadministeredidentitiesmeapikeys' with the same parameters.
-        
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getAdministeredIdentitiesMeApiKeys(self, ) -> Dict[str, Any]:
         try:
-            return self.dashboard.getadministeredidentitiesmeapikeys()
+            return self.dashboard.getAdministeredIdentitiesMeApiKeys()
         except APIError as e:
-            logging.error(f"API Error in getadministeredidentitiesmeapikeys: {e}")
+            logging.error(f"API Error in getAdministeredIdentitiesMeApiKeys: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getadministeredidentitiesmeapikeys: {ex}")
+            logging.error(f"Unknown error in getAdministeredIdentitiesMeApiKeys: {ex}")
             return {"error": str(ex)}
 
-    def getadministeredlicensingsubscriptionentitlements(self, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getadministeredlicensingsubscriptionentitlements'.
-        Calls 'self.dashboard.getadministeredlicensingsubscriptionentitlements' with the same parameters.
-        
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getAdministeredLicensingSubscriptionEntitlements(self, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getadministeredlicensingsubscriptionentitlements(**kwargs)
+            return self.dashboard.getAdministeredLicensingSubscriptionEntitlements(**kwargs)
         except APIError as e:
-            logging.error(f"API Error in getadministeredlicensingsubscriptionentitlements: {e}")
+            logging.error(f"API Error in getAdministeredLicensingSubscriptionEntitlements: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getadministeredlicensingsubscriptionentitlements: {ex}")
+            logging.error(f"Unknown error in getAdministeredLicensingSubscriptionEntitlements: {ex}")
             return {"error": str(ex)}
 
-    def getadministeredlicensingsubscriptionsubscriptions(self, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getadministeredlicensingsubscriptionsubscriptions'.
-        Calls 'self.dashboard.getadministeredlicensingsubscriptionsubscriptions' with the same parameters.
-        
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getAdministeredLicensingSubscriptionSubscriptions(self, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getadministeredlicensingsubscriptionsubscriptions(total_pages, direction, **kwargs)
+            return self.dashboard.getAdministeredLicensingSubscriptionSubscriptions(total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getadministeredlicensingsubscriptionsubscriptions: {e}")
+            logging.error(f"API Error in getAdministeredLicensingSubscriptionSubscriptions: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getadministeredlicensingsubscriptionsubscriptions: {ex}")
+            logging.error(f"Unknown error in getAdministeredLicensingSubscriptionSubscriptions: {ex}")
             return {"error": str(ex)}
 
-    def getadministeredlicensingsubscriptionsubscriptionscompliancestatuses(self, organizationIds, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getadministeredlicensingsubscriptionsubscriptionscompliancestatuses'.
-        Calls 'self.dashboard.getadministeredlicensingsubscriptionsubscriptionscompliancestatuses' with the same parameters.
-        
-        :param organizationIds: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses(self, organizationIds, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getadministeredlicensingsubscriptionsubscriptionscompliancestatuses(organizationIds, **kwargs)
+            return self.dashboard.getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses(organizationIds, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getadministeredlicensingsubscriptionsubscriptionscompliancestatuses: {e}")
+            logging.error(f"API Error in getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getadministeredlicensingsubscriptionsubscriptionscompliancestatuses: {ex}")
+            logging.error(f"Unknown error in getAdministeredLicensingSubscriptionSubscriptionsComplianceStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getdevice(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevice'.
-        Calls 'self.dashboard.getdevice' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDevice(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevice(serial)
+            return self.dashboard.getDevice(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevice: {e}")
+            logging.error(f"API Error in getDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevice: {ex}")
+            logging.error(f"Unknown error in getDevice: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceappliancedhcpsubnets(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceappliancedhcpsubnets'.
-        Calls 'self.dashboard.getdeviceappliancedhcpsubnets' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceApplianceDhcpSubnets(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceappliancedhcpsubnets(serial)
+            return self.dashboard.getDeviceApplianceDhcpSubnets(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceappliancedhcpsubnets: {e}")
+            logging.error(f"API Error in getDeviceApplianceDhcpSubnets: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceappliancedhcpsubnets: {ex}")
+            logging.error(f"Unknown error in getDeviceApplianceDhcpSubnets: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceapplianceperformance(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceapplianceperformance'.
-        Calls 'self.dashboard.getdeviceapplianceperformance' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceAppliancePerformance(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceapplianceperformance(serial, **kwargs)
+            return self.dashboard.getDeviceAppliancePerformance(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdeviceapplianceperformance: {e}")
+            logging.error(f"API Error in getDeviceAppliancePerformance: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceapplianceperformance: {ex}")
+            logging.error(f"Unknown error in getDeviceAppliancePerformance: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceapplianceprefixesdelegated(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceapplianceprefixesdelegated'.
-        Calls 'self.dashboard.getdeviceapplianceprefixesdelegated' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceAppliancePrefixesDelegated(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceapplianceprefixesdelegated(serial)
+            return self.dashboard.getDeviceAppliancePrefixesDelegated(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceapplianceprefixesdelegated: {e}")
+            logging.error(f"API Error in getDeviceAppliancePrefixesDelegated: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceapplianceprefixesdelegated: {ex}")
+            logging.error(f"Unknown error in getDeviceAppliancePrefixesDelegated: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceapplianceprefixesdelegatedvlanassignments(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceapplianceprefixesdelegatedvlanassignments'.
-        Calls 'self.dashboard.getdeviceapplianceprefixesdelegatedvlanassignments' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceAppliancePrefixesDelegatedVlanAssignments(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceapplianceprefixesdelegatedvlanassignments(serial)
+            return self.dashboard.getDeviceAppliancePrefixesDelegatedVlanAssignments(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceapplianceprefixesdelegatedvlanassignments: {e}")
+            logging.error(f"API Error in getDeviceAppliancePrefixesDelegatedVlanAssignments: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceapplianceprefixesdelegatedvlanassignments: {ex}")
+            logging.error(f"Unknown error in getDeviceAppliancePrefixesDelegatedVlanAssignments: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceapplianceradiosettings(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceapplianceradiosettings'.
-        Calls 'self.dashboard.getdeviceapplianceradiosettings' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceApplianceRadioSettings(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceapplianceradiosettings(serial)
+            return self.dashboard.getDeviceApplianceRadioSettings(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceapplianceradiosettings: {e}")
+            logging.error(f"API Error in getDeviceApplianceRadioSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceapplianceradiosettings: {ex}")
+            logging.error(f"Unknown error in getDeviceApplianceRadioSettings: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceapplianceuplinkssettings(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceapplianceuplinkssettings'.
-        Calls 'self.dashboard.getdeviceapplianceuplinkssettings' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceApplianceUplinksSettings(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceapplianceuplinkssettings(serial)
+            return self.dashboard.getDeviceApplianceUplinksSettings(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceapplianceuplinkssettings: {e}")
+            logging.error(f"API Error in getDeviceApplianceUplinksSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceapplianceuplinkssettings: {ex}")
+            logging.error(f"Unknown error in getDeviceApplianceUplinksSettings: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameraanalyticslive(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameraanalyticslive'.
-        Calls 'self.dashboard.getdevicecameraanalyticslive' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraAnalyticsLive(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameraanalyticslive(serial)
+            return self.dashboard.getDeviceCameraAnalyticsLive(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameraanalyticslive: {e}")
+            logging.error(f"API Error in getDeviceCameraAnalyticsLive: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameraanalyticslive: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraAnalyticsLive: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameraanalyticsoverview(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameraanalyticsoverview'.
-        Calls 'self.dashboard.getdevicecameraanalyticsoverview' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraAnalyticsOverview(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameraanalyticsoverview(serial, **kwargs)
+            return self.dashboard.getDeviceCameraAnalyticsOverview(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameraanalyticsoverview: {e}")
+            logging.error(f"API Error in getDeviceCameraAnalyticsOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameraanalyticsoverview: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraAnalyticsOverview: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameraanalyticsrecent(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameraanalyticsrecent'.
-        Calls 'self.dashboard.getdevicecameraanalyticsrecent' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraAnalyticsRecent(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameraanalyticsrecent(serial, **kwargs)
+            return self.dashboard.getDeviceCameraAnalyticsRecent(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameraanalyticsrecent: {e}")
+            logging.error(f"API Error in getDeviceCameraAnalyticsRecent: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameraanalyticsrecent: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraAnalyticsRecent: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameraanalyticszonehistory(self, serial, zoneId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameraanalyticszonehistory'.
-        Calls 'self.dashboard.getdevicecameraanalyticszonehistory' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param zoneId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraAnalyticsZoneHistory(self, serial, zoneId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameraanalyticszonehistory(serial, zoneId, **kwargs)
+            return self.dashboard.getDeviceCameraAnalyticsZoneHistory(serial, zoneId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameraanalyticszonehistory: {e}")
+            logging.error(f"API Error in getDeviceCameraAnalyticsZoneHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameraanalyticszonehistory: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraAnalyticsZoneHistory: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameraanalyticszones(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameraanalyticszones'.
-        Calls 'self.dashboard.getdevicecameraanalyticszones' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraAnalyticsZones(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameraanalyticszones(serial)
+            return self.dashboard.getDeviceCameraAnalyticsZones(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameraanalyticszones: {e}")
+            logging.error(f"API Error in getDeviceCameraAnalyticsZones: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameraanalyticszones: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraAnalyticsZones: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameracustomanalytics(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameracustomanalytics'.
-        Calls 'self.dashboard.getdevicecameracustomanalytics' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraCustomAnalytics(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameracustomanalytics(serial)
+            return self.dashboard.getDeviceCameraCustomAnalytics(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameracustomanalytics: {e}")
+            logging.error(f"API Error in getDeviceCameraCustomAnalytics: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameracustomanalytics: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraCustomAnalytics: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameraqualityandretention(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameraqualityandretention'.
-        Calls 'self.dashboard.getdevicecameraqualityandretention' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraQualityAndRetention(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameraqualityandretention(serial)
+            return self.dashboard.getDeviceCameraQualityAndRetention(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameraqualityandretention: {e}")
+            logging.error(f"API Error in getDeviceCameraQualityAndRetention: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameraqualityandretention: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraQualityAndRetention: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecamerasense(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecamerasense'.
-        Calls 'self.dashboard.getdevicecamerasense' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraSense(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecamerasense(serial)
+            return self.dashboard.getDeviceCameraSense(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecamerasense: {e}")
+            logging.error(f"API Error in getDeviceCameraSense: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecamerasense: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraSense: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecamerasenseobjectdetectionmodels(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecamerasenseobjectdetectionmodels'.
-        Calls 'self.dashboard.getdevicecamerasenseobjectdetectionmodels' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraSenseObjectDetectionModels(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecamerasenseobjectdetectionmodels(serial)
+            return self.dashboard.getDeviceCameraSenseObjectDetectionModels(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecamerasenseobjectdetectionmodels: {e}")
+            logging.error(f"API Error in getDeviceCameraSenseObjectDetectionModels: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecamerasenseobjectdetectionmodels: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraSenseObjectDetectionModels: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameravideolink(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameravideolink'.
-        Calls 'self.dashboard.getdevicecameravideolink' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraVideoLink(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameravideolink(serial, **kwargs)
+            return self.dashboard.getDeviceCameraVideoLink(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameravideolink: {e}")
+            logging.error(f"API Error in getDeviceCameraVideoLink: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameravideolink: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraVideoLink: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecameravideosettings(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecameravideosettings'.
-        Calls 'self.dashboard.getdevicecameravideosettings' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraVideoSettings(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecameravideosettings(serial)
+            return self.dashboard.getDeviceCameraVideoSettings(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecameravideosettings: {e}")
+            logging.error(f"API Error in getDeviceCameraVideoSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecameravideosettings: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraVideoSettings: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecamerawirelessprofiles(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecamerawirelessprofiles'.
-        Calls 'self.dashboard.getdevicecamerawirelessprofiles' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCameraWirelessProfiles(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecamerawirelessprofiles(serial)
+            return self.dashboard.getDeviceCameraWirelessProfiles(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecamerawirelessprofiles: {e}")
+            logging.error(f"API Error in getDeviceCameraWirelessProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecamerawirelessprofiles: {ex}")
+            logging.error(f"Unknown error in getDeviceCameraWirelessProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecellulargatewaylan(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecellulargatewaylan'.
-        Calls 'self.dashboard.getdevicecellulargatewaylan' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCellularGatewayLan(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecellulargatewaylan(serial)
+            return self.dashboard.getDeviceCellularGatewayLan(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecellulargatewaylan: {e}")
+            logging.error(f"API Error in getDeviceCellularGatewayLan: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecellulargatewaylan: {ex}")
+            logging.error(f"Unknown error in getDeviceCellularGatewayLan: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecellulargatewayportforwardingrules(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecellulargatewayportforwardingrules'.
-        Calls 'self.dashboard.getdevicecellulargatewayportforwardingrules' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCellularGatewayPortForwardingRules(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecellulargatewayportforwardingrules(serial)
+            return self.dashboard.getDeviceCellularGatewayPortForwardingRules(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecellulargatewayportforwardingrules: {e}")
+            logging.error(f"API Error in getDeviceCellularGatewayPortForwardingRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecellulargatewayportforwardingrules: {ex}")
+            logging.error(f"Unknown error in getDeviceCellularGatewayPortForwardingRules: {ex}")
             return {"error": str(ex)}
 
-    def getdevicecellularsims(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicecellularsims'.
-        Calls 'self.dashboard.getdevicecellularsims' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceCellularSims(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicecellularsims(serial)
+            return self.dashboard.getDeviceCellularSims(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicecellularsims: {e}")
+            logging.error(f"API Error in getDeviceCellularSims: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicecellularsims: {ex}")
+            logging.error(f"Unknown error in getDeviceCellularSims: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceclients(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceclients'.
-        Calls 'self.dashboard.getdeviceclients' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceClients(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceclients(serial, **kwargs)
+            return self.dashboard.getDeviceClients(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdeviceclients: {e}")
+            logging.error(f"API Error in getDeviceClients: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceclients: {ex}")
+            logging.error(f"Unknown error in getDeviceClients: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolsarptable(self, serial, arpTableId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolsarptable'.
-        Calls 'self.dashboard.getdevicelivetoolsarptable' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param arpTableId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsArpTable(self, serial, arpTableId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolsarptable(serial, arpTableId)
+            return self.dashboard.getDeviceLiveToolsArpTable(serial, arpTableId)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolsarptable: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsArpTable: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolsarptable: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsArpTable: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolscabletest(self, serial, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolscabletest'.
-        Calls 'self.dashboard.getdevicelivetoolscabletest' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsCableTest(self, serial, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolscabletest(serial, id)
+            return self.dashboard.getDeviceLiveToolsCableTest(serial, id)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolscabletest: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsCableTest: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolscabletest: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsCableTest: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolsledsblink(self, serial, ledsBlinkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolsledsblink'.
-        Calls 'self.dashboard.getdevicelivetoolsledsblink' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param ledsBlinkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsLedsBlink(self, serial, ledsBlinkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolsledsblink(serial, ledsBlinkId)
+            return self.dashboard.getDeviceLiveToolsLedsBlink(serial, ledsBlinkId)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolsledsblink: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsLedsBlink: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolsledsblink: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsLedsBlink: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolsping(self, serial, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolsping'.
-        Calls 'self.dashboard.getdevicelivetoolsping' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsPing(self, serial, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolsping(serial, id)
+            return self.dashboard.getDeviceLiveToolsPing(serial, id)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolsping: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsPing: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolsping: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsPing: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolspingdevice(self, serial, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolspingdevice'.
-        Calls 'self.dashboard.getdevicelivetoolspingdevice' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsPingDevice(self, serial, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolspingdevice(serial, id)
+            return self.dashboard.getDeviceLiveToolsPingDevice(serial, id)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolspingdevice: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsPingDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolspingdevice: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsPingDevice: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolsthroughputtest(self, serial, throughputTestId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolsthroughputtest'.
-        Calls 'self.dashboard.getdevicelivetoolsthroughputtest' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param throughputTestId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsThroughputTest(self, serial, throughputTestId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolsthroughputtest(serial, throughputTestId)
+            return self.dashboard.getDeviceLiveToolsThroughputTest(serial, throughputTestId)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolsthroughputtest: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsThroughputTest: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolsthroughputtest: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsThroughputTest: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelivetoolswakeonlan(self, serial, wakeOnLanId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelivetoolswakeonlan'.
-        Calls 'self.dashboard.getdevicelivetoolswakeonlan' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param wakeOnLanId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLiveToolsWakeOnLan(self, serial, wakeOnLanId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelivetoolswakeonlan(serial, wakeOnLanId)
+            return self.dashboard.getDeviceLiveToolsWakeOnLan(serial, wakeOnLanId)
         except APIError as e:
-            logging.error(f"API Error in getdevicelivetoolswakeonlan: {e}")
+            logging.error(f"API Error in getDeviceLiveToolsWakeOnLan: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelivetoolswakeonlan: {ex}")
+            logging.error(f"Unknown error in getDeviceLiveToolsWakeOnLan: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelldpcdp(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelldpcdp'.
-        Calls 'self.dashboard.getdevicelldpcdp' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLldpCdp(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelldpcdp(serial)
+            return self.dashboard.getDeviceLldpCdp(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicelldpcdp: {e}")
+            logging.error(f"API Error in getDeviceLldpCdp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelldpcdp: {ex}")
+            logging.error(f"Unknown error in getDeviceLldpCdp: {ex}")
             return {"error": str(ex)}
 
-    def getdevicelossandlatencyhistory(self, serial, ip, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicelossandlatencyhistory'.
-        Calls 'self.dashboard.getdevicelossandlatencyhistory' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param ip: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceLossAndLatencyHistory(self, serial, ip, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicelossandlatencyhistory(serial, ip, **kwargs)
+            return self.dashboard.getDeviceLossAndLatencyHistory(serial, ip, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicelossandlatencyhistory: {e}")
+            logging.error(f"API Error in getDeviceLossAndLatencyHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicelossandlatencyhistory: {ex}")
+            logging.error(f"Unknown error in getDeviceLossAndLatencyHistory: {ex}")
             return {"error": str(ex)}
 
-    def getdevicemanagementinterface(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicemanagementinterface'.
-        Calls 'self.dashboard.getdevicemanagementinterface' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceManagementInterface(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicemanagementinterface(serial)
+            return self.dashboard.getDeviceManagementInterface(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicemanagementinterface: {e}")
+            logging.error(f"API Error in getDeviceManagementInterface: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicemanagementinterface: {ex}")
+            logging.error(f"Unknown error in getDeviceManagementInterface: {ex}")
             return {"error": str(ex)}
 
-    def getdevicesensorcommand(self, serial, commandId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicesensorcommand'.
-        Calls 'self.dashboard.getdevicesensorcommand' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param commandId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSensorCommand(self, serial, commandId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicesensorcommand(serial, commandId)
+            return self.dashboard.getDeviceSensorCommand(serial, commandId)
         except APIError as e:
-            logging.error(f"API Error in getdevicesensorcommand: {e}")
+            logging.error(f"API Error in getDeviceSensorCommand: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicesensorcommand: {ex}")
+            logging.error(f"Unknown error in getDeviceSensorCommand: {ex}")
             return {"error": str(ex)}
 
-    def getdevicesensorcommands(self, serial, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicesensorcommands'.
-        Calls 'self.dashboard.getdevicesensorcommands' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSensorCommands(self, serial, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicesensorcommands(serial, total_pages, direction, **kwargs)
+            return self.dashboard.getDeviceSensorCommands(serial, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicesensorcommands: {e}")
+            logging.error(f"API Error in getDeviceSensorCommands: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicesensorcommands: {ex}")
+            logging.error(f"Unknown error in getDeviceSensorCommands: {ex}")
             return {"error": str(ex)}
 
-    def getdevicesensorrelationships(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicesensorrelationships'.
-        Calls 'self.dashboard.getdevicesensorrelationships' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSensorRelationships(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicesensorrelationships(serial)
+            return self.dashboard.getDeviceSensorRelationships(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicesensorrelationships: {e}")
+            logging.error(f"API Error in getDeviceSensorRelationships: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicesensorrelationships: {ex}")
+            logging.error(f"Unknown error in getDeviceSensorRelationships: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchport(self, serial, portId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchport'.
-        Calls 'self.dashboard.getdeviceswitchport' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param portId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchPort(self, serial, portId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchport(serial, portId)
+            return self.dashboard.getDeviceSwitchPort(serial, portId)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchport: {e}")
+            logging.error(f"API Error in getDeviceSwitchPort: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchport: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchPort: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchports(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchports'.
-        Calls 'self.dashboard.getdeviceswitchports' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchPorts(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchports(serial)
+            return self.dashboard.getDeviceSwitchPorts(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchports: {e}")
+            logging.error(f"API Error in getDeviceSwitchPorts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchports: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchPorts: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchportsstatuses(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchportsstatuses'.
-        Calls 'self.dashboard.getdeviceswitchportsstatuses' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchPortsStatuses(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchportsstatuses(serial, **kwargs)
+            return self.dashboard.getDeviceSwitchPortsStatuses(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchportsstatuses: {e}")
+            logging.error(f"API Error in getDeviceSwitchPortsStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchportsstatuses: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchPortsStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchportsstatusespackets(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchportsstatusespackets'.
-        Calls 'self.dashboard.getdeviceswitchportsstatusespackets' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchPortsStatusesPackets(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchportsstatusespackets(serial, **kwargs)
+            return self.dashboard.getDeviceSwitchPortsStatusesPackets(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchportsstatusespackets: {e}")
+            logging.error(f"API Error in getDeviceSwitchPortsStatusesPackets: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchportsstatusespackets: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchPortsStatusesPackets: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchroutinginterface(self, serial, interfaceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchroutinginterface'.
-        Calls 'self.dashboard.getdeviceswitchroutinginterface' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param interfaceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchRoutingInterface(self, serial, interfaceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchroutinginterface(serial, interfaceId)
+            return self.dashboard.getDeviceSwitchRoutingInterface(serial, interfaceId)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchroutinginterface: {e}")
+            logging.error(f"API Error in getDeviceSwitchRoutingInterface: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchroutinginterface: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchRoutingInterface: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchroutinginterfacedhcp(self, serial, interfaceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchroutinginterfacedhcp'.
-        Calls 'self.dashboard.getdeviceswitchroutinginterfacedhcp' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param interfaceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchRoutingInterfaceDhcp(self, serial, interfaceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchroutinginterfacedhcp(serial, interfaceId)
+            return self.dashboard.getDeviceSwitchRoutingInterfaceDhcp(serial, interfaceId)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchroutinginterfacedhcp: {e}")
+            logging.error(f"API Error in getDeviceSwitchRoutingInterfaceDhcp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchroutinginterfacedhcp: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchRoutingInterfaceDhcp: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchroutinginterfaces(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchroutinginterfaces'.
-        Calls 'self.dashboard.getdeviceswitchroutinginterfaces' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchRoutingInterfaces(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchroutinginterfaces(serial)
+            return self.dashboard.getDeviceSwitchRoutingInterfaces(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchroutinginterfaces: {e}")
+            logging.error(f"API Error in getDeviceSwitchRoutingInterfaces: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchroutinginterfaces: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchRoutingInterfaces: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchroutingstaticroute(self, serial, staticRouteId) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchroutingstaticroute'.
-        Calls 'self.dashboard.getdeviceswitchroutingstaticroute' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param staticRouteId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchRoutingStaticRoute(self, serial, staticRouteId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchroutingstaticroute(serial, staticRouteId)
+            return self.dashboard.getDeviceSwitchRoutingStaticRoute(serial, staticRouteId)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchroutingstaticroute: {e}")
+            logging.error(f"API Error in getDeviceSwitchRoutingStaticRoute: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchroutingstaticroute: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchRoutingStaticRoute: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchroutingstaticroutes(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchroutingstaticroutes'.
-        Calls 'self.dashboard.getdeviceswitchroutingstaticroutes' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchRoutingStaticRoutes(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchroutingstaticroutes(serial)
+            return self.dashboard.getDeviceSwitchRoutingStaticRoutes(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchroutingstaticroutes: {e}")
+            logging.error(f"API Error in getDeviceSwitchRoutingStaticRoutes: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchroutingstaticroutes: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchRoutingStaticRoutes: {ex}")
             return {"error": str(ex)}
 
-    def getdeviceswitchwarmspare(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdeviceswitchwarmspare'.
-        Calls 'self.dashboard.getdeviceswitchwarmspare' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceSwitchWarmSpare(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdeviceswitchwarmspare(serial)
+            return self.dashboard.getDeviceSwitchWarmSpare(serial)
         except APIError as e:
-            logging.error(f"API Error in getdeviceswitchwarmspare: {e}")
+            logging.error(f"API Error in getDeviceSwitchWarmSpare: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdeviceswitchwarmspare: {ex}")
+            logging.error(f"Unknown error in getDeviceSwitchWarmSpare: {ex}")
             return {"error": str(ex)}
 
-    def getdevicewirelessbluetoothsettings(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicewirelessbluetoothsettings'.
-        Calls 'self.dashboard.getdevicewirelessbluetoothsettings' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceWirelessBluetoothSettings(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicewirelessbluetoothsettings(serial)
+            return self.dashboard.getDeviceWirelessBluetoothSettings(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicewirelessbluetoothsettings: {e}")
+            logging.error(f"API Error in getDeviceWirelessBluetoothSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicewirelessbluetoothsettings: {ex}")
+            logging.error(f"Unknown error in getDeviceWirelessBluetoothSettings: {ex}")
             return {"error": str(ex)}
 
-    def getdevicewirelessconnectionstats(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicewirelessconnectionstats'.
-        Calls 'self.dashboard.getdevicewirelessconnectionstats' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceWirelessConnectionStats(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicewirelessconnectionstats(serial, **kwargs)
+            return self.dashboard.getDeviceWirelessConnectionStats(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicewirelessconnectionstats: {e}")
+            logging.error(f"API Error in getDeviceWirelessConnectionStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicewirelessconnectionstats: {ex}")
+            logging.error(f"Unknown error in getDeviceWirelessConnectionStats: {ex}")
             return {"error": str(ex)}
 
-    def getdevicewirelesselectronicshelflabel(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicewirelesselectronicshelflabel'.
-        Calls 'self.dashboard.getdevicewirelesselectronicshelflabel' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceWirelessElectronicShelfLabel(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicewirelesselectronicshelflabel(serial)
+            return self.dashboard.getDeviceWirelessElectronicShelfLabel(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicewirelesselectronicshelflabel: {e}")
+            logging.error(f"API Error in getDeviceWirelessElectronicShelfLabel: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicewirelesselectronicshelflabel: {ex}")
+            logging.error(f"Unknown error in getDeviceWirelessElectronicShelfLabel: {ex}")
             return {"error": str(ex)}
 
-    def getdevicewirelesslatencystats(self, serial, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicewirelesslatencystats'.
-        Calls 'self.dashboard.getdevicewirelesslatencystats' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceWirelessLatencyStats(self, serial, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicewirelesslatencystats(serial, **kwargs)
+            return self.dashboard.getDeviceWirelessLatencyStats(serial, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getdevicewirelesslatencystats: {e}")
+            logging.error(f"API Error in getDeviceWirelessLatencyStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicewirelesslatencystats: {ex}")
+            logging.error(f"Unknown error in getDeviceWirelessLatencyStats: {ex}")
             return {"error": str(ex)}
 
-    def getdevicewirelessradiosettings(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicewirelessradiosettings'.
-        Calls 'self.dashboard.getdevicewirelessradiosettings' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceWirelessRadioSettings(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicewirelessradiosettings(serial)
+            return self.dashboard.getDeviceWirelessRadioSettings(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicewirelessradiosettings: {e}")
+            logging.error(f"API Error in getDeviceWirelessRadioSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicewirelessradiosettings: {ex}")
+            logging.error(f"Unknown error in getDeviceWirelessRadioSettings: {ex}")
             return {"error": str(ex)}
 
-    def getdevicewirelessstatus(self, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getdevicewirelessstatus'.
-        Calls 'self.dashboard.getdevicewirelessstatus' with the same parameters.
-        
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getDeviceWirelessStatus(self, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getdevicewirelessstatus(serial)
+            return self.dashboard.getDeviceWirelessStatus(serial)
         except APIError as e:
-            logging.error(f"API Error in getdevicewirelessstatus: {e}")
+            logging.error(f"API Error in getDeviceWirelessStatus: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getdevicewirelessstatus: {ex}")
+            logging.error(f"Unknown error in getDeviceWirelessStatus: {ex}")
             return {"error": str(ex)}
 
-    def getnetwork(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetwork'.
-        Calls 'self.dashboard.getnetwork' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetwork(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetwork(networkId)
+            return self.dashboard.getNetwork(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetwork: {e}")
+            logging.error(f"API Error in getNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetwork: {ex}")
+            logging.error(f"Unknown error in getNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkalertshistory(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkalertshistory'.
-        Calls 'self.dashboard.getnetworkalertshistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkAlertsHistory(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkalertshistory(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkAlertsHistory(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkalertshistory: {e}")
+            logging.error(f"API Error in getNetworkAlertsHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkalertshistory: {ex}")
+            logging.error(f"Unknown error in getNetworkAlertsHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkalertssettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkalertssettings'.
-        Calls 'self.dashboard.getnetworkalertssettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkAlertsSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkalertssettings(networkId)
+            return self.dashboard.getNetworkAlertsSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkalertssettings: {e}")
+            logging.error(f"API Error in getNetworkAlertsSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkalertssettings: {ex}")
+            logging.error(f"Unknown error in getNetworkAlertsSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceclientsecurityevents(self, networkId, clientId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceclientsecurityevents'.
-        Calls 'self.dashboard.getnetworkapplianceclientsecurityevents' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceClientSecurityEvents(self, networkId, clientId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceclientsecurityevents(networkId, clientId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkApplianceClientSecurityEvents(networkId, clientId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceclientsecurityevents: {e}")
+            logging.error(f"API Error in getNetworkApplianceClientSecurityEvents: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceclientsecurityevents: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceClientSecurityEvents: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceconnectivitymonitoringdestinations(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceconnectivitymonitoringdestinations'.
-        Calls 'self.dashboard.getnetworkapplianceconnectivitymonitoringdestinations' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceConnectivityMonitoringDestinations(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceconnectivitymonitoringdestinations(networkId)
+            return self.dashboard.getNetworkApplianceConnectivityMonitoringDestinations(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceconnectivitymonitoringdestinations: {e}")
+            logging.error(f"API Error in getNetworkApplianceConnectivityMonitoringDestinations: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceconnectivitymonitoringdestinations: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceConnectivityMonitoringDestinations: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancecontentfiltering(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancecontentfiltering'.
-        Calls 'self.dashboard.getnetworkappliancecontentfiltering' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceContentFiltering(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancecontentfiltering(networkId)
+            return self.dashboard.getNetworkApplianceContentFiltering(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancecontentfiltering: {e}")
+            logging.error(f"API Error in getNetworkApplianceContentFiltering: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancecontentfiltering: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceContentFiltering: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancecontentfilteringcategories(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancecontentfilteringcategories'.
-        Calls 'self.dashboard.getnetworkappliancecontentfilteringcategories' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceContentFilteringCategories(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancecontentfilteringcategories(networkId)
+            return self.dashboard.getNetworkApplianceContentFilteringCategories(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancecontentfilteringcategories: {e}")
+            logging.error(f"API Error in getNetworkApplianceContentFilteringCategories: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancecontentfilteringcategories: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceContentFilteringCategories: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallcellularfirewallrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallcellularfirewallrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewallcellularfirewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallCellularFirewallRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallcellularfirewallrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallCellularFirewallRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallcellularfirewallrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallCellularFirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallcellularfirewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallCellularFirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallfirewalledservice(self, networkId, service) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallfirewalledservice'.
-        Calls 'self.dashboard.getnetworkappliancefirewallfirewalledservice' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param service: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallFirewalledService(self, networkId, service) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallfirewalledservice(networkId, service)
+            return self.dashboard.getNetworkApplianceFirewallFirewalledService(networkId, service)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallfirewalledservice: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallFirewalledService: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallfirewalledservice: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallFirewalledService: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallfirewalledservices(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallfirewalledservices'.
-        Calls 'self.dashboard.getnetworkappliancefirewallfirewalledservices' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallFirewalledServices(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallfirewalledservices(networkId)
+            return self.dashboard.getNetworkApplianceFirewallFirewalledServices(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallfirewalledservices: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallFirewalledServices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallfirewalledservices: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallFirewalledServices: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallinboundcellularfirewallrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallinboundcellularfirewallrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewallinboundcellularfirewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallInboundCellularFirewallRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallinboundcellularfirewallrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallInboundCellularFirewallRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallinboundcellularfirewallrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallInboundCellularFirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallinboundcellularfirewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallInboundCellularFirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallinboundfirewallrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallinboundfirewallrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewallinboundfirewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallInboundFirewallRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallinboundfirewallrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallInboundFirewallRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallinboundfirewallrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallInboundFirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallinboundfirewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallInboundFirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewalll3firewallrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewalll3firewallrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewalll3firewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallL3FirewallRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewalll3firewallrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallL3FirewallRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewalll3firewallrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallL3FirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewalll3firewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallL3FirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewalll7firewallrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewalll7firewallrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewalll7firewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallL7FirewallRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewalll7firewallrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallL7FirewallRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewalll7firewallrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallL7FirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewalll7firewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallL7FirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewalll7firewallrulesapplicationcategories(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewalll7firewallrulesapplicationcategories'.
-        Calls 'self.dashboard.getnetworkappliancefirewalll7firewallrulesapplicationcategories' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallL7FirewallRulesApplicationCategories(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewalll7firewallrulesapplicationcategories(networkId)
+            return self.dashboard.getNetworkApplianceFirewallL7FirewallRulesApplicationCategories(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewalll7firewallrulesapplicationcategories: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallL7FirewallRulesApplicationCategories: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewalll7firewallrulesapplicationcategories: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallL7FirewallRulesApplicationCategories: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallonetomanynatrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallonetomanynatrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewallonetomanynatrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallOneToManyNatRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallonetomanynatrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallOneToManyNatRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallonetomanynatrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallOneToManyNatRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallonetomanynatrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallOneToManyNatRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallonetoonenatrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallonetoonenatrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewallonetoonenatrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallOneToOneNatRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallonetoonenatrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallOneToOneNatRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallonetoonenatrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallOneToOneNatRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallonetoonenatrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallOneToOneNatRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallportforwardingrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallportforwardingrules'.
-        Calls 'self.dashboard.getnetworkappliancefirewallportforwardingrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallPortForwardingRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallportforwardingrules(networkId)
+            return self.dashboard.getNetworkApplianceFirewallPortForwardingRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallportforwardingrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallPortForwardingRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallportforwardingrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallPortForwardingRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancefirewallsettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancefirewallsettings'.
-        Calls 'self.dashboard.getnetworkappliancefirewallsettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceFirewallSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancefirewallsettings(networkId)
+            return self.dashboard.getNetworkApplianceFirewallSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancefirewallsettings: {e}")
+            logging.error(f"API Error in getNetworkApplianceFirewallSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancefirewallsettings: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceFirewallSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceport(self, networkId, portId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceport'.
-        Calls 'self.dashboard.getnetworkapplianceport' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param portId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkAppliancePort(self, networkId, portId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceport(networkId, portId)
+            return self.dashboard.getNetworkAppliancePort(networkId, portId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceport: {e}")
+            logging.error(f"API Error in getNetworkAppliancePort: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceport: {ex}")
+            logging.error(f"Unknown error in getNetworkAppliancePort: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceports(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceports'.
-        Calls 'self.dashboard.getnetworkapplianceports' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkAppliancePorts(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceports(networkId)
+            return self.dashboard.getNetworkAppliancePorts(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceports: {e}")
+            logging.error(f"API Error in getNetworkAppliancePorts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceports: {ex}")
+            logging.error(f"Unknown error in getNetworkAppliancePorts: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceprefixesdelegatedstatic(self, networkId, staticDelegatedPrefixId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceprefixesdelegatedstatic'.
-        Calls 'self.dashboard.getnetworkapplianceprefixesdelegatedstatic' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param staticDelegatedPrefixId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkAppliancePrefixesDelegatedStatic(self, networkId, staticDelegatedPrefixId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceprefixesdelegatedstatic(networkId, staticDelegatedPrefixId)
+            return self.dashboard.getNetworkAppliancePrefixesDelegatedStatic(networkId, staticDelegatedPrefixId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceprefixesdelegatedstatic: {e}")
+            logging.error(f"API Error in getNetworkAppliancePrefixesDelegatedStatic: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceprefixesdelegatedstatic: {ex}")
+            logging.error(f"Unknown error in getNetworkAppliancePrefixesDelegatedStatic: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceprefixesdelegatedstatics(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceprefixesdelegatedstatics'.
-        Calls 'self.dashboard.getnetworkapplianceprefixesdelegatedstatics' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkAppliancePrefixesDelegatedStatics(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceprefixesdelegatedstatics(networkId)
+            return self.dashboard.getNetworkAppliancePrefixesDelegatedStatics(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceprefixesdelegatedstatics: {e}")
+            logging.error(f"API Error in getNetworkAppliancePrefixesDelegatedStatics: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceprefixesdelegatedstatics: {ex}")
+            logging.error(f"Unknown error in getNetworkAppliancePrefixesDelegatedStatics: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancerfprofile(self, networkId, rfProfileId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancerfprofile'.
-        Calls 'self.dashboard.getnetworkappliancerfprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param rfProfileId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceRfProfile(self, networkId, rfProfileId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancerfprofile(networkId, rfProfileId)
+            return self.dashboard.getNetworkApplianceRfProfile(networkId, rfProfileId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancerfprofile: {e}")
+            logging.error(f"API Error in getNetworkApplianceRfProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancerfprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceRfProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancerfprofiles(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancerfprofiles'.
-        Calls 'self.dashboard.getnetworkappliancerfprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceRfProfiles(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancerfprofiles(networkId)
+            return self.dashboard.getNetworkApplianceRfProfiles(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancerfprofiles: {e}")
+            logging.error(f"API Error in getNetworkApplianceRfProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancerfprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceRfProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancesecurityevents(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancesecurityevents'.
-        Calls 'self.dashboard.getnetworkappliancesecurityevents' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSecurityEvents(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancesecurityevents(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkApplianceSecurityEvents(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancesecurityevents: {e}")
+            logging.error(f"API Error in getNetworkApplianceSecurityEvents: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancesecurityevents: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSecurityEvents: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancesecurityintrusion(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancesecurityintrusion'.
-        Calls 'self.dashboard.getnetworkappliancesecurityintrusion' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSecurityIntrusion(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancesecurityintrusion(networkId)
+            return self.dashboard.getNetworkApplianceSecurityIntrusion(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancesecurityintrusion: {e}")
+            logging.error(f"API Error in getNetworkApplianceSecurityIntrusion: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancesecurityintrusion: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSecurityIntrusion: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancesecuritymalware(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancesecuritymalware'.
-        Calls 'self.dashboard.getnetworkappliancesecuritymalware' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSecurityMalware(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancesecuritymalware(networkId)
+            return self.dashboard.getNetworkApplianceSecurityMalware(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancesecuritymalware: {e}")
+            logging.error(f"API Error in getNetworkApplianceSecurityMalware: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancesecuritymalware: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSecurityMalware: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancesettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancesettings'.
-        Calls 'self.dashboard.getnetworkappliancesettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancesettings(networkId)
+            return self.dashboard.getNetworkApplianceSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancesettings: {e}")
+            logging.error(f"API Error in getNetworkApplianceSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancesettings: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancesinglelan(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancesinglelan'.
-        Calls 'self.dashboard.getnetworkappliancesinglelan' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSingleLan(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancesinglelan(networkId)
+            return self.dashboard.getNetworkApplianceSingleLan(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancesinglelan: {e}")
+            logging.error(f"API Error in getNetworkApplianceSingleLan: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancesinglelan: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSingleLan: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancessid(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancessid'.
-        Calls 'self.dashboard.getnetworkappliancessid' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSsid(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancessid(networkId, number)
+            return self.dashboard.getNetworkApplianceSsid(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancessid: {e}")
+            logging.error(f"API Error in getNetworkApplianceSsid: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancessid: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSsid: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancessids(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancessids'.
-        Calls 'self.dashboard.getnetworkappliancessids' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceSsids(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancessids(networkId)
+            return self.dashboard.getNetworkApplianceSsids(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancessids: {e}")
+            logging.error(f"API Error in getNetworkApplianceSsids: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancessids: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceSsids: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancestaticroute(self, networkId, staticRouteId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancestaticroute'.
-        Calls 'self.dashboard.getnetworkappliancestaticroute' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param staticRouteId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceStaticRoute(self, networkId, staticRouteId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancestaticroute(networkId, staticRouteId)
+            return self.dashboard.getNetworkApplianceStaticRoute(networkId, staticRouteId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancestaticroute: {e}")
+            logging.error(f"API Error in getNetworkApplianceStaticRoute: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancestaticroute: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceStaticRoute: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancestaticroutes(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancestaticroutes'.
-        Calls 'self.dashboard.getnetworkappliancestaticroutes' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceStaticRoutes(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancestaticroutes(networkId)
+            return self.dashboard.getNetworkApplianceStaticRoutes(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancestaticroutes: {e}")
+            logging.error(f"API Error in getNetworkApplianceStaticRoutes: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancestaticroutes: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceStaticRoutes: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancetrafficshaping(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancetrafficshaping'.
-        Calls 'self.dashboard.getnetworkappliancetrafficshaping' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceTrafficShaping(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancetrafficshaping(networkId)
+            return self.dashboard.getNetworkApplianceTrafficShaping(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancetrafficshaping: {e}")
+            logging.error(f"API Error in getNetworkApplianceTrafficShaping: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancetrafficshaping: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceTrafficShaping: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancetrafficshapingcustomperformanceclass(self, networkId, customPerformanceClassId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancetrafficshapingcustomperformanceclass'.
-        Calls 'self.dashboard.getnetworkappliancetrafficshapingcustomperformanceclass' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param customPerformanceClassId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceTrafficShapingCustomPerformanceClass(self, networkId, customPerformanceClassId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancetrafficshapingcustomperformanceclass(networkId, customPerformanceClassId)
+            return self.dashboard.getNetworkApplianceTrafficShapingCustomPerformanceClass(networkId, customPerformanceClassId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancetrafficshapingcustomperformanceclass: {e}")
+            logging.error(f"API Error in getNetworkApplianceTrafficShapingCustomPerformanceClass: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancetrafficshapingcustomperformanceclass: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceTrafficShapingCustomPerformanceClass: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancetrafficshapingcustomperformanceclasses(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancetrafficshapingcustomperformanceclasses'.
-        Calls 'self.dashboard.getnetworkappliancetrafficshapingcustomperformanceclasses' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceTrafficShapingCustomPerformanceClasses(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancetrafficshapingcustomperformanceclasses(networkId)
+            return self.dashboard.getNetworkApplianceTrafficShapingCustomPerformanceClasses(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancetrafficshapingcustomperformanceclasses: {e}")
+            logging.error(f"API Error in getNetworkApplianceTrafficShapingCustomPerformanceClasses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancetrafficshapingcustomperformanceclasses: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceTrafficShapingCustomPerformanceClasses: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancetrafficshapingrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancetrafficshapingrules'.
-        Calls 'self.dashboard.getnetworkappliancetrafficshapingrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceTrafficShapingRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancetrafficshapingrules(networkId)
+            return self.dashboard.getNetworkApplianceTrafficShapingRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancetrafficshapingrules: {e}")
+            logging.error(f"API Error in getNetworkApplianceTrafficShapingRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancetrafficshapingrules: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceTrafficShapingRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancetrafficshapinguplinkbandwidth(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancetrafficshapinguplinkbandwidth'.
-        Calls 'self.dashboard.getnetworkappliancetrafficshapinguplinkbandwidth' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceTrafficShapingUplinkBandwidth(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancetrafficshapinguplinkbandwidth(networkId)
+            return self.dashboard.getNetworkApplianceTrafficShapingUplinkBandwidth(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancetrafficshapinguplinkbandwidth: {e}")
+            logging.error(f"API Error in getNetworkApplianceTrafficShapingUplinkBandwidth: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancetrafficshapinguplinkbandwidth: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceTrafficShapingUplinkBandwidth: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancetrafficshapinguplinkselection(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancetrafficshapinguplinkselection'.
-        Calls 'self.dashboard.getnetworkappliancetrafficshapinguplinkselection' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceTrafficShapingUplinkSelection(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancetrafficshapinguplinkselection(networkId)
+            return self.dashboard.getNetworkApplianceTrafficShapingUplinkSelection(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancetrafficshapinguplinkselection: {e}")
+            logging.error(f"API Error in getNetworkApplianceTrafficShapingUplinkSelection: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancetrafficshapinguplinkselection: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceTrafficShapingUplinkSelection: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkapplianceuplinksusagehistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkapplianceuplinksusagehistory'.
-        Calls 'self.dashboard.getnetworkapplianceuplinksusagehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceUplinksUsageHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkapplianceuplinksusagehistory(networkId, **kwargs)
+            return self.dashboard.getNetworkApplianceUplinksUsageHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkapplianceuplinksusagehistory: {e}")
+            logging.error(f"API Error in getNetworkApplianceUplinksUsageHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkapplianceuplinksusagehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceUplinksUsageHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancevlan(self, networkId, vlanId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancevlan'.
-        Calls 'self.dashboard.getnetworkappliancevlan' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param vlanId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceVlan(self, networkId, vlanId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancevlan(networkId, vlanId)
+            return self.dashboard.getNetworkApplianceVlan(networkId, vlanId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancevlan: {e}")
+            logging.error(f"API Error in getNetworkApplianceVlan: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancevlan: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceVlan: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancevlans(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancevlans'.
-        Calls 'self.dashboard.getnetworkappliancevlans' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceVlans(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancevlans(networkId)
+            return self.dashboard.getNetworkApplianceVlans(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancevlans: {e}")
+            logging.error(f"API Error in getNetworkApplianceVlans: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancevlans: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceVlans: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancevlanssettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancevlanssettings'.
-        Calls 'self.dashboard.getnetworkappliancevlanssettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceVlansSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancevlanssettings(networkId)
+            return self.dashboard.getNetworkApplianceVlansSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancevlanssettings: {e}")
+            logging.error(f"API Error in getNetworkApplianceVlansSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancevlanssettings: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceVlansSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancevpnbgp(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancevpnbgp'.
-        Calls 'self.dashboard.getnetworkappliancevpnbgp' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceVpnBgp(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancevpnbgp(networkId)
+            return self.dashboard.getNetworkApplianceVpnBgp(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancevpnbgp: {e}")
+            logging.error(f"API Error in getNetworkApplianceVpnBgp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancevpnbgp: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceVpnBgp: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancevpnsitetositevpn(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancevpnsitetositevpn'.
-        Calls 'self.dashboard.getnetworkappliancevpnsitetositevpn' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceVpnSiteToSiteVpn(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancevpnsitetositevpn(networkId)
+            return self.dashboard.getNetworkApplianceVpnSiteToSiteVpn(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancevpnsitetositevpn: {e}")
+            logging.error(f"API Error in getNetworkApplianceVpnSiteToSiteVpn: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancevpnsitetositevpn: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceVpnSiteToSiteVpn: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkappliancewarmspare(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkappliancewarmspare'.
-        Calls 'self.dashboard.getnetworkappliancewarmspare' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkApplianceWarmSpare(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkappliancewarmspare(networkId)
+            return self.dashboard.getNetworkApplianceWarmSpare(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkappliancewarmspare: {e}")
+            logging.error(f"API Error in getNetworkApplianceWarmSpare: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkappliancewarmspare: {ex}")
+            logging.error(f"Unknown error in getNetworkApplianceWarmSpare: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkbluetoothclient(self, networkId, bluetoothClientId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkbluetoothclient'.
-        Calls 'self.dashboard.getnetworkbluetoothclient' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param bluetoothClientId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkBluetoothClient(self, networkId, bluetoothClientId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkbluetoothclient(networkId, bluetoothClientId, **kwargs)
+            return self.dashboard.getNetworkBluetoothClient(networkId, bluetoothClientId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkbluetoothclient: {e}")
+            logging.error(f"API Error in getNetworkBluetoothClient: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkbluetoothclient: {ex}")
+            logging.error(f"Unknown error in getNetworkBluetoothClient: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkbluetoothclients(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkbluetoothclients'.
-        Calls 'self.dashboard.getnetworkbluetoothclients' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkBluetoothClients(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkbluetoothclients(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkBluetoothClients(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkbluetoothclients: {e}")
+            logging.error(f"API Error in getNetworkBluetoothClients: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkbluetoothclients: {ex}")
+            logging.error(f"Unknown error in getNetworkBluetoothClients: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcameraqualityretentionprofile(self, networkId, qualityRetentionProfileId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcameraqualityretentionprofile'.
-        Calls 'self.dashboard.getnetworkcameraqualityretentionprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param qualityRetentionProfileId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCameraQualityRetentionProfile(self, networkId, qualityRetentionProfileId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcameraqualityretentionprofile(networkId, qualityRetentionProfileId)
+            return self.dashboard.getNetworkCameraQualityRetentionProfile(networkId, qualityRetentionProfileId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcameraqualityretentionprofile: {e}")
+            logging.error(f"API Error in getNetworkCameraQualityRetentionProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcameraqualityretentionprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkCameraQualityRetentionProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcameraqualityretentionprofiles(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcameraqualityretentionprofiles'.
-        Calls 'self.dashboard.getnetworkcameraqualityretentionprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCameraQualityRetentionProfiles(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcameraqualityretentionprofiles(networkId)
+            return self.dashboard.getNetworkCameraQualityRetentionProfiles(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcameraqualityretentionprofiles: {e}")
+            logging.error(f"API Error in getNetworkCameraQualityRetentionProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcameraqualityretentionprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkCameraQualityRetentionProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcameraschedules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcameraschedules'.
-        Calls 'self.dashboard.getnetworkcameraschedules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCameraSchedules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcameraschedules(networkId)
+            return self.dashboard.getNetworkCameraSchedules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcameraschedules: {e}")
+            logging.error(f"API Error in getNetworkCameraSchedules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcameraschedules: {ex}")
+            logging.error(f"Unknown error in getNetworkCameraSchedules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcamerawirelessprofile(self, networkId, wirelessProfileId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcamerawirelessprofile'.
-        Calls 'self.dashboard.getnetworkcamerawirelessprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param wirelessProfileId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCameraWirelessProfile(self, networkId, wirelessProfileId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcamerawirelessprofile(networkId, wirelessProfileId)
+            return self.dashboard.getNetworkCameraWirelessProfile(networkId, wirelessProfileId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcamerawirelessprofile: {e}")
+            logging.error(f"API Error in getNetworkCameraWirelessProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcamerawirelessprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkCameraWirelessProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcamerawirelessprofiles(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcamerawirelessprofiles'.
-        Calls 'self.dashboard.getnetworkcamerawirelessprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCameraWirelessProfiles(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcamerawirelessprofiles(networkId)
+            return self.dashboard.getNetworkCameraWirelessProfiles(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcamerawirelessprofiles: {e}")
+            logging.error(f"API Error in getNetworkCameraWirelessProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcamerawirelessprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkCameraWirelessProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcellulargatewayconnectivitymonitoringdestinations(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcellulargatewayconnectivitymonitoringdestinations'.
-        Calls 'self.dashboard.getnetworkcellulargatewayconnectivitymonitoringdestinations' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCellularGatewayConnectivityMonitoringDestinations(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcellulargatewayconnectivitymonitoringdestinations(networkId)
+            return self.dashboard.getNetworkCellularGatewayConnectivityMonitoringDestinations(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcellulargatewayconnectivitymonitoringdestinations: {e}")
+            logging.error(f"API Error in getNetworkCellularGatewayConnectivityMonitoringDestinations: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcellulargatewayconnectivitymonitoringdestinations: {ex}")
+            logging.error(f"Unknown error in getNetworkCellularGatewayConnectivityMonitoringDestinations: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcellulargatewaydhcp(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcellulargatewaydhcp'.
-        Calls 'self.dashboard.getnetworkcellulargatewaydhcp' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCellularGatewayDhcp(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcellulargatewaydhcp(networkId)
+            return self.dashboard.getNetworkCellularGatewayDhcp(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcellulargatewaydhcp: {e}")
+            logging.error(f"API Error in getNetworkCellularGatewayDhcp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcellulargatewaydhcp: {ex}")
+            logging.error(f"Unknown error in getNetworkCellularGatewayDhcp: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcellulargatewaysubnetpool(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcellulargatewaysubnetpool'.
-        Calls 'self.dashboard.getnetworkcellulargatewaysubnetpool' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCellularGatewaySubnetPool(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcellulargatewaysubnetpool(networkId)
+            return self.dashboard.getNetworkCellularGatewaySubnetPool(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcellulargatewaysubnetpool: {e}")
+            logging.error(f"API Error in getNetworkCellularGatewaySubnetPool: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcellulargatewaysubnetpool: {ex}")
+            logging.error(f"Unknown error in getNetworkCellularGatewaySubnetPool: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkcellulargatewayuplink(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkcellulargatewayuplink'.
-        Calls 'self.dashboard.getnetworkcellulargatewayuplink' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkCellularGatewayUplink(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkcellulargatewayuplink(networkId)
+            return self.dashboard.getNetworkCellularGatewayUplink(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkcellulargatewayuplink: {e}")
+            logging.error(f"API Error in getNetworkCellularGatewayUplink: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkcellulargatewayuplink: {ex}")
+            logging.error(f"Unknown error in getNetworkCellularGatewayUplink: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclient(self, networkId, clientId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclient'.
-        Calls 'self.dashboard.getnetworkclient' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClient(self, networkId, clientId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclient(networkId, clientId)
+            return self.dashboard.getNetworkClient(networkId, clientId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclient: {e}")
+            logging.error(f"API Error in getNetworkClient: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclient: {ex}")
+            logging.error(f"Unknown error in getNetworkClient: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientpolicy(self, networkId, clientId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientpolicy'.
-        Calls 'self.dashboard.getnetworkclientpolicy' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientPolicy(self, networkId, clientId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientpolicy(networkId, clientId)
+            return self.dashboard.getNetworkClientPolicy(networkId, clientId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientpolicy: {e}")
+            logging.error(f"API Error in getNetworkClientPolicy: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientpolicy: {ex}")
+            logging.error(f"Unknown error in getNetworkClientPolicy: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclients(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclients'.
-        Calls 'self.dashboard.getnetworkclients' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientSplashAuthorizationStatus(self, networkId, clientId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclients(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkClientSplashAuthorizationStatus(networkId, clientId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclients: {e}")
+            logging.error(f"API Error in getNetworkClientSplashAuthorizationStatus: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclients: {ex}")
+            logging.error(f"Unknown error in getNetworkClientSplashAuthorizationStatus: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientsapplicationusage(self, networkId, clients, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientsapplicationusage'.
-        Calls 'self.dashboard.getnetworkclientsapplicationusage' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clients: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientTrafficHistory(self, networkId, clientId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientsapplicationusage(networkId, clients, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkClientTrafficHistory(networkId, clientId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientsapplicationusage: {e}")
+            logging.error(f"API Error in getNetworkClientTrafficHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientsapplicationusage: {ex}")
+            logging.error(f"Unknown error in getNetworkClientTrafficHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientsbandwidthusagehistory(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientsbandwidthusagehistory'.
-        Calls 'self.dashboard.getnetworkclientsbandwidthusagehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientUsageHistory(self, networkId, clientId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientsbandwidthusagehistory(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkClientUsageHistory(networkId, clientId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientsbandwidthusagehistory: {e}")
+            logging.error(f"API Error in getNetworkClientUsageHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientsbandwidthusagehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkClientUsageHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientsoverview(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientsoverview'.
-        Calls 'self.dashboard.getnetworkclientsoverview' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClients(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientsoverview(networkId, **kwargs)
+            return self.dashboard.getNetworkClients(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientsoverview: {e}")
+            logging.error(f"API Error in getNetworkClients: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientsoverview: {ex}")
+            logging.error(f"Unknown error in getNetworkClients: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientsplashauthorizationstatus(self, networkId, clientId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientsplashauthorizationstatus'.
-        Calls 'self.dashboard.getnetworkclientsplashauthorizationstatus' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientsApplicationUsage(self, networkId, clients, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientsplashauthorizationstatus(networkId, clientId)
+            return self.dashboard.getNetworkClientsApplicationUsage(networkId, clients, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientsplashauthorizationstatus: {e}")
+            logging.error(f"API Error in getNetworkClientsApplicationUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientsplashauthorizationstatus: {ex}")
+            logging.error(f"Unknown error in getNetworkClientsApplicationUsage: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientsusagehistories(self, networkId, clients, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientsusagehistories'.
-        Calls 'self.dashboard.getnetworkclientsusagehistories' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clients: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientsBandwidthUsageHistory(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientsusagehistories(networkId, clients, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkClientsBandwidthUsageHistory(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientsusagehistories: {e}")
+            logging.error(f"API Error in getNetworkClientsBandwidthUsageHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientsusagehistories: {ex}")
+            logging.error(f"Unknown error in getNetworkClientsBandwidthUsageHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclienttraffichistory(self, networkId, clientId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclienttraffichistory'.
-        Calls 'self.dashboard.getnetworkclienttraffichistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientsOverview(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclienttraffichistory(networkId, clientId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkClientsOverview(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclienttraffichistory: {e}")
+            logging.error(f"API Error in getNetworkClientsOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclienttraffichistory: {ex}")
+            logging.error(f"Unknown error in getNetworkClientsOverview: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkclientusagehistory(self, networkId, clientId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkclientusagehistory'.
-        Calls 'self.dashboard.getnetworkclientusagehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkClientsUsageHistories(self, networkId, clients, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkclientusagehistory(networkId, clientId)
+            return self.dashboard.getNetworkClientsUsageHistories(networkId, clients, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkclientusagehistory: {e}")
+            logging.error(f"API Error in getNetworkClientsUsageHistories: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkclientusagehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkClientsUsageHistories: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkdevices(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkdevices'.
-        Calls 'self.dashboard.getnetworkdevices' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkDevices(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkdevices(networkId)
+            return self.dashboard.getNetworkDevices(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkdevices: {e}")
+            logging.error(f"API Error in getNetworkDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkdevices: {ex}")
+            logging.error(f"Unknown error in getNetworkDevices: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkevents(self, networkId, total_pages=1, direction='prev', event_log_end_time=None, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkevents'.
-        Calls 'self.dashboard.getnetworkevents' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param event_log_end_time: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkEvents(self, networkId, total_pages=1, direction='prev', event_log_end_time=None, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkevents(networkId, total_pages, direction, event_log_end_time, **kwargs)
+            return self.dashboard.getNetworkEvents(networkId, total_pages, direction, event_log_end_time, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkevents: {e}")
+            logging.error(f"API Error in getNetworkEvents: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkevents: {ex}")
+            logging.error(f"Unknown error in getNetworkEvents: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkeventseventtypes(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkeventseventtypes'.
-        Calls 'self.dashboard.getnetworkeventseventtypes' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkEventsEventTypes(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkeventseventtypes(networkId)
+            return self.dashboard.getNetworkEventsEventTypes(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkeventseventtypes: {e}")
+            logging.error(f"API Error in getNetworkEventsEventTypes: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkeventseventtypes: {ex}")
+            logging.error(f"Unknown error in getNetworkEventsEventTypes: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfirmwareupgrades(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfirmwareupgrades'.
-        Calls 'self.dashboard.getnetworkfirmwareupgrades' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFirmwareUpgrades(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfirmwareupgrades(networkId)
+            return self.dashboard.getNetworkFirmwareUpgrades(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfirmwareupgrades: {e}")
+            logging.error(f"API Error in getNetworkFirmwareUpgrades: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfirmwareupgrades: {ex}")
+            logging.error(f"Unknown error in getNetworkFirmwareUpgrades: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfirmwareupgradesstagedevents(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfirmwareupgradesstagedevents'.
-        Calls 'self.dashboard.getnetworkfirmwareupgradesstagedevents' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFirmwareUpgradesStagedEvents(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfirmwareupgradesstagedevents(networkId)
+            return self.dashboard.getNetworkFirmwareUpgradesStagedEvents(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfirmwareupgradesstagedevents: {e}")
+            logging.error(f"API Error in getNetworkFirmwareUpgradesStagedEvents: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfirmwareupgradesstagedevents: {ex}")
+            logging.error(f"Unknown error in getNetworkFirmwareUpgradesStagedEvents: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfirmwareupgradesstagedgroup(self, networkId, groupId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfirmwareupgradesstagedgroup'.
-        Calls 'self.dashboard.getnetworkfirmwareupgradesstagedgroup' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param groupId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFirmwareUpgradesStagedGroup(self, networkId, groupId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfirmwareupgradesstagedgroup(networkId, groupId)
+            return self.dashboard.getNetworkFirmwareUpgradesStagedGroup(networkId, groupId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfirmwareupgradesstagedgroup: {e}")
+            logging.error(f"API Error in getNetworkFirmwareUpgradesStagedGroup: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfirmwareupgradesstagedgroup: {ex}")
+            logging.error(f"Unknown error in getNetworkFirmwareUpgradesStagedGroup: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfirmwareupgradesstagedgroups(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfirmwareupgradesstagedgroups'.
-        Calls 'self.dashboard.getnetworkfirmwareupgradesstagedgroups' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFirmwareUpgradesStagedGroups(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfirmwareupgradesstagedgroups(networkId)
+            return self.dashboard.getNetworkFirmwareUpgradesStagedGroups(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfirmwareupgradesstagedgroups: {e}")
+            logging.error(f"API Error in getNetworkFirmwareUpgradesStagedGroups: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfirmwareupgradesstagedgroups: {ex}")
+            logging.error(f"Unknown error in getNetworkFirmwareUpgradesStagedGroups: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfirmwareupgradesstagedstages(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfirmwareupgradesstagedstages'.
-        Calls 'self.dashboard.getnetworkfirmwareupgradesstagedstages' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFirmwareUpgradesStagedStages(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfirmwareupgradesstagedstages(networkId)
+            return self.dashboard.getNetworkFirmwareUpgradesStagedStages(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfirmwareupgradesstagedstages: {e}")
+            logging.error(f"API Error in getNetworkFirmwareUpgradesStagedStages: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfirmwareupgradesstagedstages: {ex}")
+            logging.error(f"Unknown error in getNetworkFirmwareUpgradesStagedStages: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfloorplan(self, networkId, floorPlanId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfloorplan'.
-        Calls 'self.dashboard.getnetworkfloorplan' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param floorPlanId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFloorPlan(self, networkId, floorPlanId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfloorplan(networkId, floorPlanId)
+            return self.dashboard.getNetworkFloorPlan(networkId, floorPlanId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfloorplan: {e}")
+            logging.error(f"API Error in getNetworkFloorPlan: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfloorplan: {ex}")
+            logging.error(f"Unknown error in getNetworkFloorPlan: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkfloorplans(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkfloorplans'.
-        Calls 'self.dashboard.getnetworkfloorplans' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkFloorPlans(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkfloorplans(networkId)
+            return self.dashboard.getNetworkFloorPlans(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkfloorplans: {e}")
+            logging.error(f"API Error in getNetworkFloorPlans: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkfloorplans: {ex}")
+            logging.error(f"Unknown error in getNetworkFloorPlans: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkgrouppolicies(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkgrouppolicies'.
-        Calls 'self.dashboard.getnetworkgrouppolicies' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkGroupPolicies(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkgrouppolicies(networkId)
+            return self.dashboard.getNetworkGroupPolicies(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkgrouppolicies: {e}")
+            logging.error(f"API Error in getNetworkGroupPolicies: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkgrouppolicies: {ex}")
+            logging.error(f"Unknown error in getNetworkGroupPolicies: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkgrouppolicy(self, networkId, groupPolicyId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkgrouppolicy'.
-        Calls 'self.dashboard.getnetworkgrouppolicy' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param groupPolicyId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkGroupPolicy(self, networkId, groupPolicyId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkgrouppolicy(networkId, groupPolicyId)
+            return self.dashboard.getNetworkGroupPolicy(networkId, groupPolicyId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkgrouppolicy: {e}")
+            logging.error(f"API Error in getNetworkGroupPolicy: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkgrouppolicy: {ex}")
+            logging.error(f"Unknown error in getNetworkGroupPolicy: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkhealthalerts(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkhealthalerts'.
-        Calls 'self.dashboard.getnetworkhealthalerts' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkHealthAlerts(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkhealthalerts(networkId)
+            return self.dashboard.getNetworkHealthAlerts(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkhealthalerts: {e}")
+            logging.error(f"API Error in getNetworkHealthAlerts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkhealthalerts: {ex}")
+            logging.error(f"Unknown error in getNetworkHealthAlerts: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkinsightapplicationhealthbytime(self, networkId, applicationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkinsightapplicationhealthbytime'.
-        Calls 'self.dashboard.getnetworkinsightapplicationhealthbytime' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param applicationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkInsightApplicationHealthByTime(self, networkId, applicationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkinsightapplicationhealthbytime(networkId, applicationId, **kwargs)
+            return self.dashboard.getNetworkInsightApplicationHealthByTime(networkId, applicationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkinsightapplicationhealthbytime: {e}")
+            logging.error(f"API Error in getNetworkInsightApplicationHealthByTime: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkinsightapplicationhealthbytime: {ex}")
+            logging.error(f"Unknown error in getNetworkInsightApplicationHealthByTime: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkmerakiauthuser(self, networkId, merakiAuthUserId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkmerakiauthuser'.
-        Calls 'self.dashboard.getnetworkmerakiauthuser' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param merakiAuthUserId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkMerakiAuthUser(self, networkId, merakiAuthUserId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkmerakiauthuser(networkId, merakiAuthUserId)
+            return self.dashboard.getNetworkMerakiAuthUser(networkId, merakiAuthUserId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkmerakiauthuser: {e}")
+            logging.error(f"API Error in getNetworkMerakiAuthUser: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkmerakiauthuser: {ex}")
+            logging.error(f"Unknown error in getNetworkMerakiAuthUser: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkmerakiauthusers(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkmerakiauthusers'.
-        Calls 'self.dashboard.getnetworkmerakiauthusers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkMerakiAuthUsers(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkmerakiauthusers(networkId)
+            return self.dashboard.getNetworkMerakiAuthUsers(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkmerakiauthusers: {e}")
+            logging.error(f"API Error in getNetworkMerakiAuthUsers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkmerakiauthusers: {ex}")
+            logging.error(f"Unknown error in getNetworkMerakiAuthUsers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkmqttbroker(self, networkId, mqttBrokerId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkmqttbroker'.
-        Calls 'self.dashboard.getnetworkmqttbroker' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param mqttBrokerId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkMqttBroker(self, networkId, mqttBrokerId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkmqttbroker(networkId, mqttBrokerId)
+            return self.dashboard.getNetworkMqttBroker(networkId, mqttBrokerId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkmqttbroker: {e}")
+            logging.error(f"API Error in getNetworkMqttBroker: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkmqttbroker: {ex}")
+            logging.error(f"Unknown error in getNetworkMqttBroker: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkmqttbrokers(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkmqttbrokers'.
-        Calls 'self.dashboard.getnetworkmqttbrokers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkMqttBrokers(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkmqttbrokers(networkId)
+            return self.dashboard.getNetworkMqttBrokers(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkmqttbrokers: {e}")
+            logging.error(f"API Error in getNetworkMqttBrokers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkmqttbrokers: {ex}")
+            logging.error(f"Unknown error in getNetworkMqttBrokers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworknetflow(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworknetflow'.
-        Calls 'self.dashboard.getnetworknetflow' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkNetflow(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworknetflow(networkId)
+            return self.dashboard.getNetworkNetflow(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworknetflow: {e}")
+            logging.error(f"API Error in getNetworkNetflow: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworknetflow: {ex}")
+            logging.error(f"Unknown error in getNetworkNetflow: {ex}")
             return {"error": str(ex)}
 
-    def getnetworknetworkhealthchannelutilization(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworknetworkhealthchannelutilization'.
-        Calls 'self.dashboard.getnetworknetworkhealthchannelutilization' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkNetworkHealthChannelUtilization(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworknetworkhealthchannelutilization(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkNetworkHealthChannelUtilization(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworknetworkhealthchannelutilization: {e}")
+            logging.error(f"API Error in getNetworkNetworkHealthChannelUtilization: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworknetworkhealthchannelutilization: {ex}")
+            logging.error(f"Unknown error in getNetworkNetworkHealthChannelUtilization: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkpiipiikeys(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkpiipiikeys'.
-        Calls 'self.dashboard.getnetworkpiipiikeys' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkPiiPiiKeys(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkpiipiikeys(networkId, **kwargs)
+            return self.dashboard.getNetworkPiiPiiKeys(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkpiipiikeys: {e}")
+            logging.error(f"API Error in getNetworkPiiPiiKeys: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkpiipiikeys: {ex}")
+            logging.error(f"Unknown error in getNetworkPiiPiiKeys: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkpiirequest(self, networkId, requestId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkpiirequest'.
-        Calls 'self.dashboard.getnetworkpiirequest' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param requestId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkPiiRequest(self, networkId, requestId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkpiirequest(networkId, requestId)
+            return self.dashboard.getNetworkPiiRequest(networkId, requestId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkpiirequest: {e}")
+            logging.error(f"API Error in getNetworkPiiRequest: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkpiirequest: {ex}")
+            logging.error(f"Unknown error in getNetworkPiiRequest: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkpiirequests(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkpiirequests'.
-        Calls 'self.dashboard.getnetworkpiirequests' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkPiiRequests(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkpiirequests(networkId)
+            return self.dashboard.getNetworkPiiRequests(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkpiirequests: {e}")
+            logging.error(f"API Error in getNetworkPiiRequests: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkpiirequests: {ex}")
+            logging.error(f"Unknown error in getNetworkPiiRequests: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkpiismdevicesforkey(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkpiismdevicesforkey'.
-        Calls 'self.dashboard.getnetworkpiismdevicesforkey' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkPiiSmDevicesForKey(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkpiismdevicesforkey(networkId, **kwargs)
+            return self.dashboard.getNetworkPiiSmDevicesForKey(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkpiismdevicesforkey: {e}")
+            logging.error(f"API Error in getNetworkPiiSmDevicesForKey: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkpiismdevicesforkey: {ex}")
+            logging.error(f"Unknown error in getNetworkPiiSmDevicesForKey: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkpiismownersforkey(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkpiismownersforkey'.
-        Calls 'self.dashboard.getnetworkpiismownersforkey' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkPiiSmOwnersForKey(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkpiismownersforkey(networkId, **kwargs)
+            return self.dashboard.getNetworkPiiSmOwnersForKey(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkpiismownersforkey: {e}")
+            logging.error(f"API Error in getNetworkPiiSmOwnersForKey: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkpiismownersforkey: {ex}")
+            logging.error(f"Unknown error in getNetworkPiiSmOwnersForKey: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkpoliciesbyclient(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkpoliciesbyclient'.
-        Calls 'self.dashboard.getnetworkpoliciesbyclient' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkPoliciesByClient(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkpoliciesbyclient(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkPoliciesByClient(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkpoliciesbyclient: {e}")
+            logging.error(f"API Error in getNetworkPoliciesByClient: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkpoliciesbyclient: {ex}")
+            logging.error(f"Unknown error in getNetworkPoliciesByClient: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensoralertscurrentoverviewbymetric(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensoralertscurrentoverviewbymetric'.
-        Calls 'self.dashboard.getnetworksensoralertscurrentoverviewbymetric' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorAlertsCurrentOverviewByMetric(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensoralertscurrentoverviewbymetric(networkId)
+            return self.dashboard.getNetworkSensorAlertsCurrentOverviewByMetric(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensoralertscurrentoverviewbymetric: {e}")
+            logging.error(f"API Error in getNetworkSensorAlertsCurrentOverviewByMetric: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensoralertscurrentoverviewbymetric: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorAlertsCurrentOverviewByMetric: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensoralertsoverviewbymetric(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensoralertsoverviewbymetric'.
-        Calls 'self.dashboard.getnetworksensoralertsoverviewbymetric' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorAlertsOverviewByMetric(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensoralertsoverviewbymetric(networkId, **kwargs)
+            return self.dashboard.getNetworkSensorAlertsOverviewByMetric(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensoralertsoverviewbymetric: {e}")
+            logging.error(f"API Error in getNetworkSensorAlertsOverviewByMetric: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensoralertsoverviewbymetric: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorAlertsOverviewByMetric: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensoralertsprofile(self, networkId, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensoralertsprofile'.
-        Calls 'self.dashboard.getnetworksensoralertsprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorAlertsProfile(self, networkId, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensoralertsprofile(networkId, id)
+            return self.dashboard.getNetworkSensorAlertsProfile(networkId, id)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensoralertsprofile: {e}")
+            logging.error(f"API Error in getNetworkSensorAlertsProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensoralertsprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorAlertsProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensoralertsprofiles(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensoralertsprofiles'.
-        Calls 'self.dashboard.getnetworksensoralertsprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorAlertsProfiles(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensoralertsprofiles(networkId)
+            return self.dashboard.getNetworkSensorAlertsProfiles(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensoralertsprofiles: {e}")
+            logging.error(f"API Error in getNetworkSensorAlertsProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensoralertsprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorAlertsProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensormqttbroker(self, networkId, mqttBrokerId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensormqttbroker'.
-        Calls 'self.dashboard.getnetworksensormqttbroker' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param mqttBrokerId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorMqttBroker(self, networkId, mqttBrokerId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensormqttbroker(networkId, mqttBrokerId)
+            return self.dashboard.getNetworkSensorMqttBroker(networkId, mqttBrokerId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensormqttbroker: {e}")
+            logging.error(f"API Error in getNetworkSensorMqttBroker: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensormqttbroker: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorMqttBroker: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensormqttbrokers(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensormqttbrokers'.
-        Calls 'self.dashboard.getnetworksensormqttbrokers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorMqttBrokers(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensormqttbrokers(networkId)
+            return self.dashboard.getNetworkSensorMqttBrokers(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensormqttbrokers: {e}")
+            logging.error(f"API Error in getNetworkSensorMqttBrokers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensormqttbrokers: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorMqttBrokers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksensorrelationships(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksensorrelationships'.
-        Calls 'self.dashboard.getnetworksensorrelationships' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSensorRelationships(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksensorrelationships(networkId)
+            return self.dashboard.getNetworkSensorRelationships(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksensorrelationships: {e}")
+            logging.error(f"API Error in getNetworkSensorRelationships: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksensorrelationships: {ex}")
+            logging.error(f"Unknown error in getNetworkSensorRelationships: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksettings'.
-        Calls 'self.dashboard.getnetworksettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksettings(networkId)
+            return self.dashboard.getNetworkSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksettings: {e}")
+            logging.error(f"API Error in getNetworkSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksettings: {ex}")
+            logging.error(f"Unknown error in getNetworkSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmbypassactivationlockattempt(self, networkId, attemptId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmbypassactivationlockattempt'.
-        Calls 'self.dashboard.getnetworksmbypassactivationlockattempt' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param attemptId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmBypassActivationLockAttempt(self, networkId, attemptId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmbypassactivationlockattempt(networkId, attemptId)
+            return self.dashboard.getNetworkSmBypassActivationLockAttempt(networkId, attemptId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmbypassactivationlockattempt: {e}")
+            logging.error(f"API Error in getNetworkSmBypassActivationLockAttempt: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmbypassactivationlockattempt: {ex}")
+            logging.error(f"Unknown error in getNetworkSmBypassActivationLockAttempt: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicecellularusagehistory(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicecellularusagehistory'.
-        Calls 'self.dashboard.getnetworksmdevicecellularusagehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceCellularUsageHistory(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicecellularusagehistory(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceCellularUsageHistory(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicecellularusagehistory: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceCellularUsageHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicecellularusagehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceCellularUsageHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicecerts(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicecerts'.
-        Calls 'self.dashboard.getnetworksmdevicecerts' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceCerts(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicecerts(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceCerts(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicecerts: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceCerts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicecerts: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceCerts: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdeviceconnectivity(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdeviceconnectivity'.
-        Calls 'self.dashboard.getnetworksmdeviceconnectivity' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceConnectivity(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdeviceconnectivity(networkId, deviceId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmDeviceConnectivity(networkId, deviceId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdeviceconnectivity: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceConnectivity: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdeviceconnectivity: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceConnectivity: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicedesktoplogs(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicedesktoplogs'.
-        Calls 'self.dashboard.getnetworksmdevicedesktoplogs' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceDesktopLogs(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicedesktoplogs(networkId, deviceId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmDeviceDesktopLogs(networkId, deviceId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicedesktoplogs: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceDesktopLogs: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicedesktoplogs: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceDesktopLogs: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicedevicecommandlogs(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicedevicecommandlogs'.
-        Calls 'self.dashboard.getnetworksmdevicedevicecommandlogs' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceDeviceCommandLogs(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicedevicecommandlogs(networkId, deviceId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmDeviceDeviceCommandLogs(networkId, deviceId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicedevicecommandlogs: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceDeviceCommandLogs: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicedevicecommandlogs: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceDeviceCommandLogs: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicedeviceprofiles(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicedeviceprofiles'.
-        Calls 'self.dashboard.getnetworksmdevicedeviceprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceDeviceProfiles(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicedeviceprofiles(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceDeviceProfiles(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicedeviceprofiles: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceDeviceProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicedeviceprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceDeviceProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicenetworkadapters(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicenetworkadapters'.
-        Calls 'self.dashboard.getnetworksmdevicenetworkadapters' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceNetworkAdapters(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicenetworkadapters(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceNetworkAdapters(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicenetworkadapters: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceNetworkAdapters: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicenetworkadapters: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceNetworkAdapters: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdeviceperformancehistory(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdeviceperformancehistory'.
-        Calls 'self.dashboard.getnetworksmdeviceperformancehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDevicePerformanceHistory(self, networkId, deviceId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdeviceperformancehistory(networkId, deviceId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmDevicePerformanceHistory(networkId, deviceId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdeviceperformancehistory: {e}")
+            logging.error(f"API Error in getNetworkSmDevicePerformanceHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdeviceperformancehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDevicePerformanceHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicerestrictions(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicerestrictions'.
-        Calls 'self.dashboard.getnetworksmdevicerestrictions' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceRestrictions(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicerestrictions(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceRestrictions(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicerestrictions: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceRestrictions: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicerestrictions: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceRestrictions: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevices(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevices'.
-        Calls 'self.dashboard.getnetworksmdevices' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceSecurityCenters(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevices(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmDeviceSecurityCenters(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevices: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceSecurityCenters: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevices: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceSecurityCenters: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicesecuritycenters(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicesecuritycenters'.
-        Calls 'self.dashboard.getnetworksmdevicesecuritycenters' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceSoftwares(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicesecuritycenters(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceSoftwares(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicesecuritycenters: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceSoftwares: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicesecuritycenters: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceSoftwares: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicesoftwares(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicesoftwares'.
-        Calls 'self.dashboard.getnetworksmdevicesoftwares' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDeviceWlanLists(self, networkId, deviceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicesoftwares(networkId, deviceId)
+            return self.dashboard.getNetworkSmDeviceWlanLists(networkId, deviceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicesoftwares: {e}")
+            logging.error(f"API Error in getNetworkSmDeviceWlanLists: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicesoftwares: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDeviceWlanLists: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmdevicewlanlists(self, networkId, deviceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmdevicewlanlists'.
-        Calls 'self.dashboard.getnetworksmdevicewlanlists' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param deviceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmDevices(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmdevicewlanlists(networkId, deviceId)
+            return self.dashboard.getNetworkSmDevices(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmdevicewlanlists: {e}")
+            logging.error(f"API Error in getNetworkSmDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmdevicewlanlists: {ex}")
+            logging.error(f"Unknown error in getNetworkSmDevices: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmprofiles(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmprofiles'.
-        Calls 'self.dashboard.getnetworksmprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmProfiles(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmprofiles(networkId, **kwargs)
+            return self.dashboard.getNetworkSmProfiles(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmprofiles: {e}")
+            logging.error(f"API Error in getNetworkSmProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkSmProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmtargetgroup(self, networkId, targetGroupId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmtargetgroup'.
-        Calls 'self.dashboard.getnetworksmtargetgroup' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param targetGroupId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmTargetGroup(self, networkId, targetGroupId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmtargetgroup(networkId, targetGroupId, **kwargs)
+            return self.dashboard.getNetworkSmTargetGroup(networkId, targetGroupId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmtargetgroup: {e}")
+            logging.error(f"API Error in getNetworkSmTargetGroup: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmtargetgroup: {ex}")
+            logging.error(f"Unknown error in getNetworkSmTargetGroup: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmtargetgroups(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmtargetgroups'.
-        Calls 'self.dashboard.getnetworksmtargetgroups' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmTargetGroups(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmtargetgroups(networkId, **kwargs)
+            return self.dashboard.getNetworkSmTargetGroups(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmtargetgroups: {e}")
+            logging.error(f"API Error in getNetworkSmTargetGroups: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmtargetgroups: {ex}")
+            logging.error(f"Unknown error in getNetworkSmTargetGroups: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmtrustedaccessconfigs(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmtrustedaccessconfigs'.
-        Calls 'self.dashboard.getnetworksmtrustedaccessconfigs' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmTrustedAccessConfigs(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmtrustedaccessconfigs(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmTrustedAccessConfigs(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmtrustedaccessconfigs: {e}")
+            logging.error(f"API Error in getNetworkSmTrustedAccessConfigs: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmtrustedaccessconfigs: {ex}")
+            logging.error(f"Unknown error in getNetworkSmTrustedAccessConfigs: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmuseraccessdevices(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmuseraccessdevices'.
-        Calls 'self.dashboard.getnetworksmuseraccessdevices' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmUserAccessDevices(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmuseraccessdevices(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSmUserAccessDevices(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmuseraccessdevices: {e}")
+            logging.error(f"API Error in getNetworkSmUserAccessDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmuseraccessdevices: {ex}")
+            logging.error(f"Unknown error in getNetworkSmUserAccessDevices: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmuserdeviceprofiles(self, networkId, userId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmuserdeviceprofiles'.
-        Calls 'self.dashboard.getnetworksmuserdeviceprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param userId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmUserDeviceProfiles(self, networkId, userId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmuserdeviceprofiles(networkId, userId)
+            return self.dashboard.getNetworkSmUserDeviceProfiles(networkId, userId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmuserdeviceprofiles: {e}")
+            logging.error(f"API Error in getNetworkSmUserDeviceProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmuserdeviceprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkSmUserDeviceProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmusers(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmusers'.
-        Calls 'self.dashboard.getnetworksmusers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmUserSoftwares(self, networkId, userId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmusers(networkId, **kwargs)
+            return self.dashboard.getNetworkSmUserSoftwares(networkId, userId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmusers: {e}")
+            logging.error(f"API Error in getNetworkSmUserSoftwares: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmusers: {ex}")
+            logging.error(f"Unknown error in getNetworkSmUserSoftwares: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksmusersoftwares(self, networkId, userId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksmusersoftwares'.
-        Calls 'self.dashboard.getnetworksmusersoftwares' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param userId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSmUsers(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksmusersoftwares(networkId, userId)
+            return self.dashboard.getNetworkSmUsers(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksmusersoftwares: {e}")
+            logging.error(f"API Error in getNetworkSmUsers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksmusersoftwares: {ex}")
+            logging.error(f"Unknown error in getNetworkSmUsers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksnmp(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksnmp'.
-        Calls 'self.dashboard.getnetworksnmp' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSnmp(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksnmp(networkId)
+            return self.dashboard.getNetworkSnmp(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksnmp: {e}")
+            logging.error(f"API Error in getNetworkSnmp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksnmp: {ex}")
+            logging.error(f"Unknown error in getNetworkSnmp: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksplashloginattempts(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksplashloginattempts'.
-        Calls 'self.dashboard.getnetworksplashloginattempts' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSplashLoginAttempts(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksplashloginattempts(networkId, **kwargs)
+            return self.dashboard.getNetworkSplashLoginAttempts(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworksplashloginattempts: {e}")
+            logging.error(f"API Error in getNetworkSplashLoginAttempts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksplashloginattempts: {ex}")
+            logging.error(f"Unknown error in getNetworkSplashLoginAttempts: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchaccesscontrollists(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchaccesscontrollists'.
-        Calls 'self.dashboard.getnetworkswitchaccesscontrollists' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchAccessControlLists(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchaccesscontrollists(networkId)
+            return self.dashboard.getNetworkSwitchAccessControlLists(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchaccesscontrollists: {e}")
+            logging.error(f"API Error in getNetworkSwitchAccessControlLists: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchaccesscontrollists: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchAccessControlLists: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchaccesspolicies(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchaccesspolicies'.
-        Calls 'self.dashboard.getnetworkswitchaccesspolicies' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchAccessPolicies(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchaccesspolicies(networkId)
+            return self.dashboard.getNetworkSwitchAccessPolicies(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchaccesspolicies: {e}")
+            logging.error(f"API Error in getNetworkSwitchAccessPolicies: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchaccesspolicies: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchAccessPolicies: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchaccesspolicy(self, networkId, accessPolicyNumber) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchaccesspolicy'.
-        Calls 'self.dashboard.getnetworkswitchaccesspolicy' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param accessPolicyNumber: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchAccessPolicy(self, networkId, accessPolicyNumber) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchaccesspolicy(networkId, accessPolicyNumber)
+            return self.dashboard.getNetworkSwitchAccessPolicy(networkId, accessPolicyNumber)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchaccesspolicy: {e}")
+            logging.error(f"API Error in getNetworkSwitchAccessPolicy: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchaccesspolicy: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchAccessPolicy: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchalternatemanagementinterface(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchalternatemanagementinterface'.
-        Calls 'self.dashboard.getnetworkswitchalternatemanagementinterface' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchAlternateManagementInterface(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchalternatemanagementinterface(networkId)
+            return self.dashboard.getNetworkSwitchAlternateManagementInterface(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchalternatemanagementinterface: {e}")
+            logging.error(f"API Error in getNetworkSwitchAlternateManagementInterface: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchalternatemanagementinterface: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchAlternateManagementInterface: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchdhcpserverpolicy(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchdhcpserverpolicy'.
-        Calls 'self.dashboard.getnetworkswitchdhcpserverpolicy' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchDhcpServerPolicy(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchdhcpserverpolicy(networkId)
+            return self.dashboard.getNetworkSwitchDhcpServerPolicy(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchdhcpserverpolicy: {e}")
+            logging.error(f"API Error in getNetworkSwitchDhcpServerPolicy: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchdhcpserverpolicy: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchDhcpServerPolicy: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchdhcpserverpolicyarpinspectiontrustedservers(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchdhcpserverpolicyarpinspectiontrustedservers'.
-        Calls 'self.dashboard.getnetworkswitchdhcpserverpolicyarpinspectiontrustedservers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchdhcpserverpolicyarpinspectiontrustedservers(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchdhcpserverpolicyarpinspectiontrustedservers: {e}")
+            logging.error(f"API Error in getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchdhcpserverpolicyarpinspectiontrustedservers: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchDhcpServerPolicyArpInspectionTrustedServers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchdhcpserverpolicyarpinspectionwarningsbydevice(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchdhcpserverpolicyarpinspectionwarningsbydevice'.
-        Calls 'self.dashboard.getnetworkswitchdhcpserverpolicyarpinspectionwarningsbydevice' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchdhcpserverpolicyarpinspectionwarningsbydevice(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchdhcpserverpolicyarpinspectionwarningsbydevice: {e}")
+            logging.error(f"API Error in getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchdhcpserverpolicyarpinspectionwarningsbydevice: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchDhcpServerPolicyArpInspectionWarningsByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchdhcpv4serversseen(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchdhcpv4serversseen'.
-        Calls 'self.dashboard.getnetworkswitchdhcpv4serversseen' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchDhcpV4ServersSeen(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchdhcpv4serversseen(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkSwitchDhcpV4ServersSeen(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchdhcpv4serversseen: {e}")
+            logging.error(f"API Error in getNetworkSwitchDhcpV4ServersSeen: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchdhcpv4serversseen: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchDhcpV4ServersSeen: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchdscptocosmappings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchdscptocosmappings'.
-        Calls 'self.dashboard.getnetworkswitchdscptocosmappings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchDscpToCosMappings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchdscptocosmappings(networkId)
+            return self.dashboard.getNetworkSwitchDscpToCosMappings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchdscptocosmappings: {e}")
+            logging.error(f"API Error in getNetworkSwitchDscpToCosMappings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchdscptocosmappings: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchDscpToCosMappings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchlinkaggregations(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchlinkaggregations'.
-        Calls 'self.dashboard.getnetworkswitchlinkaggregations' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchLinkAggregations(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchlinkaggregations(networkId)
+            return self.dashboard.getNetworkSwitchLinkAggregations(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchlinkaggregations: {e}")
+            logging.error(f"API Error in getNetworkSwitchLinkAggregations: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchlinkaggregations: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchLinkAggregations: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchmtu(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchmtu'.
-        Calls 'self.dashboard.getnetworkswitchmtu' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchMtu(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchmtu(networkId)
+            return self.dashboard.getNetworkSwitchMtu(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchmtu: {e}")
+            logging.error(f"API Error in getNetworkSwitchMtu: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchmtu: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchMtu: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchportschedules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchportschedules'.
-        Calls 'self.dashboard.getnetworkswitchportschedules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchPortSchedules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchportschedules(networkId)
+            return self.dashboard.getNetworkSwitchPortSchedules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchportschedules: {e}")
+            logging.error(f"API Error in getNetworkSwitchPortSchedules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchportschedules: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchPortSchedules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchqosrule(self, networkId, qosRuleId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchqosrule'.
-        Calls 'self.dashboard.getnetworkswitchqosrule' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param qosRuleId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchQosRule(self, networkId, qosRuleId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchqosrule(networkId, qosRuleId)
+            return self.dashboard.getNetworkSwitchQosRule(networkId, qosRuleId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchqosrule: {e}")
+            logging.error(f"API Error in getNetworkSwitchQosRule: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchqosrule: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchQosRule: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchqosrules(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchqosrules'.
-        Calls 'self.dashboard.getnetworkswitchqosrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchQosRules(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchqosrules(networkId)
+            return self.dashboard.getNetworkSwitchQosRules(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchqosrules: {e}")
+            logging.error(f"API Error in getNetworkSwitchQosRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchqosrules: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchQosRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchqosrulesorder(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchqosrulesorder'.
-        Calls 'self.dashboard.getnetworkswitchqosrulesorder' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchQosRulesOrder(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchqosrulesorder(networkId)
+            return self.dashboard.getNetworkSwitchQosRulesOrder(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchqosrulesorder: {e}")
+            logging.error(f"API Error in getNetworkSwitchQosRulesOrder: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchqosrulesorder: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchQosRulesOrder: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchroutingmulticast(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchroutingmulticast'.
-        Calls 'self.dashboard.getnetworkswitchroutingmulticast' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchRoutingMulticast(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchroutingmulticast(networkId)
+            return self.dashboard.getNetworkSwitchRoutingMulticast(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchroutingmulticast: {e}")
+            logging.error(f"API Error in getNetworkSwitchRoutingMulticast: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchroutingmulticast: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchRoutingMulticast: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchroutingmulticastrendezvouspoint(self, networkId, rendezvousPointId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchroutingmulticastrendezvouspoint'.
-        Calls 'self.dashboard.getnetworkswitchroutingmulticastrendezvouspoint' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param rendezvousPointId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchRoutingMulticastRendezvousPoint(self, networkId, rendezvousPointId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchroutingmulticastrendezvouspoint(networkId, rendezvousPointId)
+            return self.dashboard.getNetworkSwitchRoutingMulticastRendezvousPoint(networkId, rendezvousPointId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchroutingmulticastrendezvouspoint: {e}")
+            logging.error(f"API Error in getNetworkSwitchRoutingMulticastRendezvousPoint: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchroutingmulticastrendezvouspoint: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchRoutingMulticastRendezvousPoint: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchroutingmulticastrendezvouspoints(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchroutingmulticastrendezvouspoints'.
-        Calls 'self.dashboard.getnetworkswitchroutingmulticastrendezvouspoints' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchRoutingMulticastRendezvousPoints(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchroutingmulticastrendezvouspoints(networkId)
+            return self.dashboard.getNetworkSwitchRoutingMulticastRendezvousPoints(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchroutingmulticastrendezvouspoints: {e}")
+            logging.error(f"API Error in getNetworkSwitchRoutingMulticastRendezvousPoints: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchroutingmulticastrendezvouspoints: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchRoutingMulticastRendezvousPoints: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchroutingospf(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchroutingospf'.
-        Calls 'self.dashboard.getnetworkswitchroutingospf' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchRoutingOspf(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchroutingospf(networkId)
+            return self.dashboard.getNetworkSwitchRoutingOspf(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchroutingospf: {e}")
+            logging.error(f"API Error in getNetworkSwitchRoutingOspf: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchroutingospf: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchRoutingOspf: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchsettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchsettings'.
-        Calls 'self.dashboard.getnetworkswitchsettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchsettings(networkId)
+            return self.dashboard.getNetworkSwitchSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchsettings: {e}")
+            logging.error(f"API Error in getNetworkSwitchSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchsettings: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstack(self, networkId, switchStackId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstack'.
-        Calls 'self.dashboard.getnetworkswitchstack' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param switchStackId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStack(self, networkId, switchStackId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstack(networkId, switchStackId)
+            return self.dashboard.getNetworkSwitchStack(networkId, switchStackId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstack: {e}")
+            logging.error(f"API Error in getNetworkSwitchStack: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstack: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStack: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstackroutinginterface(self, networkId, switchStackId, interfaceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstackroutinginterface'.
-        Calls 'self.dashboard.getnetworkswitchstackroutinginterface' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param switchStackId: (Inferred from the method signature)
-        :param interfaceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStackRoutingInterface(self, networkId, switchStackId, interfaceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstackroutinginterface(networkId, switchStackId, interfaceId)
+            return self.dashboard.getNetworkSwitchStackRoutingInterface(networkId, switchStackId, interfaceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstackroutinginterface: {e}")
+            logging.error(f"API Error in getNetworkSwitchStackRoutingInterface: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstackroutinginterface: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStackRoutingInterface: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstackroutinginterfacedhcp(self, networkId, switchStackId, interfaceId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstackroutinginterfacedhcp'.
-        Calls 'self.dashboard.getnetworkswitchstackroutinginterfacedhcp' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param switchStackId: (Inferred from the method signature)
-        :param interfaceId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStackRoutingInterfaceDhcp(self, networkId, switchStackId, interfaceId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstackroutinginterfacedhcp(networkId, switchStackId, interfaceId)
+            return self.dashboard.getNetworkSwitchStackRoutingInterfaceDhcp(networkId, switchStackId, interfaceId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstackroutinginterfacedhcp: {e}")
+            logging.error(f"API Error in getNetworkSwitchStackRoutingInterfaceDhcp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstackroutinginterfacedhcp: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStackRoutingInterfaceDhcp: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstackroutinginterfaces(self, networkId, switchStackId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstackroutinginterfaces'.
-        Calls 'self.dashboard.getnetworkswitchstackroutinginterfaces' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param switchStackId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStackRoutingInterfaces(self, networkId, switchStackId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstackroutinginterfaces(networkId, switchStackId)
+            return self.dashboard.getNetworkSwitchStackRoutingInterfaces(networkId, switchStackId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstackroutinginterfaces: {e}")
+            logging.error(f"API Error in getNetworkSwitchStackRoutingInterfaces: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstackroutinginterfaces: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStackRoutingInterfaces: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstackroutingstaticroute(self, networkId, switchStackId, staticRouteId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstackroutingstaticroute'.
-        Calls 'self.dashboard.getnetworkswitchstackroutingstaticroute' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param switchStackId: (Inferred from the method signature)
-        :param staticRouteId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStackRoutingStaticRoute(self, networkId, switchStackId, staticRouteId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstackroutingstaticroute(networkId, switchStackId, staticRouteId)
+            return self.dashboard.getNetworkSwitchStackRoutingStaticRoute(networkId, switchStackId, staticRouteId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstackroutingstaticroute: {e}")
+            logging.error(f"API Error in getNetworkSwitchStackRoutingStaticRoute: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstackroutingstaticroute: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStackRoutingStaticRoute: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstackroutingstaticroutes(self, networkId, switchStackId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstackroutingstaticroutes'.
-        Calls 'self.dashboard.getnetworkswitchstackroutingstaticroutes' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param switchStackId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStackRoutingStaticRoutes(self, networkId, switchStackId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstackroutingstaticroutes(networkId, switchStackId)
+            return self.dashboard.getNetworkSwitchStackRoutingStaticRoutes(networkId, switchStackId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstackroutingstaticroutes: {e}")
+            logging.error(f"API Error in getNetworkSwitchStackRoutingStaticRoutes: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstackroutingstaticroutes: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStackRoutingStaticRoutes: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstacks(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstacks'.
-        Calls 'self.dashboard.getnetworkswitchstacks' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStacks(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstacks(networkId)
+            return self.dashboard.getNetworkSwitchStacks(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstacks: {e}")
+            logging.error(f"API Error in getNetworkSwitchStacks: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstacks: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStacks: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstormcontrol(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstormcontrol'.
-        Calls 'self.dashboard.getnetworkswitchstormcontrol' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStormControl(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstormcontrol(networkId)
+            return self.dashboard.getNetworkSwitchStormControl(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstormcontrol: {e}")
+            logging.error(f"API Error in getNetworkSwitchStormControl: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstormcontrol: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStormControl: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkswitchstp(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkswitchstp'.
-        Calls 'self.dashboard.getnetworkswitchstp' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSwitchStp(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkswitchstp(networkId)
+            return self.dashboard.getNetworkSwitchStp(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkswitchstp: {e}")
+            logging.error(f"API Error in getNetworkSwitchStp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkswitchstp: {ex}")
+            logging.error(f"Unknown error in getNetworkSwitchStp: {ex}")
             return {"error": str(ex)}
 
-    def getnetworksyslogservers(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworksyslogservers'.
-        Calls 'self.dashboard.getnetworksyslogservers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkSyslogServers(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworksyslogservers(networkId)
+            return self.dashboard.getNetworkSyslogServers(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworksyslogservers: {e}")
+            logging.error(f"API Error in getNetworkSyslogServers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworksyslogservers: {ex}")
+            logging.error(f"Unknown error in getNetworkSyslogServers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworktopologylinklayer(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworktopologylinklayer'.
-        Calls 'self.dashboard.getnetworktopologylinklayer' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkTopologyLinkLayer(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworktopologylinklayer(networkId)
+            return self.dashboard.getNetworkTopologyLinkLayer(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworktopologylinklayer: {e}")
+            logging.error(f"API Error in getNetworkTopologyLinkLayer: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworktopologylinklayer: {ex}")
+            logging.error(f"Unknown error in getNetworkTopologyLinkLayer: {ex}")
             return {"error": str(ex)}
 
-    def getnetworktraffic(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworktraffic'.
-        Calls 'self.dashboard.getnetworktraffic' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkTraffic(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworktraffic(networkId, **kwargs)
+            return self.dashboard.getNetworkTraffic(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworktraffic: {e}")
+            logging.error(f"API Error in getNetworkTraffic: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworktraffic: {ex}")
+            logging.error(f"Unknown error in getNetworkTraffic: {ex}")
             return {"error": str(ex)}
 
-    def getnetworktrafficanalysis(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworktrafficanalysis'.
-        Calls 'self.dashboard.getnetworktrafficanalysis' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkTrafficAnalysis(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworktrafficanalysis(networkId)
+            return self.dashboard.getNetworkTrafficAnalysis(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworktrafficanalysis: {e}")
+            logging.error(f"API Error in getNetworkTrafficAnalysis: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworktrafficanalysis: {ex}")
+            logging.error(f"Unknown error in getNetworkTrafficAnalysis: {ex}")
             return {"error": str(ex)}
 
-    def getnetworktrafficshapingapplicationcategories(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworktrafficshapingapplicationcategories'.
-        Calls 'self.dashboard.getnetworktrafficshapingapplicationcategories' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkTrafficShapingApplicationCategories(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworktrafficshapingapplicationcategories(networkId)
+            return self.dashboard.getNetworkTrafficShapingApplicationCategories(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworktrafficshapingapplicationcategories: {e}")
+            logging.error(f"API Error in getNetworkTrafficShapingApplicationCategories: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworktrafficshapingapplicationcategories: {ex}")
+            logging.error(f"Unknown error in getNetworkTrafficShapingApplicationCategories: {ex}")
             return {"error": str(ex)}
 
-    def getnetworktrafficshapingdscptaggingoptions(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworktrafficshapingdscptaggingoptions'.
-        Calls 'self.dashboard.getnetworktrafficshapingdscptaggingoptions' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkTrafficShapingDscpTaggingOptions(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworktrafficshapingdscptaggingoptions(networkId)
+            return self.dashboard.getNetworkTrafficShapingDscpTaggingOptions(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworktrafficshapingdscptaggingoptions: {e}")
+            logging.error(f"API Error in getNetworkTrafficShapingDscpTaggingOptions: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworktrafficshapingdscptaggingoptions: {ex}")
+            logging.error(f"Unknown error in getNetworkTrafficShapingDscpTaggingOptions: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkvlanprofile(self, networkId, iname) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkvlanprofile'.
-        Calls 'self.dashboard.getnetworkvlanprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param iname: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkVlanProfile(self, networkId, iname) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkvlanprofile(networkId, iname)
+            return self.dashboard.getNetworkVlanProfile(networkId, iname)
         except APIError as e:
-            logging.error(f"API Error in getnetworkvlanprofile: {e}")
+            logging.error(f"API Error in getNetworkVlanProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkvlanprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkVlanProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkvlanprofiles(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkvlanprofiles'.
-        Calls 'self.dashboard.getnetworkvlanprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkVlanProfiles(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkvlanprofiles(networkId)
+            return self.dashboard.getNetworkVlanProfiles(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkvlanprofiles: {e}")
+            logging.error(f"API Error in getNetworkVlanProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkvlanprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkVlanProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkvlanprofilesassignmentsbydevice(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkvlanprofilesassignmentsbydevice'.
-        Calls 'self.dashboard.getnetworkvlanprofilesassignmentsbydevice' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkVlanProfilesAssignmentsByDevice(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkvlanprofilesassignmentsbydevice(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkVlanProfilesAssignmentsByDevice(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkvlanprofilesassignmentsbydevice: {e}")
+            logging.error(f"API Error in getNetworkVlanProfilesAssignmentsByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkvlanprofilesassignmentsbydevice: {ex}")
+            logging.error(f"Unknown error in getNetworkVlanProfilesAssignmentsByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwebhookshttpserver(self, networkId, httpServerId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwebhookshttpserver'.
-        Calls 'self.dashboard.getnetworkwebhookshttpserver' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param httpServerId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWebhooksHttpServer(self, networkId, httpServerId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwebhookshttpserver(networkId, httpServerId)
+            return self.dashboard.getNetworkWebhooksHttpServer(networkId, httpServerId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwebhookshttpserver: {e}")
+            logging.error(f"API Error in getNetworkWebhooksHttpServer: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwebhookshttpserver: {ex}")
+            logging.error(f"Unknown error in getNetworkWebhooksHttpServer: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwebhookshttpservers(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwebhookshttpservers'.
-        Calls 'self.dashboard.getnetworkwebhookshttpservers' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWebhooksHttpServers(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwebhookshttpservers(networkId)
+            return self.dashboard.getNetworkWebhooksHttpServers(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwebhookshttpservers: {e}")
+            logging.error(f"API Error in getNetworkWebhooksHttpServers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwebhookshttpservers: {ex}")
+            logging.error(f"Unknown error in getNetworkWebhooksHttpServers: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwebhookspayloadtemplate(self, networkId, payloadTemplateId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwebhookspayloadtemplate'.
-        Calls 'self.dashboard.getnetworkwebhookspayloadtemplate' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param payloadTemplateId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWebhooksPayloadTemplate(self, networkId, payloadTemplateId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwebhookspayloadtemplate(networkId, payloadTemplateId)
+            return self.dashboard.getNetworkWebhooksPayloadTemplate(networkId, payloadTemplateId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwebhookspayloadtemplate: {e}")
+            logging.error(f"API Error in getNetworkWebhooksPayloadTemplate: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwebhookspayloadtemplate: {ex}")
+            logging.error(f"Unknown error in getNetworkWebhooksPayloadTemplate: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwebhookspayloadtemplates(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwebhookspayloadtemplates'.
-        Calls 'self.dashboard.getnetworkwebhookspayloadtemplates' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWebhooksPayloadTemplates(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwebhookspayloadtemplates(networkId)
+            return self.dashboard.getNetworkWebhooksPayloadTemplates(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwebhookspayloadtemplates: {e}")
+            logging.error(f"API Error in getNetworkWebhooksPayloadTemplates: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwebhookspayloadtemplates: {ex}")
+            logging.error(f"Unknown error in getNetworkWebhooksPayloadTemplates: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwebhookswebhooktest(self, networkId, webhookTestId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwebhookswebhooktest'.
-        Calls 'self.dashboard.getnetworkwebhookswebhooktest' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param webhookTestId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWebhooksWebhookTest(self, networkId, webhookTestId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwebhookswebhooktest(networkId, webhookTestId)
+            return self.dashboard.getNetworkWebhooksWebhookTest(networkId, webhookTestId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwebhookswebhooktest: {e}")
+            logging.error(f"API Error in getNetworkWebhooksWebhookTest: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwebhookswebhooktest: {ex}")
+            logging.error(f"Unknown error in getNetworkWebhooksWebhookTest: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessairmarshal(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessairmarshal'.
-        Calls 'self.dashboard.getnetworkwirelessairmarshal' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessAirMarshal(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessairmarshal(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessAirMarshal(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessairmarshal: {e}")
+            logging.error(f"API Error in getNetworkWirelessAirMarshal: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessairmarshal: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessAirMarshal: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessalternatemanagementinterface(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessalternatemanagementinterface'.
-        Calls 'self.dashboard.getnetworkwirelessalternatemanagementinterface' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessAlternateManagementInterface(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessalternatemanagementinterface(networkId)
+            return self.dashboard.getNetworkWirelessAlternateManagementInterface(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessalternatemanagementinterface: {e}")
+            logging.error(f"API Error in getNetworkWirelessAlternateManagementInterface: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessalternatemanagementinterface: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessAlternateManagementInterface: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessbilling(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessbilling'.
-        Calls 'self.dashboard.getnetworkwirelessbilling' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessBilling(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessbilling(networkId)
+            return self.dashboard.getNetworkWirelessBilling(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessbilling: {e}")
+            logging.error(f"API Error in getNetworkWirelessBilling: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessbilling: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessBilling: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessbluetoothsettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessbluetoothsettings'.
-        Calls 'self.dashboard.getnetworkwirelessbluetoothsettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessBluetoothSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessbluetoothsettings(networkId)
+            return self.dashboard.getNetworkWirelessBluetoothSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessbluetoothsettings: {e}")
+            logging.error(f"API Error in getNetworkWirelessBluetoothSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessbluetoothsettings: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessBluetoothSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesschannelutilizationhistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesschannelutilizationhistory'.
-        Calls 'self.dashboard.getnetworkwirelesschannelutilizationhistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessChannelUtilizationHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesschannelutilizationhistory(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessChannelUtilizationHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesschannelutilizationhistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessChannelUtilizationHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesschannelutilizationhistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessChannelUtilizationHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientconnectionstats(self, networkId, clientId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientconnectionstats'.
-        Calls 'self.dashboard.getnetworkwirelessclientconnectionstats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientConnectionStats(self, networkId, clientId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientconnectionstats(networkId, clientId, **kwargs)
+            return self.dashboard.getNetworkWirelessClientConnectionStats(networkId, clientId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientconnectionstats: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientConnectionStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientconnectionstats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientConnectionStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientconnectivityevents(self, networkId, clientId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientconnectivityevents'.
-        Calls 'self.dashboard.getnetworkwirelessclientconnectivityevents' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientConnectivityEvents(self, networkId, clientId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientconnectivityevents(networkId, clientId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkWirelessClientConnectivityEvents(networkId, clientId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientconnectivityevents: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientConnectivityEvents: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientconnectivityevents: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientConnectivityEvents: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientcounthistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientcounthistory'.
-        Calls 'self.dashboard.getnetworkwirelessclientcounthistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientCountHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientcounthistory(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessClientCountHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientcounthistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientCountHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientcounthistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientCountHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientlatencyhistory(self, networkId, clientId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientlatencyhistory'.
-        Calls 'self.dashboard.getnetworkwirelessclientlatencyhistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientLatencyHistory(self, networkId, clientId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientlatencyhistory(networkId, clientId, **kwargs)
+            return self.dashboard.getNetworkWirelessClientLatencyHistory(networkId, clientId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientlatencyhistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientLatencyHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientlatencyhistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientLatencyHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientlatencystats(self, networkId, clientId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientlatencystats'.
-        Calls 'self.dashboard.getnetworkwirelessclientlatencystats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param clientId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientLatencyStats(self, networkId, clientId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientlatencystats(networkId, clientId, **kwargs)
+            return self.dashboard.getNetworkWirelessClientLatencyStats(networkId, clientId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientlatencystats: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientLatencyStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientlatencystats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientLatencyStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientsconnectionstats(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientsconnectionstats'.
-        Calls 'self.dashboard.getnetworkwirelessclientsconnectionstats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientsConnectionStats(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientsconnectionstats(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessClientsConnectionStats(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientsconnectionstats: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientsConnectionStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientsconnectionstats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientsConnectionStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessclientslatencystats(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessclientslatencystats'.
-        Calls 'self.dashboard.getnetworkwirelessclientslatencystats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessClientsLatencyStats(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessclientslatencystats(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessClientsLatencyStats(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessclientslatencystats: {e}")
+            logging.error(f"API Error in getNetworkWirelessClientsLatencyStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessclientslatencystats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessClientsLatencyStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessconnectionstats(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessconnectionstats'.
-        Calls 'self.dashboard.getnetworkwirelessconnectionstats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessConnectionStats(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessconnectionstats(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessConnectionStats(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessconnectionstats: {e}")
+            logging.error(f"API Error in getNetworkWirelessConnectionStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessconnectionstats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessConnectionStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessdataratehistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessdataratehistory'.
-        Calls 'self.dashboard.getnetworkwirelessdataratehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessDataRateHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessdataratehistory(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessDataRateHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessdataratehistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessDataRateHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessdataratehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessDataRateHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessdevicesconnectionstats(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessdevicesconnectionstats'.
-        Calls 'self.dashboard.getnetworkwirelessdevicesconnectionstats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessDevicesConnectionStats(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessdevicesconnectionstats(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessDevicesConnectionStats(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessdevicesconnectionstats: {e}")
+            logging.error(f"API Error in getNetworkWirelessDevicesConnectionStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessdevicesconnectionstats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessDevicesConnectionStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessdeviceslatencystats(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessdeviceslatencystats'.
-        Calls 'self.dashboard.getnetworkwirelessdeviceslatencystats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessDevicesLatencyStats(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessdeviceslatencystats(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessDevicesLatencyStats(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessdeviceslatencystats: {e}")
+            logging.error(f"API Error in getNetworkWirelessDevicesLatencyStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessdeviceslatencystats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessDevicesLatencyStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesselectronicshelflabel(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesselectronicshelflabel'.
-        Calls 'self.dashboard.getnetworkwirelesselectronicshelflabel' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessElectronicShelfLabel(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesselectronicshelflabel(networkId)
+            return self.dashboard.getNetworkWirelessElectronicShelfLabel(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesselectronicshelflabel: {e}")
+            logging.error(f"API Error in getNetworkWirelessElectronicShelfLabel: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesselectronicshelflabel: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessElectronicShelfLabel: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesselectronicshelflabelconfigureddevices(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesselectronicshelflabelconfigureddevices'.
-        Calls 'self.dashboard.getnetworkwirelesselectronicshelflabelconfigureddevices' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessElectronicShelfLabelConfiguredDevices(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesselectronicshelflabelconfigureddevices(networkId)
+            return self.dashboard.getNetworkWirelessElectronicShelfLabelConfiguredDevices(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesselectronicshelflabelconfigureddevices: {e}")
+            logging.error(f"API Error in getNetworkWirelessElectronicShelfLabelConfiguredDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesselectronicshelflabelconfigureddevices: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessElectronicShelfLabelConfiguredDevices: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessethernetportsprofile(self, networkId, profileId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessethernetportsprofile'.
-        Calls 'self.dashboard.getnetworkwirelessethernetportsprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param profileId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessEthernetPortsProfile(self, networkId, profileId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessethernetportsprofile(networkId, profileId)
+            return self.dashboard.getNetworkWirelessEthernetPortsProfile(networkId, profileId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessethernetportsprofile: {e}")
+            logging.error(f"API Error in getNetworkWirelessEthernetPortsProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessethernetportsprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessEthernetPortsProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessethernetportsprofiles(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessethernetportsprofiles'.
-        Calls 'self.dashboard.getnetworkwirelessethernetportsprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessEthernetPortsProfiles(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessethernetportsprofiles(networkId)
+            return self.dashboard.getNetworkWirelessEthernetPortsProfiles(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessethernetportsprofiles: {e}")
+            logging.error(f"API Error in getNetworkWirelessEthernetPortsProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessethernetportsprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessEthernetPortsProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessfailedconnections(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessfailedconnections'.
-        Calls 'self.dashboard.getnetworkwirelessfailedconnections' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessFailedConnections(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessfailedconnections(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessFailedConnections(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessfailedconnections: {e}")
+            logging.error(f"API Error in getNetworkWirelessFailedConnections: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessfailedconnections: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessFailedConnections: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesslatencyhistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesslatencyhistory'.
-        Calls 'self.dashboard.getnetworkwirelesslatencyhistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessLatencyHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesslatencyhistory(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessLatencyHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesslatencyhistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessLatencyHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesslatencyhistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessLatencyHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesslatencystats(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesslatencystats'.
-        Calls 'self.dashboard.getnetworkwirelesslatencystats' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessLatencyStats(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesslatencystats(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessLatencyStats(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesslatencystats: {e}")
+            logging.error(f"API Error in getNetworkWirelessLatencyStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesslatencystats: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessLatencyStats: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessmeshstatuses(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessmeshstatuses'.
-        Calls 'self.dashboard.getnetworkwirelessmeshstatuses' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessMeshStatuses(self, networkId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessmeshstatuses(networkId, total_pages, direction, **kwargs)
+            return self.dashboard.getNetworkWirelessMeshStatuses(networkId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessmeshstatuses: {e}")
+            logging.error(f"API Error in getNetworkWirelessMeshStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessmeshstatuses: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessMeshStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessrfprofile(self, networkId, rfProfileId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessrfprofile'.
-        Calls 'self.dashboard.getnetworkwirelessrfprofile' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param rfProfileId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessRfProfile(self, networkId, rfProfileId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessrfprofile(networkId, rfProfileId)
+            return self.dashboard.getNetworkWirelessRfProfile(networkId, rfProfileId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessrfprofile: {e}")
+            logging.error(f"API Error in getNetworkWirelessRfProfile: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessrfprofile: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessRfProfile: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessrfprofiles(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessrfprofiles'.
-        Calls 'self.dashboard.getnetworkwirelessrfprofiles' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessRfProfiles(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessrfprofiles(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessRfProfiles(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessrfprofiles: {e}")
+            logging.error(f"API Error in getNetworkWirelessRfProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessrfprofiles: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessRfProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesssettings(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesssettings'.
-        Calls 'self.dashboard.getnetworkwirelesssettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSettings(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesssettings(networkId)
+            return self.dashboard.getNetworkWirelessSettings(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesssettings: {e}")
+            logging.error(f"API Error in getNetworkWirelessSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesssettings: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelesssignalqualityhistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelesssignalqualityhistory'.
-        Calls 'self.dashboard.getnetworkwirelesssignalqualityhistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSignalQualityHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelesssignalqualityhistory(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessSignalQualityHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelesssignalqualityhistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessSignalQualityHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelesssignalqualityhistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSignalQualityHistory: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssid(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssid'.
-        Calls 'self.dashboard.getnetworkwirelessssid' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsid(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssid(networkId, number)
+            return self.dashboard.getNetworkWirelessSsid(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssid: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsid: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssid: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsid: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidbonjourforwarding(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidbonjourforwarding'.
-        Calls 'self.dashboard.getnetworkwirelessssidbonjourforwarding' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidBonjourForwarding(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidbonjourforwarding(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidBonjourForwarding(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidbonjourforwarding: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidBonjourForwarding: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidbonjourforwarding: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidBonjourForwarding: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssiddevicetypegrouppolicies(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssiddevicetypegrouppolicies'.
-        Calls 'self.dashboard.getnetworkwirelessssiddevicetypegrouppolicies' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidDeviceTypeGroupPolicies(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssiddevicetypegrouppolicies(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidDeviceTypeGroupPolicies(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssiddevicetypegrouppolicies: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidDeviceTypeGroupPolicies: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssiddevicetypegrouppolicies: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidDeviceTypeGroupPolicies: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssideapoverride(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssideapoverride'.
-        Calls 'self.dashboard.getnetworkwirelessssideapoverride' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidEapOverride(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssideapoverride(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidEapOverride(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssideapoverride: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidEapOverride: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssideapoverride: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidEapOverride: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidfirewalll3firewallrules(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidfirewalll3firewallrules'.
-        Calls 'self.dashboard.getnetworkwirelessssidfirewalll3firewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidFirewallL3FirewallRules(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidfirewalll3firewallrules(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidFirewallL3FirewallRules(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidfirewalll3firewallrules: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidFirewallL3FirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidfirewalll3firewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidFirewallL3FirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidfirewalll7firewallrules(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidfirewalll7firewallrules'.
-        Calls 'self.dashboard.getnetworkwirelessssidfirewalll7firewallrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidFirewallL7FirewallRules(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidfirewalll7firewallrules(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidFirewallL7FirewallRules(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidfirewalll7firewallrules: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidFirewallL7FirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidfirewalll7firewallrules: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidFirewallL7FirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidhotspot20(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidhotspot20'.
-        Calls 'self.dashboard.getnetworkwirelessssidhotspot20' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidHotspot20(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidhotspot20(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidHotspot20(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidhotspot20: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidHotspot20: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidhotspot20: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidHotspot20: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssididentitypsk(self, networkId, number, identityPskId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssididentitypsk'.
-        Calls 'self.dashboard.getnetworkwirelessssididentitypsk' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :param identityPskId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidIdentityPsk(self, networkId, number, identityPskId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssididentitypsk(networkId, number, identityPskId)
+            return self.dashboard.getNetworkWirelessSsidIdentityPsk(networkId, number, identityPskId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssididentitypsk: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidIdentityPsk: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssididentitypsk: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidIdentityPsk: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssididentitypsks(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssididentitypsks'.
-        Calls 'self.dashboard.getnetworkwirelessssididentitypsks' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidIdentityPsks(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssididentitypsks(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidIdentityPsks(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssididentitypsks: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidIdentityPsks: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssididentitypsks: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidIdentityPsks: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssids(self, networkId) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssids'.
-        Calls 'self.dashboard.getnetworkwirelessssids' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidSchedules(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssids(networkId)
+            return self.dashboard.getNetworkWirelessSsidSchedules(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssids: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidSchedules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssids: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidSchedules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidschedules(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidschedules'.
-        Calls 'self.dashboard.getnetworkwirelessssidschedules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidSplashSettings(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidschedules(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidSplashSettings(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidschedules: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidSplashSettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidschedules: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidSplashSettings: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidsplashsettings(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidsplashsettings'.
-        Calls 'self.dashboard.getnetworkwirelessssidsplashsettings' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidTrafficShapingRules(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidsplashsettings(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidTrafficShapingRules(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidsplashsettings: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidTrafficShapingRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidsplashsettings: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidTrafficShapingRules: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidtrafficshapingrules(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidtrafficshapingrules'.
-        Calls 'self.dashboard.getnetworkwirelessssidtrafficshapingrules' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsidVpn(self, networkId, number) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidtrafficshapingrules(networkId, number)
+            return self.dashboard.getNetworkWirelessSsidVpn(networkId, number)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidtrafficshapingrules: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsidVpn: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidtrafficshapingrules: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsidVpn: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessssidvpn(self, networkId, number) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessssidvpn'.
-        Calls 'self.dashboard.getnetworkwirelessssidvpn' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param number: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessSsids(self, networkId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessssidvpn(networkId, number)
+            return self.dashboard.getNetworkWirelessSsids(networkId)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessssidvpn: {e}")
+            logging.error(f"API Error in getNetworkWirelessSsids: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessssidvpn: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessSsids: {ex}")
             return {"error": str(ex)}
 
-    def getnetworkwirelessusagehistory(self, networkId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getnetworkwirelessusagehistory'.
-        Calls 'self.dashboard.getnetworkwirelessusagehistory' with the same parameters.
-        
-        :param networkId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getNetworkWirelessUsageHistory(self, networkId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getnetworkwirelessusagehistory(networkId, **kwargs)
+            return self.dashboard.getNetworkWirelessUsageHistory(networkId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getnetworkwirelessusagehistory: {e}")
+            logging.error(f"API Error in getNetworkWirelessUsageHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getnetworkwirelessusagehistory: {ex}")
+            logging.error(f"Unknown error in getNetworkWirelessUsageHistory: {ex}")
             return {"error": str(ex)}
 
-    def getorganization(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganization'.
-        Calls 'self.dashboard.getorganization' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganization(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganization(organizationId)
+            return self.dashboard.getOrganization(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganization: {e}")
+            logging.error(f"API Error in getOrganization: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganization: {ex}")
+            logging.error(f"Unknown error in getOrganization: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationactionbatch(self, organizationId, actionBatchId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationactionbatch'.
-        Calls 'self.dashboard.getorganizationactionbatch' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param actionBatchId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationActionBatch(self, organizationId, actionBatchId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationactionbatch(organizationId, actionBatchId)
+            return self.dashboard.getOrganizationActionBatch(organizationId, actionBatchId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationactionbatch: {e}")
+            logging.error(f"API Error in getOrganizationActionBatch: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationactionbatch: {ex}")
+            logging.error(f"Unknown error in getOrganizationActionBatch: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationactionbatches(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationactionbatches'.
-        Calls 'self.dashboard.getorganizationactionbatches' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationActionBatches(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationactionbatches(organizationId, **kwargs)
+            return self.dashboard.getOrganizationActionBatches(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationactionbatches: {e}")
+            logging.error(f"API Error in getOrganizationActionBatches: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationactionbatches: {ex}")
+            logging.error(f"Unknown error in getOrganizationActionBatches: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicyacl(self, organizationId, aclId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicyacl'.
-        Calls 'self.dashboard.getorganizationadaptivepolicyacl' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param aclId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyAcl(self, organizationId, aclId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicyacl(organizationId, aclId)
+            return self.dashboard.getOrganizationAdaptivePolicyAcl(organizationId, aclId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicyacl: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyAcl: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicyacl: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyAcl: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicyacls(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicyacls'.
-        Calls 'self.dashboard.getorganizationadaptivepolicyacls' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyAcls(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicyacls(organizationId)
+            return self.dashboard.getOrganizationAdaptivePolicyAcls(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicyacls: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyAcls: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicyacls: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyAcls: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicygroup(self, organizationId, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicygroup'.
-        Calls 'self.dashboard.getorganizationadaptivepolicygroup' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyGroup(self, organizationId, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicygroup(organizationId, id)
+            return self.dashboard.getOrganizationAdaptivePolicyGroup(organizationId, id)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicygroup: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyGroup: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicygroup: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyGroup: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicygroups(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicygroups'.
-        Calls 'self.dashboard.getorganizationadaptivepolicygroups' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyGroups(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicygroups(organizationId)
+            return self.dashboard.getOrganizationAdaptivePolicyGroups(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicygroups: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyGroups: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicygroups: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyGroups: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicyoverview(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicyoverview'.
-        Calls 'self.dashboard.getorganizationadaptivepolicyoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyOverview(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicyoverview(organizationId)
+            return self.dashboard.getOrganizationAdaptivePolicyOverview(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicyoverview: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicyoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicypolicies(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicypolicies'.
-        Calls 'self.dashboard.getorganizationadaptivepolicypolicies' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyPolicies(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicypolicies(organizationId)
+            return self.dashboard.getOrganizationAdaptivePolicyPolicies(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicypolicies: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyPolicies: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicypolicies: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyPolicies: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicypolicy(self, organizationId, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicypolicy'.
-        Calls 'self.dashboard.getorganizationadaptivepolicypolicy' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicyPolicy(self, organizationId, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicypolicy(organizationId, id)
+            return self.dashboard.getOrganizationAdaptivePolicyPolicy(organizationId, id)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicypolicy: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicyPolicy: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicypolicy: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicyPolicy: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadaptivepolicysettings(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadaptivepolicysettings'.
-        Calls 'self.dashboard.getorganizationadaptivepolicysettings' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdaptivePolicySettings(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadaptivepolicysettings(organizationId)
+            return self.dashboard.getOrganizationAdaptivePolicySettings(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadaptivepolicysettings: {e}")
+            logging.error(f"API Error in getOrganizationAdaptivePolicySettings: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadaptivepolicysettings: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdaptivePolicySettings: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationadmins(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationadmins'.
-        Calls 'self.dashboard.getorganizationadmins' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAdmins(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationadmins(organizationId, **kwargs)
+            return self.dashboard.getOrganizationAdmins(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationadmins: {e}")
+            logging.error(f"API Error in getOrganizationAdmins: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationadmins: {ex}")
+            logging.error(f"Unknown error in getOrganizationAdmins: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationalertsprofiles(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationalertsprofiles'.
-        Calls 'self.dashboard.getorganizationalertsprofiles' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAlertsProfiles(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationalertsprofiles(organizationId)
+            return self.dashboard.getOrganizationAlertsProfiles(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationalertsprofiles: {e}")
+            logging.error(f"API Error in getOrganizationAlertsProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationalertsprofiles: {ex}")
+            logging.error(f"Unknown error in getOrganizationAlertsProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationapirequests(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationapirequests'.
-        Calls 'self.dashboard.getorganizationapirequests' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApiRequests(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationapirequests(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationApiRequests(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationapirequests: {e}")
+            logging.error(f"API Error in getOrganizationApiRequests: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationapirequests: {ex}")
+            logging.error(f"Unknown error in getOrganizationApiRequests: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationapirequestsoverview(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationapirequestsoverview'.
-        Calls 'self.dashboard.getorganizationapirequestsoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApiRequestsOverview(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationapirequestsoverview(organizationId, **kwargs)
+            return self.dashboard.getOrganizationApiRequestsOverview(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationapirequestsoverview: {e}")
+            logging.error(f"API Error in getOrganizationApiRequestsOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationapirequestsoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationApiRequestsOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationapirequestsoverviewresponsecodesbyinterval(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationapirequestsoverviewresponsecodesbyinterval'.
-        Calls 'self.dashboard.getorganizationapirequestsoverviewresponsecodesbyinterval' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApiRequestsOverviewResponseCodesByInterval(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationapirequestsoverviewresponsecodesbyinterval(organizationId, **kwargs)
+            return self.dashboard.getOrganizationApiRequestsOverviewResponseCodesByInterval(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationapirequestsoverviewresponsecodesbyinterval: {e}")
+            logging.error(f"API Error in getOrganizationApiRequestsOverviewResponseCodesByInterval: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationapirequestsoverviewresponsecodesbyinterval: {ex}")
+            logging.error(f"Unknown error in getOrganizationApiRequestsOverviewResponseCodesByInterval: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancesecurityevents(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancesecurityevents'.
-        Calls 'self.dashboard.getorganizationappliancesecurityevents' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceSecurityEvents(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancesecurityevents(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationApplianceSecurityEvents(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancesecurityevents: {e}")
+            logging.error(f"API Error in getOrganizationApplianceSecurityEvents: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancesecurityevents: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceSecurityEvents: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancesecurityintrusion(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancesecurityintrusion'.
-        Calls 'self.dashboard.getorganizationappliancesecurityintrusion' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceSecurityIntrusion(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancesecurityintrusion(organizationId)
+            return self.dashboard.getOrganizationApplianceSecurityIntrusion(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancesecurityintrusion: {e}")
+            logging.error(f"API Error in getOrganizationApplianceSecurityIntrusion: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancesecurityintrusion: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceSecurityIntrusion: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancetrafficshapingvpnexclusionsbynetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancetrafficshapingvpnexclusionsbynetwork'.
-        Calls 'self.dashboard.getorganizationappliancetrafficshapingvpnexclusionsbynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancetrafficshapingvpnexclusionsbynetwork(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancetrafficshapingvpnexclusionsbynetwork: {e}")
+            logging.error(f"API Error in getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancetrafficshapingvpnexclusionsbynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceTrafficShapingVpnExclusionsByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationapplianceuplinksstatusesoverview(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationapplianceuplinksstatusesoverview'.
-        Calls 'self.dashboard.getorganizationapplianceuplinksstatusesoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceUplinkStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationapplianceuplinksstatusesoverview(organizationId)
+            return self.dashboard.getOrganizationApplianceUplinkStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationapplianceuplinksstatusesoverview: {e}")
+            logging.error(f"API Error in getOrganizationApplianceUplinkStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationapplianceuplinksstatusesoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceUplinkStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationapplianceuplinkstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationapplianceuplinkstatuses'.
-        Calls 'self.dashboard.getorganizationapplianceuplinkstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceUplinksStatusesOverview(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationapplianceuplinkstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationApplianceUplinksStatusesOverview(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationapplianceuplinkstatuses: {e}")
+            logging.error(f"API Error in getOrganizationApplianceUplinksStatusesOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationapplianceuplinkstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceUplinksStatusesOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationapplianceuplinksusagebynetwork(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationapplianceuplinksusagebynetwork'.
-        Calls 'self.dashboard.getorganizationapplianceuplinksusagebynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceUplinksUsageByNetwork(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationapplianceuplinksusagebynetwork(organizationId, **kwargs)
+            return self.dashboard.getOrganizationApplianceUplinksUsageByNetwork(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationapplianceuplinksusagebynetwork: {e}")
+            logging.error(f"API Error in getOrganizationApplianceUplinksUsageByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationapplianceuplinksusagebynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceUplinksUsageByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancevpnstats(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancevpnstats'.
-        Calls 'self.dashboard.getorganizationappliancevpnstats' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceVpnStats(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancevpnstats(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationApplianceVpnStats(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancevpnstats: {e}")
+            logging.error(f"API Error in getOrganizationApplianceVpnStats: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancevpnstats: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceVpnStats: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancevpnstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancevpnstatuses'.
-        Calls 'self.dashboard.getorganizationappliancevpnstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceVpnStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancevpnstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationApplianceVpnStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancevpnstatuses: {e}")
+            logging.error(f"API Error in getOrganizationApplianceVpnStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancevpnstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceVpnStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancevpnthirdpartyvpnpeers(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancevpnthirdpartyvpnpeers'.
-        Calls 'self.dashboard.getorganizationappliancevpnthirdpartyvpnpeers' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceVpnThirdPartyVPNPeers(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancevpnthirdpartyvpnpeers(organizationId)
+            return self.dashboard.getOrganizationApplianceVpnThirdPartyVPNPeers(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancevpnthirdpartyvpnpeers: {e}")
+            logging.error(f"API Error in getOrganizationApplianceVpnThirdPartyVPNPeers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancevpnthirdpartyvpnpeers: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceVpnThirdPartyVPNPeers: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationappliancevpnvpnfirewallrules(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationappliancevpnvpnfirewallrules'.
-        Calls 'self.dashboard.getorganizationappliancevpnvpnfirewallrules' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationApplianceVpnVpnFirewallRules(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationappliancevpnvpnfirewallrules(organizationId)
+            return self.dashboard.getOrganizationApplianceVpnVpnFirewallRules(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationappliancevpnvpnfirewallrules: {e}")
+            logging.error(f"API Error in getOrganizationApplianceVpnVpnFirewallRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationappliancevpnvpnfirewallrules: {ex}")
+            logging.error(f"Unknown error in getOrganizationApplianceVpnVpnFirewallRules: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationassurancealert(self, organizationId, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationassurancealert'.
-        Calls 'self.dashboard.getorganizationassurancealert' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAssuranceAlert(self, organizationId, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationassurancealert(organizationId, id)
+            return self.dashboard.getOrganizationAssuranceAlert(organizationId, id)
         except APIError as e:
-            logging.error(f"API Error in getorganizationassurancealert: {e}")
+            logging.error(f"API Error in getOrganizationAssuranceAlert: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationassurancealert: {ex}")
+            logging.error(f"Unknown error in getOrganizationAssuranceAlert: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationassurancealerts(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationassurancealerts'.
-        Calls 'self.dashboard.getorganizationassurancealerts' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAssuranceAlerts(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationassurancealerts(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationAssuranceAlerts(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationassurancealerts: {e}")
+            logging.error(f"API Error in getOrganizationAssuranceAlerts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationassurancealerts: {ex}")
+            logging.error(f"Unknown error in getOrganizationAssuranceAlerts: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationassurancealertsoverview(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationassurancealertsoverview'.
-        Calls 'self.dashboard.getorganizationassurancealertsoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAssuranceAlertsOverview(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationassurancealertsoverview(organizationId, **kwargs)
+            return self.dashboard.getOrganizationAssuranceAlertsOverview(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationassurancealertsoverview: {e}")
+            logging.error(f"API Error in getOrganizationAssuranceAlertsOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationassurancealertsoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationAssuranceAlertsOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationassurancealertsoverviewbynetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationassurancealertsoverviewbynetwork'.
-        Calls 'self.dashboard.getorganizationassurancealertsoverviewbynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAssuranceAlertsOverviewByNetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationassurancealertsoverviewbynetwork(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationAssuranceAlertsOverviewByNetwork(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationassurancealertsoverviewbynetwork: {e}")
+            logging.error(f"API Error in getOrganizationAssuranceAlertsOverviewByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationassurancealertsoverviewbynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationAssuranceAlertsOverviewByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationassurancealertsoverviewbytype(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationassurancealertsoverviewbytype'.
-        Calls 'self.dashboard.getorganizationassurancealertsoverviewbytype' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAssuranceAlertsOverviewByType(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationassurancealertsoverviewbytype(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationAssuranceAlertsOverviewByType(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationassurancealertsoverviewbytype: {e}")
+            logging.error(f"API Error in getOrganizationAssuranceAlertsOverviewByType: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationassurancealertsoverviewbytype: {ex}")
+            logging.error(f"Unknown error in getOrganizationAssuranceAlertsOverviewByType: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationassurancealertsoverviewhistorical(self, organizationId, segmentDuration, tsStart, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationassurancealertsoverviewhistorical'.
-        Calls 'self.dashboard.getorganizationassurancealertsoverviewhistorical' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param segmentDuration: (Inferred from the method signature)
-        :param tsStart: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationAssuranceAlertsOverviewHistorical(self, organizationId, segmentDuration, tsStart, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationassurancealertsoverviewhistorical(organizationId, segmentDuration, tsStart, **kwargs)
+            return self.dashboard.getOrganizationAssuranceAlertsOverviewHistorical(organizationId, segmentDuration, tsStart, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationassurancealertsoverviewhistorical: {e}")
+            logging.error(f"API Error in getOrganizationAssuranceAlertsOverviewHistorical: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationassurancealertsoverviewhistorical: {ex}")
+            logging.error(f"Unknown error in getOrganizationAssuranceAlertsOverviewHistorical: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationbrandingpolicies(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationbrandingpolicies'.
-        Calls 'self.dashboard.getorganizationbrandingpolicies' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationBrandingPolicies(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationbrandingpolicies(organizationId)
+            return self.dashboard.getOrganizationBrandingPolicies(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationbrandingpolicies: {e}")
+            logging.error(f"API Error in getOrganizationBrandingPolicies: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationbrandingpolicies: {ex}")
+            logging.error(f"Unknown error in getOrganizationBrandingPolicies: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationbrandingpoliciespriorities(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationbrandingpoliciespriorities'.
-        Calls 'self.dashboard.getorganizationbrandingpoliciespriorities' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationBrandingPoliciesPriorities(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationbrandingpoliciespriorities(organizationId)
+            return self.dashboard.getOrganizationBrandingPoliciesPriorities(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationbrandingpoliciespriorities: {e}")
+            logging.error(f"API Error in getOrganizationBrandingPoliciesPriorities: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationbrandingpoliciespriorities: {ex}")
+            logging.error(f"Unknown error in getOrganizationBrandingPoliciesPriorities: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationbrandingpolicy(self, organizationId, brandingPolicyId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationbrandingpolicy'.
-        Calls 'self.dashboard.getorganizationbrandingpolicy' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param brandingPolicyId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationBrandingPolicy(self, organizationId, brandingPolicyId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationbrandingpolicy(organizationId, brandingPolicyId)
+            return self.dashboard.getOrganizationBrandingPolicy(organizationId, brandingPolicyId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationbrandingpolicy: {e}")
+            logging.error(f"API Error in getOrganizationBrandingPolicy: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationbrandingpolicy: {ex}")
+            logging.error(f"Unknown error in getOrganizationBrandingPolicy: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameraboundariesareasbydevice(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameraboundariesareasbydevice'.
-        Calls 'self.dashboard.getorganizationcameraboundariesareasbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraBoundariesAreasByDevice(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameraboundariesareasbydevice(organizationId, **kwargs)
+            return self.dashboard.getOrganizationCameraBoundariesAreasByDevice(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameraboundariesareasbydevice: {e}")
+            logging.error(f"API Error in getOrganizationCameraBoundariesAreasByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameraboundariesareasbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraBoundariesAreasByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameraboundarieslinesbydevice(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameraboundarieslinesbydevice'.
-        Calls 'self.dashboard.getorganizationcameraboundarieslinesbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraBoundariesLinesByDevice(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameraboundarieslinesbydevice(organizationId, **kwargs)
+            return self.dashboard.getOrganizationCameraBoundariesLinesByDevice(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameraboundarieslinesbydevice: {e}")
+            logging.error(f"API Error in getOrganizationCameraBoundariesLinesByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameraboundarieslinesbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraBoundariesLinesByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameracustomanalyticsartifact(self, organizationId, artifactId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameracustomanalyticsartifact'.
-        Calls 'self.dashboard.getorganizationcameracustomanalyticsartifact' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param artifactId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraCustomAnalyticsArtifact(self, organizationId, artifactId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameracustomanalyticsartifact(organizationId, artifactId)
+            return self.dashboard.getOrganizationCameraCustomAnalyticsArtifact(organizationId, artifactId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameracustomanalyticsartifact: {e}")
+            logging.error(f"API Error in getOrganizationCameraCustomAnalyticsArtifact: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameracustomanalyticsartifact: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraCustomAnalyticsArtifact: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameracustomanalyticsartifacts(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameracustomanalyticsartifacts'.
-        Calls 'self.dashboard.getorganizationcameracustomanalyticsartifacts' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraCustomAnalyticsArtifacts(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameracustomanalyticsartifacts(organizationId)
+            return self.dashboard.getOrganizationCameraCustomAnalyticsArtifacts(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameracustomanalyticsartifacts: {e}")
+            logging.error(f"API Error in getOrganizationCameraCustomAnalyticsArtifacts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameracustomanalyticsartifacts: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraCustomAnalyticsArtifacts: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameradetectionshistorybyboundarybyinterval(self, organizationId, boundaryIds, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameradetectionshistorybyboundarybyinterval'.
-        Calls 'self.dashboard.getorganizationcameradetectionshistorybyboundarybyinterval' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param boundaryIds: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraDetectionsHistoryByBoundaryByInterval(self, organizationId, boundaryIds, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameradetectionshistorybyboundarybyinterval(organizationId, boundaryIds, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationCameraDetectionsHistoryByBoundaryByInterval(organizationId, boundaryIds, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameradetectionshistorybyboundarybyinterval: {e}")
+            logging.error(f"API Error in getOrganizationCameraDetectionsHistoryByBoundaryByInterval: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameradetectionshistorybyboundarybyinterval: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraDetectionsHistoryByBoundaryByInterval: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameraonboardingstatuses(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameraonboardingstatuses'.
-        Calls 'self.dashboard.getorganizationcameraonboardingstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraOnboardingStatuses(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameraonboardingstatuses(organizationId, **kwargs)
+            return self.dashboard.getOrganizationCameraOnboardingStatuses(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameraonboardingstatuses: {e}")
+            logging.error(f"API Error in getOrganizationCameraOnboardingStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameraonboardingstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraOnboardingStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcamerapermission(self, organizationId, permissionScopeId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcamerapermission'.
-        Calls 'self.dashboard.getorganizationcamerapermission' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param permissionScopeId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraPermission(self, organizationId, permissionScopeId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcamerapermission(organizationId, permissionScopeId)
+            return self.dashboard.getOrganizationCameraPermission(organizationId, permissionScopeId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcamerapermission: {e}")
+            logging.error(f"API Error in getOrganizationCameraPermission: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcamerapermission: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraPermission: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcamerapermissions(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcamerapermissions'.
-        Calls 'self.dashboard.getorganizationcamerapermissions' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraPermissions(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcamerapermissions(organizationId)
+            return self.dashboard.getOrganizationCameraPermissions(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcamerapermissions: {e}")
+            logging.error(f"API Error in getOrganizationCameraPermissions: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcamerapermissions: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraPermissions: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcamerarole(self, organizationId, roleId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcamerarole'.
-        Calls 'self.dashboard.getorganizationcamerarole' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param roleId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraRole(self, organizationId, roleId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcamerarole(organizationId, roleId)
+            return self.dashboard.getOrganizationCameraRole(organizationId, roleId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcamerarole: {e}")
+            logging.error(f"API Error in getOrganizationCameraRole: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcamerarole: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraRole: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcameraroles(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcameraroles'.
-        Calls 'self.dashboard.getorganizationcameraroles' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCameraRoles(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcameraroles(organizationId)
+            return self.dashboard.getOrganizationCameraRoles(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcameraroles: {e}")
+            logging.error(f"API Error in getOrganizationCameraRoles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcameraroles: {ex}")
+            logging.error(f"Unknown error in getOrganizationCameraRoles: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcellulargatewayesimsinventory(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcellulargatewayesimsinventory'.
-        Calls 'self.dashboard.getorganizationcellulargatewayesimsinventory' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCellularGatewayEsimsInventory(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcellulargatewayesimsinventory(organizationId, **kwargs)
+            return self.dashboard.getOrganizationCellularGatewayEsimsInventory(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcellulargatewayesimsinventory: {e}")
+            logging.error(f"API Error in getOrganizationCellularGatewayEsimsInventory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcellulargatewayesimsinventory: {ex}")
+            logging.error(f"Unknown error in getOrganizationCellularGatewayEsimsInventory: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcellulargatewayesimsserviceproviders(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcellulargatewayesimsserviceproviders'.
-        Calls 'self.dashboard.getorganizationcellulargatewayesimsserviceproviders' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCellularGatewayEsimsServiceProviders(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcellulargatewayesimsserviceproviders(organizationId)
+            return self.dashboard.getOrganizationCellularGatewayEsimsServiceProviders(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcellulargatewayesimsserviceproviders: {e}")
+            logging.error(f"API Error in getOrganizationCellularGatewayEsimsServiceProviders: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcellulargatewayesimsserviceproviders: {ex}")
+            logging.error(f"Unknown error in getOrganizationCellularGatewayEsimsServiceProviders: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcellulargatewayesimsserviceprovidersaccounts(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcellulargatewayesimsserviceprovidersaccounts'.
-        Calls 'self.dashboard.getorganizationcellulargatewayesimsserviceprovidersaccounts' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCellularGatewayEsimsServiceProvidersAccounts(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcellulargatewayesimsserviceprovidersaccounts(organizationId, **kwargs)
+            return self.dashboard.getOrganizationCellularGatewayEsimsServiceProvidersAccounts(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcellulargatewayesimsserviceprovidersaccounts: {e}")
+            logging.error(f"API Error in getOrganizationCellularGatewayEsimsServiceProvidersAccounts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcellulargatewayesimsserviceprovidersaccounts: {ex}")
+            logging.error(f"Unknown error in getOrganizationCellularGatewayEsimsServiceProvidersAccounts: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcellulargatewayesimsserviceprovidersaccountscommunicationplans(self, organizationId, accountIds) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcellulargatewayesimsserviceprovidersaccountscommunicationplans'.
-        Calls 'self.dashboard.getorganizationcellulargatewayesimsserviceprovidersaccountscommunicationplans' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param accountIds: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans(self, organizationId, accountIds) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcellulargatewayesimsserviceprovidersaccountscommunicationplans(organizationId, accountIds)
+            return self.dashboard.getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans(organizationId, accountIds)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcellulargatewayesimsserviceprovidersaccountscommunicationplans: {e}")
+            logging.error(f"API Error in getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcellulargatewayesimsserviceprovidersaccountscommunicationplans: {ex}")
+            logging.error(f"Unknown error in getOrganizationCellularGatewayEsimsServiceProvidersAccountsCommunicationPlans: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcellulargatewayesimsserviceprovidersaccountsrateplans(self, organizationId, accountIds) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcellulargatewayesimsserviceprovidersaccountsrateplans'.
-        Calls 'self.dashboard.getorganizationcellulargatewayesimsserviceprovidersaccountsrateplans' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param accountIds: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans(self, organizationId, accountIds) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcellulargatewayesimsserviceprovidersaccountsrateplans(organizationId, accountIds)
+            return self.dashboard.getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans(organizationId, accountIds)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcellulargatewayesimsserviceprovidersaccountsrateplans: {e}")
+            logging.error(f"API Error in getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcellulargatewayesimsserviceprovidersaccountsrateplans: {ex}")
+            logging.error(f"Unknown error in getOrganizationCellularGatewayEsimsServiceProvidersAccountsRatePlans: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationcellulargatewayuplinkstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationcellulargatewayuplinkstatuses'.
-        Calls 'self.dashboard.getorganizationcellulargatewayuplinkstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationCellularGatewayUplinkStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationcellulargatewayuplinkstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationCellularGatewayUplinkStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationcellulargatewayuplinkstatuses: {e}")
+            logging.error(f"API Error in getOrganizationCellularGatewayUplinkStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationcellulargatewayuplinkstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationCellularGatewayUplinkStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationclientsbandwidthusagehistory(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationclientsbandwidthusagehistory'.
-        Calls 'self.dashboard.getorganizationclientsbandwidthusagehistory' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationClientsBandwidthUsageHistory(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationclientsbandwidthusagehistory(organizationId, **kwargs)
+            return self.dashboard.getOrganizationClientsBandwidthUsageHistory(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationclientsbandwidthusagehistory: {e}")
+            logging.error(f"API Error in getOrganizationClientsBandwidthUsageHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationclientsbandwidthusagehistory: {ex}")
+            logging.error(f"Unknown error in getOrganizationClientsBandwidthUsageHistory: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationclientsoverview(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationclientsoverview'.
-        Calls 'self.dashboard.getorganizationclientsoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationClientsOverview(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationclientsoverview(organizationId, **kwargs)
+            return self.dashboard.getOrganizationClientsOverview(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationclientsoverview: {e}")
+            logging.error(f"API Error in getOrganizationClientsOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationclientsoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationClientsOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationclientssearch(self, organizationId, mac, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationclientssearch'.
-        Calls 'self.dashboard.getorganizationclientssearch' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param mac: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationClientsSearch(self, organizationId, mac, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationclientssearch(organizationId, mac, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationClientsSearch(organizationId, mac, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationclientssearch: {e}")
+            logging.error(f"API Error in getOrganizationClientsSearch: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationclientssearch: {ex}")
+            logging.error(f"Unknown error in getOrganizationClientsSearch: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationconfigtemplate(self, organizationId, configTemplateId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationconfigtemplate'.
-        Calls 'self.dashboard.getorganizationconfigtemplate' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param configTemplateId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationConfigTemplate(self, organizationId, configTemplateId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationconfigtemplate(organizationId, configTemplateId)
+            return self.dashboard.getOrganizationConfigTemplate(organizationId, configTemplateId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationconfigtemplate: {e}")
+            logging.error(f"API Error in getOrganizationConfigTemplate: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationconfigtemplate: {ex}")
+            logging.error(f"Unknown error in getOrganizationConfigTemplate: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationconfigtemplates(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationconfigtemplates'.
-        Calls 'self.dashboard.getorganizationconfigtemplates' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationConfigTemplateSwitchProfilePort(self, organizationId, configTemplateId, profileId, portId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationconfigtemplates(organizationId)
+            return self.dashboard.getOrganizationConfigTemplateSwitchProfilePort(organizationId, configTemplateId, profileId, portId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationconfigtemplates: {e}")
+            logging.error(f"API Error in getOrganizationConfigTemplateSwitchProfilePort: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationconfigtemplates: {ex}")
+            logging.error(f"Unknown error in getOrganizationConfigTemplateSwitchProfilePort: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationconfigtemplateswitchprofileport(self, organizationId, configTemplateId, profileId, portId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationconfigtemplateswitchprofileport'.
-        Calls 'self.dashboard.getorganizationconfigtemplateswitchprofileport' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param configTemplateId: (Inferred from the method signature)
-        :param profileId: (Inferred from the method signature)
-        :param portId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationConfigTemplateSwitchProfilePorts(self, organizationId, configTemplateId, profileId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationconfigtemplateswitchprofileport(organizationId, configTemplateId, profileId, portId)
+            return self.dashboard.getOrganizationConfigTemplateSwitchProfilePorts(organizationId, configTemplateId, profileId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationconfigtemplateswitchprofileport: {e}")
+            logging.error(f"API Error in getOrganizationConfigTemplateSwitchProfilePorts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationconfigtemplateswitchprofileport: {ex}")
+            logging.error(f"Unknown error in getOrganizationConfigTemplateSwitchProfilePorts: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationconfigtemplateswitchprofileports(self, organizationId, configTemplateId, profileId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationconfigtemplateswitchprofileports'.
-        Calls 'self.dashboard.getorganizationconfigtemplateswitchprofileports' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param configTemplateId: (Inferred from the method signature)
-        :param profileId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationConfigTemplateSwitchProfiles(self, organizationId, configTemplateId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationconfigtemplateswitchprofileports(organizationId, configTemplateId, profileId)
+            return self.dashboard.getOrganizationConfigTemplateSwitchProfiles(organizationId, configTemplateId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationconfigtemplateswitchprofileports: {e}")
+            logging.error(f"API Error in getOrganizationConfigTemplateSwitchProfiles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationconfigtemplateswitchprofileports: {ex}")
+            logging.error(f"Unknown error in getOrganizationConfigTemplateSwitchProfiles: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationconfigtemplateswitchprofiles(self, organizationId, configTemplateId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationconfigtemplateswitchprofiles'.
-        Calls 'self.dashboard.getorganizationconfigtemplateswitchprofiles' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param configTemplateId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationConfigTemplates(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationconfigtemplateswitchprofiles(organizationId, configTemplateId)
+            return self.dashboard.getOrganizationConfigTemplates(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationconfigtemplateswitchprofiles: {e}")
+            logging.error(f"API Error in getOrganizationConfigTemplates: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationconfigtemplateswitchprofiles: {ex}")
+            logging.error(f"Unknown error in getOrganizationConfigTemplates: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationconfigurationchanges(self, organizationId, total_pages=1, direction='prev', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationconfigurationchanges'.
-        Calls 'self.dashboard.getorganizationconfigurationchanges' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationConfigurationChanges(self, organizationId, total_pages=1, direction='prev', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationconfigurationchanges(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationConfigurationChanges(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationconfigurationchanges: {e}")
+            logging.error(f"API Error in getOrganizationConfigurationChanges: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationconfigurationchanges: {ex}")
+            logging.error(f"Unknown error in getOrganizationConfigurationChanges: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevices(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevices'.
-        Calls 'self.dashboard.getorganizationdevices' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevices(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevices(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevices(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevices: {e}")
+            logging.error(f"API Error in getOrganizationDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevices: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevices: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesavailabilities(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesavailabilities'.
-        Calls 'self.dashboard.getorganizationdevicesavailabilities' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesAvailabilities(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesavailabilities(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevicesAvailabilities(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesavailabilities: {e}")
+            logging.error(f"API Error in getOrganizationDevicesAvailabilities: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesavailabilities: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesAvailabilities: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesavailabilitieschangehistory(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesavailabilitieschangehistory'.
-        Calls 'self.dashboard.getorganizationdevicesavailabilitieschangehistory' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesAvailabilitiesChangeHistory(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesavailabilitieschangehistory(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevicesAvailabilitiesChangeHistory(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesavailabilitieschangehistory: {e}")
+            logging.error(f"API Error in getOrganizationDevicesAvailabilitiesChangeHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesavailabilitieschangehistory: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesAvailabilitiesChangeHistory: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesoverviewbymodel(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesoverviewbymodel'.
-        Calls 'self.dashboard.getorganizationdevicesoverviewbymodel' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesOverviewByModel(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesoverviewbymodel(organizationId, **kwargs)
+            return self.dashboard.getOrganizationDevicesOverviewByModel(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesoverviewbymodel: {e}")
+            logging.error(f"API Error in getOrganizationDevicesOverviewByModel: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesoverviewbymodel: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesOverviewByModel: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicespowermodulesstatusesbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicespowermodulesstatusesbydevice'.
-        Calls 'self.dashboard.getorganizationdevicespowermodulesstatusesbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesPowerModulesStatusesByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicespowermodulesstatusesbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevicesPowerModulesStatusesByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicespowermodulesstatusesbydevice: {e}")
+            logging.error(f"API Error in getOrganizationDevicesPowerModulesStatusesByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicespowermodulesstatusesbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesPowerModulesStatusesByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesprovisioningstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesprovisioningstatuses'.
-        Calls 'self.dashboard.getorganizationdevicesprovisioningstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesProvisioningStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesprovisioningstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevicesProvisioningStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesprovisioningstatuses: {e}")
+            logging.error(f"API Error in getOrganizationDevicesProvisioningStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesprovisioningstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesProvisioningStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesstatuses'.
-        Calls 'self.dashboard.getorganizationdevicesstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevicesStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesstatuses: {e}")
+            logging.error(f"API Error in getOrganizationDevicesStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesstatusesoverview(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesstatusesoverview'.
-        Calls 'self.dashboard.getorganizationdevicesstatusesoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesStatusesOverview(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesstatusesoverview(organizationId, **kwargs)
+            return self.dashboard.getOrganizationDevicesStatusesOverview(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesstatusesoverview: {e}")
+            logging.error(f"API Error in getOrganizationDevicesStatusesOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesstatusesoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesStatusesOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesuplinksaddressesbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesuplinksaddressesbydevice'.
-        Calls 'self.dashboard.getorganizationdevicesuplinksaddressesbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesUplinksAddressesByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesuplinksaddressesbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationDevicesUplinksAddressesByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesuplinksaddressesbydevice: {e}")
+            logging.error(f"API Error in getOrganizationDevicesUplinksAddressesByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesuplinksaddressesbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesUplinksAddressesByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationdevicesuplinkslossandlatency(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationdevicesuplinkslossandlatency'.
-        Calls 'self.dashboard.getorganizationdevicesuplinkslossandlatency' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationDevicesUplinksLossAndLatency(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationdevicesuplinkslossandlatency(organizationId, **kwargs)
+            return self.dashboard.getOrganizationDevicesUplinksLossAndLatency(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationdevicesuplinkslossandlatency: {e}")
+            logging.error(f"API Error in getOrganizationDevicesUplinksLossAndLatency: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationdevicesuplinkslossandlatency: {ex}")
+            logging.error(f"Unknown error in getOrganizationDevicesUplinksLossAndLatency: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationearlyaccessfeatures(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationearlyaccessfeatures'.
-        Calls 'self.dashboard.getorganizationearlyaccessfeatures' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationEarlyAccessFeatures(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationearlyaccessfeatures(organizationId)
+            return self.dashboard.getOrganizationEarlyAccessFeatures(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationearlyaccessfeatures: {e}")
+            logging.error(f"API Error in getOrganizationEarlyAccessFeatures: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationearlyaccessfeatures: {ex}")
+            logging.error(f"Unknown error in getOrganizationEarlyAccessFeatures: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationearlyaccessfeaturesoptin(self, organizationId, optInId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationearlyaccessfeaturesoptin'.
-        Calls 'self.dashboard.getorganizationearlyaccessfeaturesoptin' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param optInId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationEarlyAccessFeaturesOptIn(self, organizationId, optInId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationearlyaccessfeaturesoptin(organizationId, optInId)
+            return self.dashboard.getOrganizationEarlyAccessFeaturesOptIn(organizationId, optInId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationearlyaccessfeaturesoptin: {e}")
+            logging.error(f"API Error in getOrganizationEarlyAccessFeaturesOptIn: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationearlyaccessfeaturesoptin: {ex}")
+            logging.error(f"Unknown error in getOrganizationEarlyAccessFeaturesOptIn: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationearlyaccessfeaturesoptins(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationearlyaccessfeaturesoptins'.
-        Calls 'self.dashboard.getorganizationearlyaccessfeaturesoptins' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationEarlyAccessFeaturesOptIns(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationearlyaccessfeaturesoptins(organizationId)
+            return self.dashboard.getOrganizationEarlyAccessFeaturesOptIns(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationearlyaccessfeaturesoptins: {e}")
+            logging.error(f"API Error in getOrganizationEarlyAccessFeaturesOptIns: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationearlyaccessfeaturesoptins: {ex}")
+            logging.error(f"Unknown error in getOrganizationEarlyAccessFeaturesOptIns: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationfirmwareupgrades(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationfirmwareupgrades'.
-        Calls 'self.dashboard.getorganizationfirmwareupgrades' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationFirmwareUpgrades(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationfirmwareupgrades(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationFirmwareUpgrades(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationfirmwareupgrades: {e}")
+            logging.error(f"API Error in getOrganizationFirmwareUpgrades: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationfirmwareupgrades: {ex}")
+            logging.error(f"Unknown error in getOrganizationFirmwareUpgrades: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationfirmwareupgradesbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationfirmwareupgradesbydevice'.
-        Calls 'self.dashboard.getorganizationfirmwareupgradesbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationFirmwareUpgradesByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationfirmwareupgradesbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationFirmwareUpgradesByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationfirmwareupgradesbydevice: {e}")
+            logging.error(f"API Error in getOrganizationFirmwareUpgradesByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationfirmwareupgradesbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationFirmwareUpgradesByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationfloorplansautolocatedevices(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationfloorplansautolocatedevices'.
-        Calls 'self.dashboard.getorganizationfloorplansautolocatedevices' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationFloorPlansAutoLocateDevices(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationfloorplansautolocatedevices(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationFloorPlansAutoLocateDevices(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationfloorplansautolocatedevices: {e}")
+            logging.error(f"API Error in getOrganizationFloorPlansAutoLocateDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationfloorplansautolocatedevices: {ex}")
+            logging.error(f"Unknown error in getOrganizationFloorPlansAutoLocateDevices: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationfloorplansautolocatestatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationfloorplansautolocatestatuses'.
-        Calls 'self.dashboard.getorganizationfloorplansautolocatestatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationFloorPlansAutoLocateStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationfloorplansautolocatestatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationFloorPlansAutoLocateStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationfloorplansautolocatestatuses: {e}")
+            logging.error(f"API Error in getOrganizationFloorPlansAutoLocateStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationfloorplansautolocatestatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationFloorPlansAutoLocateStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinsightapplications(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinsightapplications'.
-        Calls 'self.dashboard.getorganizationinsightapplications' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInsightApplications(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinsightapplications(organizationId)
+            return self.dashboard.getOrganizationInsightApplications(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinsightapplications: {e}")
+            logging.error(f"API Error in getOrganizationInsightApplications: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinsightapplications: {ex}")
+            logging.error(f"Unknown error in getOrganizationInsightApplications: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinsightmonitoredmediaserver(self, organizationId, monitoredMediaServerId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinsightmonitoredmediaserver'.
-        Calls 'self.dashboard.getorganizationinsightmonitoredmediaserver' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param monitoredMediaServerId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInsightMonitoredMediaServer(self, organizationId, monitoredMediaServerId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinsightmonitoredmediaserver(organizationId, monitoredMediaServerId)
+            return self.dashboard.getOrganizationInsightMonitoredMediaServer(organizationId, monitoredMediaServerId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinsightmonitoredmediaserver: {e}")
+            logging.error(f"API Error in getOrganizationInsightMonitoredMediaServer: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinsightmonitoredmediaserver: {ex}")
+            logging.error(f"Unknown error in getOrganizationInsightMonitoredMediaServer: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinsightmonitoredmediaservers(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinsightmonitoredmediaservers'.
-        Calls 'self.dashboard.getorganizationinsightmonitoredmediaservers' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInsightMonitoredMediaServers(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinsightmonitoredmediaservers(organizationId)
+            return self.dashboard.getOrganizationInsightMonitoredMediaServers(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinsightmonitoredmediaservers: {e}")
+            logging.error(f"API Error in getOrganizationInsightMonitoredMediaServers: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinsightmonitoredmediaservers: {ex}")
+            logging.error(f"Unknown error in getOrganizationInsightMonitoredMediaServers: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinventorydevice(self, organizationId, serial) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinventorydevice'.
-        Calls 'self.dashboard.getorganizationinventorydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param serial: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInventoryDevice(self, organizationId, serial) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinventorydevice(organizationId, serial)
+            return self.dashboard.getOrganizationInventoryDevice(organizationId, serial)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinventorydevice: {e}")
+            logging.error(f"API Error in getOrganizationInventoryDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinventorydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationInventoryDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinventorydevices(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinventorydevices'.
-        Calls 'self.dashboard.getorganizationinventorydevices' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInventoryDevices(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinventorydevices(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationInventoryDevices(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinventorydevices: {e}")
+            logging.error(f"API Error in getOrganizationInventoryDevices: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinventorydevices: {ex}")
+            logging.error(f"Unknown error in getOrganizationInventoryDevices: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinventorydevicesswapsbulk(self, organizationId, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinventorydevicesswapsbulk'.
-        Calls 'self.dashboard.getorganizationinventorydevicesswapsbulk' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInventoryDevicesSwapsBulk(self, organizationId, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinventorydevicesswapsbulk(organizationId, id)
+            return self.dashboard.getOrganizationInventoryDevicesSwapsBulk(organizationId, id)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinventorydevicesswapsbulk: {e}")
+            logging.error(f"API Error in getOrganizationInventoryDevicesSwapsBulk: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinventorydevicesswapsbulk: {ex}")
+            logging.error(f"Unknown error in getOrganizationInventoryDevicesSwapsBulk: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinventoryonboardingcloudmonitoringimports(self, organizationId, importIds) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinventoryonboardingcloudmonitoringimports'.
-        Calls 'self.dashboard.getorganizationinventoryonboardingcloudmonitoringimports' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param importIds: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInventoryOnboardingCloudMonitoringImports(self, organizationId, importIds) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinventoryonboardingcloudmonitoringimports(organizationId, importIds)
+            return self.dashboard.getOrganizationInventoryOnboardingCloudMonitoringImports(organizationId, importIds)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinventoryonboardingcloudmonitoringimports: {e}")
+            logging.error(f"API Error in getOrganizationInventoryOnboardingCloudMonitoringImports: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinventoryonboardingcloudmonitoringimports: {ex}")
+            logging.error(f"Unknown error in getOrganizationInventoryOnboardingCloudMonitoringImports: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationinventoryonboardingcloudmonitoringnetworks(self, organizationId, deviceType, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationinventoryonboardingcloudmonitoringnetworks'.
-        Calls 'self.dashboard.getorganizationinventoryonboardingcloudmonitoringnetworks' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param deviceType: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationInventoryOnboardingCloudMonitoringNetworks(self, organizationId, deviceType, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationinventoryonboardingcloudmonitoringnetworks(organizationId, deviceType, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationInventoryOnboardingCloudMonitoringNetworks(organizationId, deviceType, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationinventoryonboardingcloudmonitoringnetworks: {e}")
+            logging.error(f"API Error in getOrganizationInventoryOnboardingCloudMonitoringNetworks: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationinventoryonboardingcloudmonitoringnetworks: {ex}")
+            logging.error(f"Unknown error in getOrganizationInventoryOnboardingCloudMonitoringNetworks: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationlicense(self, organizationId, licenseId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationlicense'.
-        Calls 'self.dashboard.getorganizationlicense' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param licenseId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationLicense(self, organizationId, licenseId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationlicense(organizationId, licenseId)
+            return self.dashboard.getOrganizationLicense(organizationId, licenseId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationlicense: {e}")
+            logging.error(f"API Error in getOrganizationLicense: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationlicense: {ex}")
+            logging.error(f"Unknown error in getOrganizationLicense: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationlicenses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationlicenses'.
-        Calls 'self.dashboard.getorganizationlicenses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationLicenses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationlicenses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationLicenses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationlicenses: {e}")
+            logging.error(f"API Error in getOrganizationLicenses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationlicenses: {ex}")
+            logging.error(f"Unknown error in getOrganizationLicenses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationlicensesoverview(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationlicensesoverview'.
-        Calls 'self.dashboard.getorganizationlicensesoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationLicensesOverview(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationlicensesoverview(organizationId)
+            return self.dashboard.getOrganizationLicensesOverview(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationlicensesoverview: {e}")
+            logging.error(f"API Error in getOrganizationLicensesOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationlicensesoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationLicensesOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationlicensingcotermlicenses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationlicensingcotermlicenses'.
-        Calls 'self.dashboard.getorganizationlicensingcotermlicenses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationLicensingCotermLicenses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationlicensingcotermlicenses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationLicensingCotermLicenses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationlicensingcotermlicenses: {e}")
+            logging.error(f"API Error in getOrganizationLicensingCotermLicenses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationlicensingcotermlicenses: {ex}")
+            logging.error(f"Unknown error in getOrganizationLicensingCotermLicenses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationloginsecurity(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationloginsecurity'.
-        Calls 'self.dashboard.getorganizationloginsecurity' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationLoginSecurity(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationloginsecurity(organizationId)
+            return self.dashboard.getOrganizationLoginSecurity(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationloginsecurity: {e}")
+            logging.error(f"API Error in getOrganizationLoginSecurity: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationloginsecurity: {ex}")
+            logging.error(f"Unknown error in getOrganizationLoginSecurity: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationnetworks(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationnetworks'.
-        Calls 'self.dashboard.getorganizationnetworks' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationNetworks(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationnetworks(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationNetworks(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationnetworks: {e}")
+            logging.error(f"API Error in getOrganizationNetworks: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationnetworks: {ex}")
+            logging.error(f"Unknown error in getOrganizationNetworks: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationopenapispec(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationopenapispec'.
-        Calls 'self.dashboard.getorganizationopenapispec' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationOpenapiSpec(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationopenapispec(organizationId, **kwargs)
+            return self.dashboard.getOrganizationOpenapiSpec(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationopenapispec: {e}")
+            logging.error(f"API Error in getOrganizationOpenapiSpec: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationopenapispec: {ex}")
+            logging.error(f"Unknown error in getOrganizationOpenapiSpec: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationpolicyobject(self, organizationId, policyObjectId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationpolicyobject'.
-        Calls 'self.dashboard.getorganizationpolicyobject' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param policyObjectId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationPolicyObject(self, organizationId, policyObjectId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationpolicyobject(organizationId, policyObjectId)
+            return self.dashboard.getOrganizationPolicyObject(organizationId, policyObjectId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationpolicyobject: {e}")
+            logging.error(f"API Error in getOrganizationPolicyObject: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationpolicyobject: {ex}")
+            logging.error(f"Unknown error in getOrganizationPolicyObject: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationpolicyobjects(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationpolicyobjects'.
-        Calls 'self.dashboard.getorganizationpolicyobjects' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationPolicyObjects(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationpolicyobjects(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationPolicyObjects(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationpolicyobjects: {e}")
+            logging.error(f"API Error in getOrganizationPolicyObjects: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationpolicyobjects: {ex}")
+            logging.error(f"Unknown error in getOrganizationPolicyObjects: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationpolicyobjectsgroup(self, organizationId, policyObjectGroupId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationpolicyobjectsgroup'.
-        Calls 'self.dashboard.getorganizationpolicyobjectsgroup' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param policyObjectGroupId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationPolicyObjectsGroup(self, organizationId, policyObjectGroupId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationpolicyobjectsgroup(organizationId, policyObjectGroupId)
+            return self.dashboard.getOrganizationPolicyObjectsGroup(organizationId, policyObjectGroupId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationpolicyobjectsgroup: {e}")
+            logging.error(f"API Error in getOrganizationPolicyObjectsGroup: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationpolicyobjectsgroup: {ex}")
+            logging.error(f"Unknown error in getOrganizationPolicyObjectsGroup: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationpolicyobjectsgroups(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationpolicyobjectsgroups'.
-        Calls 'self.dashboard.getorganizationpolicyobjectsgroups' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationPolicyObjectsGroups(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationpolicyobjectsgroups(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationPolicyObjectsGroups(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationpolicyobjectsgroups: {e}")
+            logging.error(f"API Error in getOrganizationPolicyObjectsGroups: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationpolicyobjectsgroups: {ex}")
+            logging.error(f"Unknown error in getOrganizationPolicyObjectsGroups: {ex}")
             return {"error": str(ex)}
 
-    def getorganizations(self, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizations'.
-        Calls 'self.dashboard.getorganizations' with the same parameters.
-        
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSaml(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizations(total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSaml(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizations: {e}")
+            logging.error(f"API Error in getOrganizationSaml: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizations: {ex}")
+            logging.error(f"Unknown error in getOrganizationSaml: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsaml(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsaml'.
-        Calls 'self.dashboard.getorganizationsaml' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSamlIdp(self, organizationId, idpId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsaml(organizationId)
+            return self.dashboard.getOrganizationSamlIdp(organizationId, idpId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsaml: {e}")
+            logging.error(f"API Error in getOrganizationSamlIdp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsaml: {ex}")
+            logging.error(f"Unknown error in getOrganizationSamlIdp: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsamlidp(self, organizationId, idpId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsamlidp'.
-        Calls 'self.dashboard.getorganizationsamlidp' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param idpId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSamlIdps(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsamlidp(organizationId, idpId)
+            return self.dashboard.getOrganizationSamlIdps(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsamlidp: {e}")
+            logging.error(f"API Error in getOrganizationSamlIdps: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsamlidp: {ex}")
+            logging.error(f"Unknown error in getOrganizationSamlIdps: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsamlidps(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsamlidps'.
-        Calls 'self.dashboard.getorganizationsamlidps' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSamlRole(self, organizationId, samlRoleId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsamlidps(organizationId)
+            return self.dashboard.getOrganizationSamlRole(organizationId, samlRoleId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsamlidps: {e}")
+            logging.error(f"API Error in getOrganizationSamlRole: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsamlidps: {ex}")
+            logging.error(f"Unknown error in getOrganizationSamlRole: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsamlrole(self, organizationId, samlRoleId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsamlrole'.
-        Calls 'self.dashboard.getorganizationsamlrole' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param samlRoleId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSamlRoles(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsamlrole(organizationId, samlRoleId)
+            return self.dashboard.getOrganizationSamlRoles(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsamlrole: {e}")
+            logging.error(f"API Error in getOrganizationSamlRoles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsamlrole: {ex}")
+            logging.error(f"Unknown error in getOrganizationSamlRoles: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsamlroles(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsamlroles'.
-        Calls 'self.dashboard.getorganizationsamlroles' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSensorReadingsHistory(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsamlroles(organizationId)
+            return self.dashboard.getOrganizationSensorReadingsHistory(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsamlroles: {e}")
+            logging.error(f"API Error in getOrganizationSensorReadingsHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsamlroles: {ex}")
+            logging.error(f"Unknown error in getOrganizationSensorReadingsHistory: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsensorreadingshistory(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsensorreadingshistory'.
-        Calls 'self.dashboard.getorganizationsensorreadingshistory' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSensorReadingsLatest(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsensorreadingshistory(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSensorReadingsLatest(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsensorreadingshistory: {e}")
+            logging.error(f"API Error in getOrganizationSensorReadingsLatest: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsensorreadingshistory: {ex}")
+            logging.error(f"Unknown error in getOrganizationSensorReadingsLatest: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsensorreadingslatest(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsensorreadingslatest'.
-        Calls 'self.dashboard.getorganizationsensorreadingslatest' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSmAdminsRole(self, organizationId, roleId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsensorreadingslatest(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSmAdminsRole(organizationId, roleId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsensorreadingslatest: {e}")
+            logging.error(f"API Error in getOrganizationSmAdminsRole: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsensorreadingslatest: {ex}")
+            logging.error(f"Unknown error in getOrganizationSmAdminsRole: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsmadminsrole(self, organizationId, roleId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsmadminsrole'.
-        Calls 'self.dashboard.getorganizationsmadminsrole' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param roleId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSmAdminsRoles(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsmadminsrole(organizationId, roleId)
+            return self.dashboard.getOrganizationSmAdminsRoles(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsmadminsrole: {e}")
+            logging.error(f"API Error in getOrganizationSmAdminsRoles: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsmadminsrole: {ex}")
+            logging.error(f"Unknown error in getOrganizationSmAdminsRoles: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsmadminsroles(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsmadminsroles'.
-        Calls 'self.dashboard.getorganizationsmadminsroles' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSmApnsCert(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsmadminsroles(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSmApnsCert(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsmadminsroles: {e}")
+            logging.error(f"API Error in getOrganizationSmApnsCert: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsmadminsroles: {ex}")
+            logging.error(f"Unknown error in getOrganizationSmApnsCert: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsmapnscert(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsmapnscert'.
-        Calls 'self.dashboard.getorganizationsmapnscert' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSmSentryPoliciesAssignmentsByNetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsmapnscert(organizationId)
+            return self.dashboard.getOrganizationSmSentryPoliciesAssignmentsByNetwork(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsmapnscert: {e}")
+            logging.error(f"API Error in getOrganizationSmSentryPoliciesAssignmentsByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsmapnscert: {ex}")
+            logging.error(f"Unknown error in getOrganizationSmSentryPoliciesAssignmentsByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsmsentrypoliciesassignmentsbynetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsmsentrypoliciesassignmentsbynetwork'.
-        Calls 'self.dashboard.getorganizationsmsentrypoliciesassignmentsbynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSmVppAccount(self, organizationId, vppAccountId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsmsentrypoliciesassignmentsbynetwork(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSmVppAccount(organizationId, vppAccountId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsmsentrypoliciesassignmentsbynetwork: {e}")
+            logging.error(f"API Error in getOrganizationSmVppAccount: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsmsentrypoliciesassignmentsbynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationSmVppAccount: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsmvppaccount(self, organizationId, vppAccountId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsmvppaccount'.
-        Calls 'self.dashboard.getorganizationsmvppaccount' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param vppAccountId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSmVppAccounts(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsmvppaccount(organizationId, vppAccountId)
+            return self.dashboard.getOrganizationSmVppAccounts(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsmvppaccount: {e}")
+            logging.error(f"API Error in getOrganizationSmVppAccounts: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsmvppaccount: {ex}")
+            logging.error(f"Unknown error in getOrganizationSmVppAccounts: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsmvppaccounts(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsmvppaccounts'.
-        Calls 'self.dashboard.getorganizationsmvppaccounts' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSnmp(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsmvppaccounts(organizationId)
+            return self.dashboard.getOrganizationSnmp(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsmvppaccounts: {e}")
+            logging.error(f"API Error in getOrganizationSnmp: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsmvppaccounts: {ex}")
+            logging.error(f"Unknown error in getOrganizationSnmp: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsnmp(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsnmp'.
-        Calls 'self.dashboard.getorganizationsnmp' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSplashAsset(self, organizationId, id) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsnmp(organizationId)
+            return self.dashboard.getOrganizationSplashAsset(organizationId, id)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsnmp: {e}")
+            logging.error(f"API Error in getOrganizationSplashAsset: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsnmp: {ex}")
+            logging.error(f"Unknown error in getOrganizationSplashAsset: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsplashasset(self, organizationId, id) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsplashasset'.
-        Calls 'self.dashboard.getorganizationsplashasset' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param id: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSplashThemes(self, organizationId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsplashasset(organizationId, id)
+            return self.dashboard.getOrganizationSplashThemes(organizationId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsplashasset: {e}")
+            logging.error(f"API Error in getOrganizationSplashThemes: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsplashasset: {ex}")
+            logging.error(f"Unknown error in getOrganizationSplashThemes: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsplashthemes(self, organizationId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsplashthemes'.
-        Calls 'self.dashboard.getorganizationsplashthemes' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummarySwitchPowerHistory(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsplashthemes(organizationId)
+            return self.dashboard.getOrganizationSummarySwitchPowerHistory(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsplashthemes: {e}")
+            logging.error(f"API Error in getOrganizationSummarySwitchPowerHistory: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsplashthemes: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummarySwitchPowerHistory: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummaryswitchpowerhistory(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummaryswitchpowerhistory'.
-        Calls 'self.dashboard.getorganizationsummaryswitchpowerhistory' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopAppliancesByUtilization(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummaryswitchpowerhistory(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopAppliancesByUtilization(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummaryswitchpowerhistory: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopAppliancesByUtilization: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummaryswitchpowerhistory: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopAppliancesByUtilization: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopappliancesbyutilization(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopappliancesbyutilization'.
-        Calls 'self.dashboard.getorganizationsummarytopappliancesbyutilization' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopApplicationsByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopappliancesbyutilization(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopApplicationsByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopappliancesbyutilization: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopApplicationsByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopappliancesbyutilization: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopApplicationsByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopapplicationsbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopapplicationsbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopapplicationsbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopApplicationsCategoriesByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopapplicationsbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopApplicationsCategoriesByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopapplicationsbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopApplicationsCategoriesByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopapplicationsbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopApplicationsCategoriesByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopapplicationscategoriesbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopapplicationscategoriesbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopapplicationscategoriesbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopClientsByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopapplicationscategoriesbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopClientsByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopapplicationscategoriesbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopClientsByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopapplicationscategoriesbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopClientsByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopclientsbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopclientsbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopclientsbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopClientsManufacturersByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopclientsbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopClientsManufacturersByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopclientsbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopClientsManufacturersByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopclientsbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopClientsManufacturersByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopclientsmanufacturersbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopclientsmanufacturersbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopclientsmanufacturersbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopDevicesByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopclientsmanufacturersbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopDevicesByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopclientsmanufacturersbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopDevicesByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopclientsmanufacturersbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopDevicesByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopdevicesbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopdevicesbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopdevicesbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopDevicesModelsByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopdevicesbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopDevicesModelsByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopdevicesbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopDevicesModelsByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopdevicesbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopDevicesModelsByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopdevicesmodelsbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopdevicesmodelsbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopdevicesmodelsbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopNetworksByStatus(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopdevicesmodelsbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopNetworksByStatus(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopdevicesmodelsbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopNetworksByStatus: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopdevicesmodelsbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopNetworksByStatus: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopnetworksbystatus(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopnetworksbystatus'.
-        Calls 'self.dashboard.getorganizationsummarytopnetworksbystatus' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopSsidsByUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopnetworksbystatus(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopSsidsByUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopnetworksbystatus: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopSsidsByUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopnetworksbystatus: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopSsidsByUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopssidsbyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopssidsbyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopssidsbyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSummaryTopSwitchesByEnergyUsage(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopssidsbyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSummaryTopSwitchesByEnergyUsage(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopssidsbyusage: {e}")
+            logging.error(f"API Error in getOrganizationSummaryTopSwitchesByEnergyUsage: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopssidsbyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSummaryTopSwitchesByEnergyUsage: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationsummarytopswitchesbyenergyusage(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationsummarytopswitchesbyenergyusage'.
-        Calls 'self.dashboard.getorganizationsummarytopswitchesbyenergyusage' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSwitchPortsBySwitch(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationsummarytopswitchesbyenergyusage(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSwitchPortsBySwitch(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationsummarytopswitchesbyenergyusage: {e}")
+            logging.error(f"API Error in getOrganizationSwitchPortsBySwitch: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationsummarytopswitchesbyenergyusage: {ex}")
+            logging.error(f"Unknown error in getOrganizationSwitchPortsBySwitch: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationswitchportsbyswitch(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationswitchportsbyswitch'.
-        Calls 'self.dashboard.getorganizationswitchportsbyswitch' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSwitchPortsClientsOverviewByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationswitchportsbyswitch(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSwitchPortsClientsOverviewByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationswitchportsbyswitch: {e}")
+            logging.error(f"API Error in getOrganizationSwitchPortsClientsOverviewByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationswitchportsbyswitch: {ex}")
+            logging.error(f"Unknown error in getOrganizationSwitchPortsClientsOverviewByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationswitchportsclientsoverviewbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationswitchportsclientsoverviewbydevice'.
-        Calls 'self.dashboard.getorganizationswitchportsclientsoverviewbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSwitchPortsOverview(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationswitchportsclientsoverviewbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSwitchPortsOverview(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationswitchportsclientsoverviewbydevice: {e}")
+            logging.error(f"API Error in getOrganizationSwitchPortsOverview: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationswitchportsclientsoverviewbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationSwitchPortsOverview: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationswitchportsoverview(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationswitchportsoverview'.
-        Calls 'self.dashboard.getorganizationswitchportsoverview' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSwitchPortsStatusesBySwitch(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationswitchportsoverview(organizationId, **kwargs)
+            return self.dashboard.getOrganizationSwitchPortsStatusesBySwitch(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationswitchportsoverview: {e}")
+            logging.error(f"API Error in getOrganizationSwitchPortsStatusesBySwitch: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationswitchportsoverview: {ex}")
+            logging.error(f"Unknown error in getOrganizationSwitchPortsStatusesBySwitch: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationswitchportsstatusesbyswitch(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationswitchportsstatusesbyswitch'.
-        Calls 'self.dashboard.getorganizationswitchportsstatusesbyswitch' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationSwitchPortsTopologyDiscoveryByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationswitchportsstatusesbyswitch(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationSwitchPortsTopologyDiscoveryByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationswitchportsstatusesbyswitch: {e}")
+            logging.error(f"API Error in getOrganizationSwitchPortsTopologyDiscoveryByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationswitchportsstatusesbyswitch: {ex}")
+            logging.error(f"Unknown error in getOrganizationSwitchPortsTopologyDiscoveryByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationswitchportstopologydiscoverybydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationswitchportstopologydiscoverybydevice'.
-        Calls 'self.dashboard.getorganizationswitchportstopologydiscoverybydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationUplinksStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationswitchportstopologydiscoverybydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationUplinksStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationswitchportstopologydiscoverybydevice: {e}")
+            logging.error(f"API Error in getOrganizationUplinksStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationswitchportstopologydiscoverybydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationUplinksStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationuplinksstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationuplinksstatuses'.
-        Calls 'self.dashboard.getorganizationuplinksstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWebhooksAlertTypes(self, organizationId, **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationuplinksstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWebhooksAlertTypes(organizationId, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationuplinksstatuses: {e}")
+            logging.error(f"API Error in getOrganizationWebhooksAlertTypes: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationuplinksstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationWebhooksAlertTypes: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwebhooksalerttypes(self, organizationId, **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwebhooksalerttypes'.
-        Calls 'self.dashboard.getorganizationwebhooksalerttypes' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWebhooksCallbacksStatus(self, organizationId, callbackId) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwebhooksalerttypes(organizationId, **kwargs)
+            return self.dashboard.getOrganizationWebhooksCallbacksStatus(organizationId, callbackId)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwebhooksalerttypes: {e}")
+            logging.error(f"API Error in getOrganizationWebhooksCallbacksStatus: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwebhooksalerttypes: {ex}")
+            logging.error(f"Unknown error in getOrganizationWebhooksCallbacksStatus: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwebhookscallbacksstatus(self, organizationId, callbackId) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwebhookscallbacksstatus'.
-        Calls 'self.dashboard.getorganizationwebhookscallbacksstatus' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param callbackId: (Inferred from the method signature)
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWebhooksLogs(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwebhookscallbacksstatus(organizationId, callbackId)
+            return self.dashboard.getOrganizationWebhooksLogs(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwebhookscallbacksstatus: {e}")
+            logging.error(f"API Error in getOrganizationWebhooksLogs: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwebhookscallbacksstatus: {ex}")
+            logging.error(f"Unknown error in getOrganizationWebhooksLogs: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwebhookslogs(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwebhookslogs'.
-        Calls 'self.dashboard.getorganizationwebhookslogs' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessAirMarshalRules(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwebhookslogs(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessAirMarshalRules(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwebhookslogs: {e}")
+            logging.error(f"API Error in getOrganizationWirelessAirMarshalRules: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwebhookslogs: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessAirMarshalRules: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessairmarshalrules(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessairmarshalrules'.
-        Calls 'self.dashboard.getorganizationwirelessairmarshalrules' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessAirMarshalSettingsByNetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessairmarshalrules(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessAirMarshalSettingsByNetwork(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessairmarshalrules: {e}")
+            logging.error(f"API Error in getOrganizationWirelessAirMarshalSettingsByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessairmarshalrules: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessAirMarshalSettingsByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessairmarshalsettingsbynetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessairmarshalsettingsbynetwork'.
-        Calls 'self.dashboard.getorganizationwirelessairmarshalsettingsbynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessClientsOverviewByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessairmarshalsettingsbynetwork(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessClientsOverviewByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessairmarshalsettingsbynetwork: {e}")
+            logging.error(f"API Error in getOrganizationWirelessClientsOverviewByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessairmarshalsettingsbynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessClientsOverviewByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessclientsoverviewbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessclientsoverviewbydevice'.
-        Calls 'self.dashboard.getorganizationwirelessclientsoverviewbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesChannelUtilizationByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessclientsoverviewbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesChannelUtilizationByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessclientsoverviewbydevice: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesChannelUtilizationByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessclientsoverviewbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesChannelUtilizationByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdeviceschannelutilizationbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdeviceschannelutilizationbydevice'.
-        Calls 'self.dashboard.getorganizationwirelessdeviceschannelutilizationbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesChannelUtilizationByNetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdeviceschannelutilizationbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesChannelUtilizationByNetwork(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdeviceschannelutilizationbydevice: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesChannelUtilizationByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdeviceschannelutilizationbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesChannelUtilizationByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdeviceschannelutilizationbynetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdeviceschannelutilizationbynetwork'.
-        Calls 'self.dashboard.getorganizationwirelessdeviceschannelutilizationbynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdeviceschannelutilizationbynetwork(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdeviceschannelutilizationbynetwork: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdeviceschannelutilizationbynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesChannelUtilizationHistoryByDeviceByInterval: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdeviceschannelutilizationhistorybydevicebyinterval(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdeviceschannelutilizationhistorybydevicebyinterval'.
-        Calls 'self.dashboard.getorganizationwirelessdeviceschannelutilizationhistorybydevicebyinterval' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdeviceschannelutilizationhistorybydevicebyinterval(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdeviceschannelutilizationhistorybydevicebyinterval: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdeviceschannelutilizationhistorybydevicebyinterval: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesChannelUtilizationHistoryByNetworkByInterval: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdeviceschannelutilizationhistorybynetworkbyinterval(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdeviceschannelutilizationhistorybynetworkbyinterval'.
-        Calls 'self.dashboard.getorganizationwirelessdeviceschannelutilizationhistorybynetworkbyinterval' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesEthernetStatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdeviceschannelutilizationhistorybynetworkbyinterval(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesEthernetStatuses(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdeviceschannelutilizationhistorybynetworkbyinterval: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesEthernetStatuses: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdeviceschannelutilizationhistorybynetworkbyinterval: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesEthernetStatuses: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdevicesethernetstatuses(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdevicesethernetstatuses'.
-        Calls 'self.dashboard.getorganizationwirelessdevicesethernetstatuses' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesPacketLossByClient(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdevicesethernetstatuses(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesPacketLossByClient(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdevicesethernetstatuses: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesPacketLossByClient: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdevicesethernetstatuses: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesPacketLossByClient: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdevicespacketlossbyclient(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdevicespacketlossbyclient'.
-        Calls 'self.dashboard.getorganizationwirelessdevicespacketlossbyclient' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesPacketLossByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdevicespacketlossbyclient(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesPacketLossByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdevicespacketlossbyclient: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesPacketLossByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdevicespacketlossbyclient: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesPacketLossByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdevicespacketlossbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdevicespacketlossbydevice'.
-        Calls 'self.dashboard.getorganizationwirelessdevicespacketlossbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesPacketLossByNetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdevicespacketlossbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesPacketLossByNetwork(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdevicespacketlossbydevice: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesPacketLossByNetwork: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdevicespacketlossbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesPacketLossByNetwork: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdevicespacketlossbynetwork(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdevicespacketlossbynetwork'.
-        Calls 'self.dashboard.getorganizationwirelessdevicespacketlossbynetwork' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessDevicesWirelessControllersByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdevicespacketlossbynetwork(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessDevicesWirelessControllersByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdevicespacketlossbynetwork: {e}")
+            logging.error(f"API Error in getOrganizationWirelessDevicesWirelessControllersByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdevicespacketlossbynetwork: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessDevicesWirelessControllersByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessdeviceswirelesscontrollersbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessdeviceswirelesscontrollersbydevice'.
-        Calls 'self.dashboard.getorganizationwirelessdeviceswirelesscontrollersbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessRfProfilesAssignmentsByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessdeviceswirelesscontrollersbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessRfProfilesAssignmentsByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessdeviceswirelesscontrollersbydevice: {e}")
+            logging.error(f"API Error in getOrganizationWirelessRfProfilesAssignmentsByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessdeviceswirelesscontrollersbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessRfProfilesAssignmentsByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessrfprofilesassignmentsbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessrfprofilesassignmentsbydevice'.
-        Calls 'self.dashboard.getorganizationwirelessrfprofilesassignmentsbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizationWirelessSsidsStatusesByDevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessrfprofilesassignmentsbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizationWirelessSsidsStatusesByDevice(organizationId, total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessrfprofilesassignmentsbydevice: {e}")
+            logging.error(f"API Error in getOrganizationWirelessSsidsStatusesByDevice: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessrfprofilesassignmentsbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizationWirelessSsidsStatusesByDevice: {ex}")
             return {"error": str(ex)}
 
-    def getorganizationwirelessssidsstatusesbydevice(self, organizationId, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
-        """Auto-generated method for 'getorganizationwirelessssidsstatusesbydevice'.
-        Calls 'self.dashboard.getorganizationwirelessssidsstatusesbydevice' with the same parameters.
-        
-        :param organizationId: (Inferred from the method signature)
-        :param total_pages: (Inferred from the method signature)
-        :param direction: (Inferred from the method signature)
-        :param kwargs: Additional request parameters
-        :return: Dict[str, Any] containing the API response or an error."""
+    def getOrganizations(self, total_pages=1, direction='next', **kwargs) -> Dict[str, Any]:
         try:
-            return self.dashboard.getorganizationwirelessssidsstatusesbydevice(organizationId, total_pages, direction, **kwargs)
+            return self.dashboard.getOrganizations(total_pages, direction, **kwargs)
         except APIError as e:
-            logging.error(f"API Error in getorganizationwirelessssidsstatusesbydevice: {e}")
+            logging.error(f"API Error in getOrganizations: {e}")
             return {"error": str(e)}
         except Exception as ex:
-            logging.error(f"Unknown error in getorganizationwirelessssidsstatusesbydevice: {ex}")
+            logging.error(f"Unknown error in getOrganizations: {ex}")
             return {"error": str(ex)}

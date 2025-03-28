@@ -104,39 +104,7 @@ class CiscoUnifiedService:
     # ================================
     # Meraki Methods
     # ================================
-    def get_meraki_networks(self):
-        if not self.meraki_client:
-            raise ValueError("No Meraki client configured.")
-        return self.meraki_client.get_networks()
 
-    def get_meraki_network_by_id(self, network_id: str):
-        if not self.meraki_client:
-            raise ValueError("No Meraki client configured.")
-        return self.meraki_client.get_network_by_id(network_id)
-
-    def get_organization(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        try:
-            logging.info(f"Fetching organizations list to find org_id: {self.meraki_org_id}")
-            # Use the supported endpoint to list organizations
-            orgs = self.meraki_client.dashboard.organizations.getOrganizations()
-            logging.info(f"Organizations returned: {orgs}")
-            # Find the organization with the matching ID
-            org = next((o for o in orgs if o.get("id") == self.meraki_org_id), None)
-            if org:
-                return org
-            else:
-                return {"error": "Organization not found in the list."}
-        except Exception as e:
-            logging.error(f"Error fetching organization: {e}")
-            return {"error": f"Error fetching organization: {e}"}
-
-    def get_organization_networks(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_networks()
-    
     def list_all_clients_in_org(self, timespan=60 * 60 * 24 * 14):
         """
         Lists all Meraki clients across all networks in the organization,
@@ -147,7 +115,7 @@ class CiscoUnifiedService:
 
         # This calls the method you defined in cisco_meraki_client.py
         return self.meraki_client.list_all_clients_in_org(timespan=timespan)
-
+    
     def list_all_clients_in_org_by_name(self, name_substring: str, timespan=60 * 60 * 24 * 14):
         """
         Delegate to the Meraki client. Lists all clients in the org, 
@@ -159,97 +127,21 @@ class CiscoUnifiedService:
         # Call the function you defined in cisco_meraki_client.py
         return self.meraki_client.list_all_clients_in_org_by_name(name_substring, timespan=timespan)
 
-
-    def get_organization_inventory_devices(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_inventory_devices()
-
-    def get_organization_licenses_overview(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_licenses_overview()
-
     def get_network_alerts_history(self, network_id: str):
         if not self.meraki_client:
             return {"message": "Meraki client not configured."}
         return self.meraki_client.get_network_alerts_history(network_id)
 
-    def get_network_clients(self, network_id: str):
+    def get_all_access_points(self):
+        """
+        Return all access points from the Meraki wireless controllers.
+        """
         if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_network_clients(network_id)
+            return {"error": "Meraki client not configured or Meraki is disabled."}
 
-    def get_organization_summary_top_networks_by_status(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_summary_top_networks_by_status()
+        return self.meraki_client.get_all_access_points()
 
-    def get_organization_wireless_ssids(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_wireless_ssids()
 
-    def get_organization_inventory_device(self, device_id: str):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_inventory_device(device_id)
-
-    def get_organization_devices_statuses_overview(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_devices_statuses_overview()
-
-    def get_organization_wireless_clients_overview_by_device(self, device_id: str):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_wireless_clients_overview_by_device(device_id)
-
-    def get_organization_wireless_ssids_statuses_by_device(self, device_id: str):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_wireless_ssids_statuses_by_device(device_id)
-
-    def get_organization_wireless_controller_overview_by_device(self, device_id: str):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_wireless_controller_overview_by_device(device_id)
-
-    def get_organization_summary_top_clients_by_usage(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_summary_top_clients_by_usage()
-
-    def get_organization_summary_top_devices_by_usage(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_summary_top_devices_by_usage()
-
-    def get_organization_summary_top_applications_by_usage(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_summary_top_applications_by_usage()
-
-    def get_organization_assurance_alerts_overview(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_assurance_alerts_overview()
-
-    def get_organization_login_security(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.get_organization_login_security()
-    
-    def get_meraki_network_devices(self, network_id: str):
-        if not self.meraki_client:
-            return {"error": "Meraki client not configured."}
-        return self.meraki_client.get_meraki_network_devices(network_id)
-
-    def get_meraki_network_device_details(self, network_id: str, serial: str):
-        if not self.meraki_client:
-            return {"error": "Meraki client not configured."}
-        return self.meraki_client.get_meraki_network_device_details(network_id, serial)
-    
     def list_all_switches_in_org(self):
         """
         Lists all Meraki switch devices (models starting with 'MS') in the org.
@@ -268,30 +160,19 @@ class CiscoUnifiedService:
             return {"message": "Meraki client not configured."}
 
         return self.meraki_client.list_all_cameras_in_org()
+    
 
-    def get_meraki_device_switch_ports(self, serial: str):
-        if not self.meraki_client:
-            return {"error": "Meraki client not configured."}
-        return self.meraki_client.get_meraki_device_switch_ports(serial)
+    # ================================
+    # Meraki SDK Methods
+    # ================================
 
-    def get_meraki_network_wireless_ssids(self, network_id: str):
-        if not self.meraki_client:
-            return {"error": "Meraki client not configured."}
-        return self.meraki_client.get_meraki_network_wireless_ssids(network_id)
 
-    def list_all_devices_in_org(self):
-        if not self.meraki_client:
-            return {"message": "Meraki client not configured."}
-        return self.meraki_client.list_all_devices_in_org()
 
-    def get_all_access_points(self):
-        """
-        Return all access points from the Meraki wireless controllers.
-        """
-        if not self.meraki_client:
-            return {"error": "Meraki client not configured or Meraki is disabled."}
 
-        return self.meraki_client.get_all_access_points()
+
+
+
+
 
     # ================================
     # Catalyst Methods (DNA Center)
@@ -400,6 +281,24 @@ class CiscoUnifiedService:
         if not self.catalyst_client:
             return {"message": "Catalyst Center integration is disabled."}
         return self.catalyst_client.get_all_devices_by_site(site_id)
+
+    # ================================
+    # Catalyst Methods SDK (DNA Center)
+    # ================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     # ================================

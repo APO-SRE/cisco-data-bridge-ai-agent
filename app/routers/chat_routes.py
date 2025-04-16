@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 # LLM modules
 from app.llm.function_dispatcher import dispatch_function_call
-from app.llm.azure_openai import AzureOpenAIClient
+from app.llm.llm_factory import get_llm_client
 from app.llm.prompt_templates import (
     BASE_SYSTEM_PROMPT_DOCS_ONLY,
     BASE_SYSTEM_PROMPT_GENERAL,
@@ -544,7 +544,8 @@ async def chat_route(query: UserQuery, request: Request):
     # 1) Perform RAG retrieval or fallback
     # -----------------------------------------------------
     retriever = get_retriever()
-    llm_client = AzureOpenAIClient()
+    llm_client = get_llm_client()
+
     logging.info(f"retriever.lob_index (from ENV) => '{retriever.lob_index}'")
 
     # If user didn't provide a lob_index, default to the retriever's
